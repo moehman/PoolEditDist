@@ -1,4 +1,5 @@
-# PoolEdit (distributable for users)
+# PoolEdit (distributable for users, developers should check out the
+  [source](https://github.com/moehman/PoolEditSrc) package)
 
 PoolEdit XML Graphical User Interface Editor for creating ISOBUS
 object pools. In the ISO 11783 standard, the term _object pool_ refers
