@@ -7,8 +7,8 @@ GUI. So to create ISOBUS user interfaces a tool is needed to edit the
 object pool, hence the name PoolEdit.
 
 As the standard defines only a binary format, a second tool called
-[PoolEditParser](https://github.com/moehman/PoolEdit) is used to read
-the XML files and write binary ISOBUS object pools.
+[PoolEditParser](https://github.com/moehman/PoolEditParser) is used to
+read the XML files and write binary ISOBUS object pools.
 
 The editor uses XML format internally as an editable data structure
 and externally as a file format. The PoolEdit XML format is based on
