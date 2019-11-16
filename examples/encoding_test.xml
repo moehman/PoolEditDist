@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<objectpool dimension="200" fix_bitmap_path="images\" sk_height="32" sk_width="60" std_bitmap_path="images\">
+  <workingset background_colour="white" id="" name="workingset" selectable="yes">
+    <include_object block_col="0" block_font="" block_row="0" name="str0" pos_x="6" pos_y="5"/>
+    <include_object block_col="0" block_font="" block_row="0" name="str1" pos_x="6" pos_y="18"/>
+  </workingset>
+  <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="black6x8" role=""/>
+  <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="4" name="str0" options="transparent" pos_x="0" pos_y="0" value="aäoöAÄOÖ" width="48">
+    <include_object name="black6x8" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="4" name="str1" options="transparent" pos_x="0" pos_y="0" value="abcdefgh" width="48">
+    <include_object name="black6x8" role="font_attributes"/>
+  </outputstring>
+</objectpool>

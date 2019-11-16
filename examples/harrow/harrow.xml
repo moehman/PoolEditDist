@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<objectpool dimension="200" fix_bitmap_path="examples/harrow/images/" sk_height="32" sk_width="60" std_bitmap_path="examples/harrow/images/">
+  <workingset background_colour="white" name="WorkingSet" selectable="yes">
+    <include_object name="MainDM" role="active_mask"/>
+    <include_object name="PotilaPIC" pos_x="0" pos_y="0"/>
+  </workingset>
+  <datamask background_colour="white" name="MainDM">
+    <include_object name="SoftKeyMask" role="soft_key_mask"/>
+    <include_object name="DepthMeterCNT" pos_x="3" pos_y="3"/>
+    <include_object name="MultiDepthMeterCNT" pos_x="3" pos_y="3"/>
+    <include_object name="SwitchBTT" pos_x="108" pos_y="108"/>
+    <include_object name="RPMMeterCNT" pos_x="123" pos_y="10"/>
+    <include_object name="HeightMeterCNT" pos_x="123" pos_y="85"/>
+    <include_object name="AreaContainer" pos_x="11" pos_y="123"/>
+    <include_object name="DownLimitCNT" pos_x="11" pos_y="161"/>
+    <include_object name="BaseSettingCNT" pos_x="104" pos_y="161"/>
+    <include_object name="FlagCNT" pos_x="0" pos_y="0"/>
+  </datamask>
+  <alarmmask acoustic_signal="high" background_colour="red" name="OverSpeedAM" priority="high">
+    <include_object name="OverSpeedSKM" role="soft_key_mask"/>
+    <include_object name="WarningOSF" pos_x="16" pos_y="16"/>
+    <include_object name="OverOSF" pos_x="52" pos_y="64"/>
+    <include_object name="SpeedOSF" pos_x="40" pos_y="112"/>
+  </alarmmask>
+  <container height="120" hidden="false" name="DepthMeterCNT" width="120">
+    <include_object name="DepthMeterELL" pos_x="10" pos_y="10"/>
+    <include_object name="DepthOSF" pos_x="45" pos_y="35"/>
+    <include_object name="AdjustmentONF" pos_x="23" pos_y="70"/>
+    <include_object name="DepthABG" pos_x="10" pos_y="10"/>
+    <include_object name="DepthMTR" pos_x="10" pos_y="10"/>
+    <include_object name="L0_OSF" pos_x="21" pos_y="101"/>
+    <include_object name="L1_OSF" pos_x="3" pos_y="77"/>
+    <include_object name="L2_OSF" pos_x="0" pos_y="51"/>
+    <include_object name="L3_OSF" pos_x="8" pos_y="25"/>
+    <include_object name="L4_OSF" pos_x="28" pos_y="5"/>
+    <include_object name="L5_OSF" pos_x="57" pos_y="0"/>
+    <include_object name="L6_OSF" pos_x="88" pos_y="5"/>
+    <include_object name="L7_OSF" pos_x="107" pos_y="25"/>
+    <include_object name="L8_OSF" pos_x="114" pos_y="51"/>
+    <include_object name="L9_OSF" pos_x="110" pos_y="77"/>
+    <include_object name="L10_OSF" pos_x="93" pos_y="101"/>
+  </container>
+  <container height="32" hidden="false" name="PropellerOffHDR" width="32">
+    <include_object name="BluePropellerOffPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="true" name="PropellerOnHDR" width="32">
+    <include_object name="BluePropellerOnPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="true" name="DriveGroundHDR" width="32">
+    <include_object name="BlueArrowGroundPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="false" name="ZeroGroundHDR" width="32">
+    <include_object name="ZeroGroundPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="false" name="BlueArrowOneUpHDR" width="32">
+    <include_object name="BlueArrowOneUpPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="true" name="GrayArrowOneUpHDR" width="32">
+    <include_object name="GrayArrowOneUpPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="false" name="BlueArrowOneDownHDR" width="32">
+    <include_object name="BlueArrowOneDownPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="true" name="GrayArrowOneDownHDR" width="32">
+    <include_object name="GrayArrowOneDownPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="75" hidden="false" name="RPMMeterCNT" width="75">
+    <include_object name="RPMMeterELL" pos_x="7" pos_y="7"/>
+    <include_object name="RpmOSF" pos_x="28" pos_y="20"/>
+    <include_object name="RpmMTR" pos_x="7" pos_y="7"/>
+    <include_object name="RpmABG" pos_x="7" pos_y="7"/>
+    <include_object name="L0_OSF" pos_x="6" pos_y="63"/>
+    <include_object name="L200_OSF" pos_x="51" pos_y="63"/>
+  </container>
+  <container height="75" hidden="false" name="HeightMeterCNT" width="75">
+    <include_object name="HeightMeterELL" pos_x="7" pos_y="7"/>
+    <include_object name="HeightOSF" pos_x="22" pos_y="20"/>
+    <include_object name="HeightMTR" pos_x="7" pos_y="7"/>
+    <include_object name="P0_OSF" pos_x="6" pos_y="63"/>
+    <include_object name="P100_OSF" pos_x="51" pos_y="63"/>
+  </container>
+  <container height="35" hidden="false" name="AreaContainer" width="85">
+    <include_object name="Rectangle" pos_x="0" pos_y="0"/>
+    <include_object name="AreaOSF" pos_x="6" pos_y="13"/>
+    <include_object name="AreaResetBTT" pos_x="41" pos_y="3"/>
+    <include_object name="AreaONF" pos_x="37" pos_y="22"/>
+    <include_object name="HaOSF" pos_x="66" pos_y="23"/>
+  </container>
+  <container height="35" hidden="false" name="DownLimitCNT" width="85">
+    <include_object name="Rectangle0" pos_x="0" pos_y="0"/>
+    <include_object name="BlueArrowDownLimit2PIC" pos_x="2" pos_y="2"/>
+    <include_object name="HeightResetBTT" pos_x="41" pos_y="3"/>
+    <include_object name="DownLimitINF" pos_x="37" pos_y="22"/>
+    <include_object name="CmOSF" pos_x="66" pos_y="23"/>
+  </container>
+  <container height="35" hidden="false" name="BaseSettingCNT" width="85">
+    <include_object name="Rectangle1" pos_x="0" pos_y="0"/>
+    <include_object name="PictureGraphic" pos_x="2" pos_y="2"/>
+    <include_object name="BaseSettingINF" pos_x="37" pos_y="22"/>
+    <include_object name="CmOSF" pos_x="66" pos_y="23"/>
+  </container>
+  <container height="32" hidden="false" name="BlueArrowFoldHDR" width="32">
+    <include_object name="BlueArrowFoldPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="true" name="BlueArrowDragUpHDR" width="32">
+    <include_object name="BlueArrowDragUpPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="false" name="BlueArrowUnfoldHDR" width="32">
+    <include_object name="BlueArrowUnfoldPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="32" hidden="true" name="BlueArrowDragDownHDR" width="32">
+    <include_object name="BlueArrowDragDownPIC" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="16" hidden="false" name="FlagCNT" width="200">
+    <include_object name="GpsHDR" pos_x="140" pos_y="0"/>
+    <include_object name="TcHDR" pos_x="160" pos_y="0"/>
+    <include_object name="PrecisionHDR" pos_x="180" pos_y="0"/>
+  </container>
+  <container height="16" hidden="false" name="GpsHDR" width="20">
+    <include_object name="Rectangle2" pos_x="0" pos_y="0"/>
+    <include_object name="GpsOSF" pos_x="1" pos_y="5"/>
+  </container>
+  <container height="16" hidden="false" name="TcHDR" width="20">
+    <include_object name="Rectangle2" pos_x="0" pos_y="0"/>
+    <include_object name="TcOSF" pos_x="4" pos_y="5"/>
+  </container>
+  <container height="16" hidden="false" name="PrecisionHDR" width="20">
+    <include_object name="Rectangle2" pos_x="0" pos_y="0"/>
+    <include_object name="PreOSF" pos_x="1" pos_y="5"/>
+  </container>
+  <container height="120" hidden="true" name="MultiDepthMeterCNT" width="120">
+    <include_object name="MultiDepthELL" pos_x="5" pos_y="5"/>
+    <include_object name="MultiDepthELL" pos_x="60" pos_y="5"/>
+    <include_object name="MultiDepthELL" pos_x="5" pos_y="60"/>
+    <include_object name="MultiDepthELL" pos_x="60" pos_y="60"/>
+    <include_object name="AMTR" pos_x="5" pos_y="5"/>
+    <include_object name="BMTR" pos_x="60" pos_y="5"/>
+    <include_object name="CMTR" pos_x="5" pos_y="60"/>
+    <include_object name="DMTR" pos_x="60" pos_y="60"/>
+    <include_object name="AOSF" pos_x="26" pos_y="46"/>
+    <include_object name="BOSF" pos_x="82" pos_y="46"/>
+    <include_object name="COSF" pos_x="26" pos_y="101"/>
+    <include_object name="DOSF" pos_x="82" pos_y="101"/>
+  </container>
+  <softkeymask background_colour="white" name="SoftKeyMask">
+    <include_object name="IncCountKEY"/>
+    <include_object name="ControlKEY"/>
+    <include_object name="DecCountKEY"/>
+    <include_object name="FoldDragUpKEY"/>
+    <include_object name="UnfoldDragDownKEY"/>
+    <include_object name="DriveUpKEY"/>
+    <include_object name="DriveDownKEY"/>
+    <include_object name="UpperLimitKEY"/>
+    <include_object name="LowerLimitKEY"/>
+    <include_object name="PropellerOnOffKEY"/>
+  </softkeymask>
+  <softkeymask background_colour="red" name="OverSpeedSKM">
+    <include_object name="IgnoreKEY"/>
+  </softkeymask>
+  <key background_colour="silver" key_code="1" name="IncCountKEY">
+    <include_object name="GrayArrowOneUpHDR" pos_x="0" pos_y="0"/>
+    <include_object name="BlueArrowOneUpHDR" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="2" name="ControlKEY">
+    <include_object name="DriveGroundHDR" pos_x="0" pos_y="0"/>
+    <include_object name="ZeroGroundHDR" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="3" name="DecCountKEY">
+    <include_object name="GrayArrowOneDownHDR" pos_x="0" pos_y="0"/>
+    <include_object name="BlueArrowOneDownHDR" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="4" name="FoldDragUpKEY">
+    <include_object name="BlueArrowDragUpHDR" pos_x="0" pos_y="0"/>
+    <include_object name="BlueArrowFoldHDR" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="5" name="UnfoldDragDownKEY">
+    <include_object name="BlueArrowDragDownHDR" pos_x="0" pos_y="0"/>
+    <include_object name="BlueArrowUnfoldHDR" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="6" name="DriveUpKEY">
+    <include_object name="BlueArrowUpPIC" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="7" name="DriveDownKEY">
+    <include_object name="BlueArrowDownPIC" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="yellow" key_code="8" name="UpperLimitKEY">
+    <include_object name="BlueArrowUpLimitPIC" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="9" name="LowerLimitKEY">
+    <include_object name="BlueArrowDownLimitPIC" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="10" name="PropellerOnOffKEY">
+    <include_object name="PropellerOffHDR" pos_x="0" pos_y="0"/>
+    <include_object name="PropellerOnHDR" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="silver" key_code="11" name="IgnoreKEY">
+    <include_object name="IgnorePIC" pos_x="0" pos_y="0"/>
+  </key>
+  <button background_colour="silver" border_colour="black" height="15" key_code="101" name="AreaResetBTT" width="36">
+    <include_object name="ResetOSF" pos_x="2" pos_y="2"/>
+  </button>
+  <button background_colour="silver" border_colour="black" height="15" key_code="102" name="HeightResetBTT" width="36">
+    <include_object name="ResetOSF" pos_x="2" pos_y="2"/>
+  </button>
+  <button background_colour="silver" border_colour="black" height="15" key_code="103" name="SwitchBTT" width="15">
+    <include_object name="GtOSF" pos_x="2" pos_y="2"/>
+  </button>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="10" horizontal_justification="middle" max_value="200" min_value="0" name="DownLimitINF" number_of_decimals="1" offset="0" options="none" scale="0.100000" value="0" width="26">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="10" horizontal_justification="middle" max_value="100" min_value="0" name="BaseSettingINF" number_of_decimals="1" offset="0" options="none" scale="0.100000" value="0" width="26">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </inputnumber>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L0_OSF" options="none" value="0" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L1_OSF" options="none" value="1" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L2_OSF" options="none" value="2" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L3_OSF" options="none" value="3" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L4_OSF" options="none" value="4" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L5_OSF" options="none" value="5" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L6_OSF" options="none" value="6" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L7_OSF" options="none" value="7" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L8_OSF" options="none" value="8" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="L9_OSF" options="none" value="9" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="2" name="L10_OSF" options="none" value="10" width="12">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="4" name="AreaOSF" options="transparent" value="AREA" width="24">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="2" name="HaOSF" options="transparent" value="HA" width="12">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="5" name="ResetOSF" options="transparent" value="RESET" width="30">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="2" name="CmOSF" options="transparent" value="CM" width="12">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="middle" length="5" name="DepthOSF" options="transparent" value="DEPTH" width="30">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="middle" length="3" name="RpmOSF" options="transparent" value="RPM" width="18">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="middle" length="6" name="HeightOSF" options="transparent" value="HEIGHT" width="30">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="middle" length="2" name="P0_OSF" options="transparent" value="0%" width="12">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="4" name="P100_OSF" options="none" value="100%" width="24">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="middle" length="3" name="GpsOSF" options="transparent" value="GPS" width="18">
+    <include_object name="MASKDARKGREENFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="middle" length="2" name="TcOSF" options="transparent" value="TC" width="12">
+    <include_object name="MASKDARKGREENFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="middle" length="3" name="PreOSF" options="transparent" value="PRE" width="18">
+    <include_object name="MASKDARKGREENFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="middle" length="3" name="L200_OSF" options="transparent" value="200" width="18">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="32" horizontal_justification="middle" length="7" name="WarningOSF" options="transparent" value="WARNING" width="168">
+    <include_object name="MASKBIGBLACKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="32" horizontal_justification="middle" length="4" name="OverOSF" options="transparent" value="OVER" width="96">
+    <include_object name="MASKBIGBLACKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="32" horizontal_justification="middle" length="5" name="SpeedOSF" options="transparent" value="SPEED" width="120">
+    <include_object name="MASKBIGBLACKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="GtOSF" options="transparent" value="&gt;" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="AOSF" options="transparent" value="A" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="BOSF" options="transparent" value="B" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="COSF" options="transparent" value="C" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="1" name="DOSF" options="transparent" value="D" width="6">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputstring>
+  <outputnumber background_colour="white" format="fixed" height="10" horizontal_justification="middle" name="AreaONF" number_of_decimals="1" offset="0" options="transparent+leadingzeros" scale="0.100000" value="0" width="26">
+    <include_object name="MASKFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="32" horizontal_justification="right" name="AdjustmentONF" number_of_decimals="0" offset="-10" options="transparent" scale="1.000000" value="10" width="48">
+    <include_object name="MASKBIGGREENFA" role="font_attributes"/>
+  </outputnumber>
+  <rectangle height="35" line_suppression="0" name="Rectangle" width="85">
+    <include_object name="MASKDARKGRAYLA" role="line_attributes"/>
+    <include_object name="MASKLIGHTGRAYFA" role="fill_attributes"/>
+  </rectangle>
+  <rectangle height="35" line_suppression="0" name="Rectangle0" width="85">
+    <include_object name="MASKDARKGRAYLA" role="line_attributes"/>
+    <include_object name="MASKLIGHTGRAYFA" role="fill_attributes"/>
+  </rectangle>
+  <rectangle height="35" line_suppression="0" name="Rectangle1" width="85">
+    <include_object name="MASKDARKGRAYLA" role="line_attributes"/>
+    <include_object name="MASKLIGHTGRAYFA" role="fill_attributes"/>
+  </rectangle>
+  <rectangle height="16" line_suppression="0" name="Rectangle2" width="20">
+    <include_object name="MASKDARKGREENLA" role="line_attributes"/>
+    <include_object name="MASKGREENFA" role="fill_attributes"/>
+  </rectangle>
+  <ellipse ellipse_type="closed" end_angle="0" height="100" name="DepthMeterELL" start_angle="0" width="100">
+    <include_object name="MASKLIGHTGRAYLA" role="line_attributes"/>
+    <include_object name="MASKLIGHTGRAYFA" role="fill_attributes"/>
+  </ellipse>
+  <ellipse ellipse_type="closed" end_angle="0" height="60" name="RPMMeterELL" start_angle="0" width="60">
+    <include_object name="MASKLIGHTGRAYLA" role="line_attributes"/>
+    <include_object name="MASKLIGHTGRAYFA" role="fill_attributes"/>
+  </ellipse>
+  <ellipse ellipse_type="closed" end_angle="0" height="60" name="HeightMeterELL" start_angle="0" width="60">
+    <include_object name="MASKLIGHTGRAYLA" role="line_attributes"/>
+    <include_object name="MASKLIGHTGRAYFA" role="fill_attributes"/>
+  </ellipse>
+  <ellipse ellipse_type="closed" end_angle="0" height="50" name="MultiDepthELL" start_angle="0" width="50">
+    <include_object name="MASKLIGHTGRAYFA" role="fill_attributes"/>
+  </ellipse>
+  <meter arc_and_tick_colour="grey" border_colour="grey" end_angle="230" max_value="100" min_value="0" name="DepthMTR" needle_colour="grey" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="310" value="30" width="100"/>
+  <meter arc_and_tick_colour="grey" border_colour="grey" end_angle="230" max_value="200" min_value="0" name="RpmMTR" needle_colour="grey" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="310" value="0" width="60"/>
+  <meter arc_and_tick_colour="grey" border_colour="grey" end_angle="230" max_value="100" min_value="0" name="HeightMTR" needle_colour="grey" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="310" value="0" width="60"/>
+  <meter arc_and_tick_colour="grey" border_colour="grey" end_angle="230" max_value="100" min_value="0" name="AMTR" needle_colour="grey" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="310" value="0" width="50"/>
+  <meter arc_and_tick_colour="grey" border_colour="grey" end_angle="230" max_value="100" min_value="0" name="BMTR" needle_colour="grey" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="310" value="0" width="50"/>
+  <meter arc_and_tick_colour="grey" border_colour="grey" end_angle="230" max_value="100" min_value="0" name="CMTR" needle_colour="grey" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="310" value="0" width="50"/>
+  <meter arc_and_tick_colour="grey" border_colour="grey" end_angle="230" max_value="100" min_value="0" name="DMTR" needle_colour="grey" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="310" value="0" width="50"/>
+  <archedbargraph bar_graph_width="10" colour="green" end_angle="100" height="100" max_value="100" min_value="0" name="DepthABG" options="clockwise" start_angle="80" target_line_colour="black" target_value="0" value="100" width="100"/>
+  <archedbargraph bar_graph_width="7" colour="green" end_angle="100" height="60" max_value="100" min_value="0" name="RpmABG" options="clockwise" start_angle="80" target_line_colour="black" target_value="0" value="100" width="60"/>
+  <picturegraphic file="BlueArrowOneUpPIC.png" format="4bit" name="BlueArrowOneUpPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="PotilaPIC.png" format="4bit" name="PotilaPIC" options="transparent" transparency_colour="white" width="60"/>
+  <picturegraphic file="BlueArrowGroundPIC.png" format="4bit" name="BlueArrowGroundPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowOneDownPIC.png" format="4bit" name="BlueArrowOneDownPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowFoldPIC.png" format="4bit" name="BlueArrowFoldPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowUnfoldPIC.png" format="4bit" name="BlueArrowUnfoldPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowUpPIC.png" format="4bit" name="BlueArrowUpPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowDownPIC.png" format="4bit" name="BlueArrowDownPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowUpLimitPIC.png" format="4bit" name="BlueArrowUpLimitPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowDownLimitPIC.png" format="4bit" name="BlueArrowDownLimitPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BluePropellerOnPIC.png" format="4bit" name="BluePropellerOnPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BluePropellerOffPIC.png" format="4bit" name="BluePropellerOffPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="ZeroGroundPIC.png" format="4bit" name="ZeroGroundPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="GrayArrowOneUpPIC.png" format="4bit" name="GrayArrowOneUpPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="GrayArrowOneDownPIC.png" format="4bit" name="GrayArrowOneDownPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowDownLimit2PIC.png" format="4bit" name="BlueArrowDownLimit2PIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="PictureGraphic.png" format="4bit" name="PictureGraphic" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowDragUpPIC.png" format="4bit" name="BlueArrowDragUpPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowDragDownPIC.png" format="4bit" name="BlueArrowDragDownPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowDragUpDownPIC.png" format="4bit" name="BlueArrowDragUpDownPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BlueArrowUpDownPIC.png" format="4bit" name="BlueArrowUpDownPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="BluePropellerOnOffPIC.png" format="4bit" name="BluePropellerOnOffPIC" options="transparent" transparency_colour="white" width="32"/>
+  <picturegraphic file="IgnorePIC.png" format="1bit" name="IgnorePIC" options="transparent" transparency_colour="white" width="32"/>
+  <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" name="MASKFA"/>
+  <fontattributes font_colour="green" font_size="24x32" font_style="normal" font_type="latin1" name="MASKBIGGREENFA"/>
+  <fontattributes font_colour="green" font_size="6x8" font_style="normal" font_type="latin1" name="MASKDARKGREENFA"/>
+  <fontattributes font_colour="black" font_size="24x32" font_style="normal" font_type="latin1" name="MASKBIGBLACKFA"/>
+  <lineattributes line_art="1111111111111111" line_colour="silver" line_width="1" name="MASKLIGHTGRAYLA"/>
+  <lineattributes line_art="1111111111111111" line_colour="grey" line_width="1" name="MASKDARKGRAYLA"/>
+  <lineattributes line_art="1111111111111111" line_colour="green" line_width="1" name="MASKDARKGREENLA"/>
+  <fillattributes fill_colour="silver" fill_type="fillcolour" name="MASKLIGHTGRAYFA"/>
+  <fillattributes fill_colour="red" fill_type="fillcolour" name="MASKREDFA"/>
+  <fillattributes fill_colour="lime" fill_type="fillcolour" name="MASKGREENFA"/>
+  <auxiliaryfunction background_colour="silver" function_type="analog" name="DragAF">
+    <include_object name="BlueArrowDragUpDownPIC" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="silver" function_type="analog" name="HeightAF">
+    <include_object name="BlueArrowUpDownPIC" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="silver" function_type="boolean" name="IncCountAF">
+    <include_object name="BlueArrowOneUpPIC" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="silver" function_type="boolean" name="ZeroCountAF">
+    <include_object name="ZeroGroundPIC" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="silver" function_type="boolean" name="DecCountAF">
+    <include_object name="BlueArrowOneDownPIC" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="silver" function_type="boolean" name="MarkerOnOffAF">
+    <include_object name="BluePropellerOnOffPIC" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+</objectpool>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<objectpool dimension="200" fix_bitmap_path="examples/mask01/images/" sk_height="32" sk_width="60" std_bitmap_path="examples/mask01/images/">
+  <workingset background_colour="white" name="workingset0" selectable="yes">
+    <include_object name="datamask0" role="active_mask"/>
+    <include_object name="picturegraphic0" pos_x="0" pos_y="0"/>
+  </workingset>
+  <datamask background_colour="white" name="datamask0">
+    <include_object name="picturegraphic10" pos_x="10" pos_y="80"/>
+    <include_object name="picturegraphic1" pos_x="25" pos_y="80"/>
+    <include_object name="picturegraphic3" pos_x="101" pos_y="80"/>
+    <include_object name="picturegraphic4" pos_x="215" pos_y="297"/>
+    <include_object name="picturegraphic5" pos_x="317" pos_y="299"/>
+    <include_object name="picturegraphic7" pos_x="215" pos_y="80"/>
+    <include_object name="picturegraphic9" pos_x="270" pos_y="80"/>
+    <include_object name="picturegraphic8" pos_x="382" pos_y="80"/>
+    <include_object name="picturegraphic6" pos_x="439" pos_y="80"/>
+    <include_object name="picturegraphic2" pos_x="554" pos_y="82"/>
+    <include_object name="picturegraphic11" pos_x="676" pos_y="114"/>
+    <include_object name="container0" pos_x="218" pos_y="279"/>
+    <include_object name="container0" pos_x="217" pos_y="258"/>
+    <include_object name="container0" pos_x="219" pos_y="297"/>
+    <include_object name="ellipse0" pos_x="222" pos_y="189"/>
+    <include_object name="ellipse0" pos_x="326" pos_y="351"/>
+    <include_object name="ellipse0" pos_x="299" pos_y="350"/>
+    <include_object name="ellipse0" pos_x="392" pos_y="193"/>
+    <include_object name="line0" pos_x="34" pos_y="273"/>
+    <include_object name="line1" pos_x="27" pos_y="268"/>
+    <include_object name="line3" pos_x="89" pos_y="260"/>
+    <include_object name="ellipse0" pos_x="305" pos_y="284"/>
+    <include_object name="line8" pos_x="25" pos_y="81"/>
+    <include_object name="line2" pos_x="440" pos_y="220"/>
+    <include_object name="line2" pos_x="440" pos_y="180"/>
+    <include_object name="line2" pos_x="440" pos_y="139"/>
+    <include_object name="rectagle1" pos_x="443" pos_y="298"/>
+    <include_object name="rectagle1" pos_x="441" pos_y="279"/>
+    <include_object name="rectagle1" pos_x="442" pos_y="260"/>
+    <include_object name="ellipse0" pos_x="488" pos_y="267"/>
+    <include_object name="ellipse0" pos_x="490" pos_y="285"/>
+    <include_object name="ellipse0" pos_x="491" pos_y="305"/>
+    <include_object name="ellipse0" pos_x="491" pos_y="323"/>
+    <include_object name="ellipse0" pos_x="9" pos_y="198"/>
+    <include_object name="line9" pos_x="586" pos_y="260"/>
+    <include_object name="line10" pos_x="556" pos_y="262"/>
+    <include_object name="line11" pos_x="685" pos_y="291"/>
+    <include_object name="line12" pos_x="667" pos_y="280"/>
+    <include_object name="line13" pos_x="625" pos_y="108"/>
+    <include_object name="ellipse0" pos_x="631" pos_y="296"/>
+    <include_object name="ellipse0" pos_x="609" pos_y="293"/>
+    <include_object name="ellipse0" pos_x="610" pos_y="186"/>
+    <include_object name="ellipse0" pos_x="628" pos_y="186"/>
+    <include_object name="ellipse0" pos_x="713" pos_y="202"/>
+    <include_object name="ellipse0" pos_x="711" pos_y="319"/>
+  </datamask>
+  <picturegraphic file="picturegraphic0.png" format="1bit" name="picturegraphic0" options="none" transparency_colour="black" width="100"/>
+  <container height="41" hidden="false" name="container0" width="121">
+    <include_object name="rectagle2" pos_x="1" pos_y="1"/>
+    <include_object name="ellipse0" pos_x="22" pos_y="5"/>
+  </container>
+  <line height="2" line_direction="toplefttobottomright" name="line0" width="53">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="7" line_direction="toplefttobottomright" name="line1" width="8">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="2" line_direction="toplefttobottomright" name="line2" width="110">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="12" line_direction="bottomlefttotopright" name="line3" width="11">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="12" line_direction="toplefttobottomright" name="line4" width="9">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="13" line_direction="bottomlefttotopright" name="line5" width="12">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="52" line_direction="toplefttobottomright" name="line6" width="2">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="3" line_direction="toplefttobottomright" name="line7" width="87">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="2" line_direction="toplefttobottomright" name="line8" width="628">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="19" line_direction="toplefttobottomright" name="line9" width="81">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="2" line_direction="toplefttobottomright" name="line10" width="32">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="10" line_direction="toplefttobottomright" name="line11" width="39">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="8" line_direction="toplefttobottomright" name="line12" width="11">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <line height="267" line_direction="toplefttobottomright" name="line13" width="2">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </line>
+  <rectangle height="110" line_suppression="0" name="rectagle0" width="54">
+    <include_object name="lineattributes0" role="line_attributes"/>
+    <include_object name="fillattributes0" role="fill_attributes"/>
+  </rectangle>
+  <rectangle height="19" line_suppression="0" name="rectagle1" width="108">
+    <include_object name="lineattributes0" role="line_attributes"/>
+    <include_object name="fillattributes0" role="fill_attributes"/>
+  </rectangle>
+  <rectangle height="19" line_suppression="0" name="rectagle2" width="52">
+    <include_object name="lineattributes0" role="line_attributes"/>
+    <include_object name="fillattributes0" role="fill_attributes"/>
+  </rectangle>
+  <ellipse ellipse_type="closed" end_angle="0" height="10" name="ellipse0" start_angle="0" width="10">
+    <include_object name="lineattributes0" role="line_attributes"/>
+  </ellipse>
+  <picturegraphic file="picturegraphic1.png" format="8bit" name="picturegraphic1" options="none" transparency_colour="black" width="102"/>
+  <picturegraphic file="picturegraphic2.png" format="1bit" name="picturegraphic2" options="none" transparency_colour="black" width="163"/>
+  <picturegraphic file="picturegraphic3.png" format="1bit" name="picturegraphic3" options="none" transparency_colour="black" width="139"/>
+  <picturegraphic file="picturegraphic4.png" format="1bit" name="picturegraphic4" options="none" transparency_colour="black" width="173"/>
+  <picturegraphic file="picturegraphic5.png" format="1bit" name="picturegraphic5" options="none" transparency_colour="black" width="150"/>
+  <picturegraphic file="picturegraphic6.png" format="1bit" name="picturegraphic6" options="none" transparency_colour="black" width="138"/>
+  <picturegraphic file="picturegraphic7.png" format="1bit" name="picturegraphic7" options="none" transparency_colour="black" width="80"/>
+  <picturegraphic file="picturegraphic8.png" format="1bit" name="picturegraphic8" options="none" transparency_colour="black" width="80"/>
+  <picturegraphic file="picturegraphic9.png" format="8bit" name="picturegraphic9" options="none" transparency_colour="black" width="135"/>
+  <picturegraphic file="picturegraphic10.png" format="1bit" name="picturegraphic10" options="none" transparency_colour="black" width="40"/>
+  <picturegraphic file="picturegraphic11.png" format="1bit" name="picturegraphic11" options="none" transparency_colour="black" width="63"/>
+  <lineattributes line_art="1111111111111111" line_colour="black" line_width="2" name="lineattributes0"/>
+  <fillattributes fill_colour="white" fill_type="fillcolour" name="fillattributes0"/>
+</objectpool>

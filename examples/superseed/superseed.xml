@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<objectpool dimension="200" fix_bitmap_path="examples/superseed/images/" sk_height="32" sk_width="60" std_bitmap_path="examples/superseed/images/">
+  <workingset background_colour="white" name="WorkingSet" selectable="yes">
+    <include_object name="FreeModeMenuMask" role="active_mask"/>
+    <include_object name="SuperSeedPic" pos_x="0" pos_y="0"/>
+  </workingset>
+  <datamask background_colour="white" name="FreeModeMenuMask">
+    <include_object name="FreeModeMenuSKM" role="soft_key_mask"/>
+    <include_object name="FreeModeButtonContainer" pos_x="5" pos_y="135"/>
+    <include_object name="TransportModeButton" pos_x="70" pos_y="135"/>
+    <include_object name="FieldModeButton" pos_x="135" pos_y="135"/>
+    <include_object name="AgrixContainer" pos_x="5" pos_y="5"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="TransportModeMenuMask">
+    <include_object name="TransportModeMenuSKM" role="soft_key_mask"/>
+    <include_object name="FreeModeButton" pos_x="5" pos_y="135"/>
+    <include_object name="TransportModeContainer" pos_x="70" pos_y="135"/>
+    <include_object name="FieldModeButton" pos_x="135" pos_y="135"/>
+    <include_object name="AgrixContainer" pos_x="5" pos_y="5"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="FieldModeMenuMask">
+    <include_object name="FieldModeMenuSKM" role="soft_key_mask"/>
+    <include_object name="FreeModeButton" pos_x="5" pos_y="135"/>
+    <include_object name="TransportModeButton" pos_x="70" pos_y="135"/>
+    <include_object name="FieldModeContainer" pos_x="135" pos_y="135"/>
+    <include_object name="AgrixContainer" pos_x="5" pos_y="5"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="DriveMask">
+    <include_object name="DriveSKM" role="soft_key_mask"/>
+    <include_object name="DriveOSF" pos_x="5" pos_y="5"/>
+    <include_object name="AreaContainer" pos_x="5" pos_y="25"/>
+    <include_object name="AdjustmentContainer" pos_x="5" pos_y="49"/>
+    <include_object name="CounterContainer" pos_x="5" pos_y="68"/>
+    <include_object name="TramLineContainer0" pos_x="5" pos_y="95"/>
+    <include_object name="HeightContainer" pos_x="5" pos_y="110"/>
+    <include_object name="WeightContainer" pos_x="70" pos_y="110"/>
+    <include_object name="WeightSetPointContainer" pos_x="70" pos_y="185"/>
+    <include_object name="FeederContainer" pos_x="135" pos_y="110"/>
+    <include_object name="DepthContainer" pos_x="130" pos_y="25"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="CalibrationMask">
+    <include_object name="CalibrationSKM" role="soft_key_mask"/>
+    <include_object name="CalibrationOSF" pos_x="5" pos_y="5"/>
+    <include_object name="CalibrationContainer" pos_x="5" pos_y="30"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+    <include_object name="FeederContainer" pos_x="135" pos_y="110"/>
+  </datamask>
+  <datamask background_colour="white" name="AlarmInfoMask">
+    <include_object name="AlarmInfoSKM" role="soft_key_mask"/>
+    <include_object name="AlarmsOSF" pos_x="5" pos_y="5"/>
+    <include_object name="AlarmContainer" pos_x="5" pos_y="30"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="ConfigurationMask">
+    <include_object name="ConfigurationSKM" role="soft_key_mask"/>
+    <include_object name="ConfigurationOSF" pos_x="5" pos_y="5"/>
+    <include_object name="BaseRateContainer" pos_x="5" pos_y="30"/>
+    <include_object name="HalfRaiseContainer" pos_x="5" pos_y="55"/>
+    <include_object name="MarkerAutomateContainer" pos_x="5" pos_y="100"/>
+    <include_object name="TramLineAutomateContainer" pos_x="5" pos_y="155"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="ReportMask">
+    <include_object name="ReportSKM" role="soft_key_mask"/>
+    <include_object name="ReportOSF" pos_x="5" pos_y="5"/>
+    <include_object name="TotalMassContainer" pos_x="5" pos_y="30"/>
+    <include_object name="TotalAreaContainer" pos_x="5" pos_y="50"/>
+    <include_object name="AverageRateContainer" pos_x="5" pos_y="70"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="FreeModeMask">
+    <include_object name="FreeModeSKM" role="soft_key_mask"/>
+    <include_object name="FreeModeOSF" pos_x="5" pos_y="5"/>
+    <include_object name="FrontLevelContainer" pos_x="5" pos_y="30"/>
+    <include_object name="RearLevelContainer" pos_x="5" pos_y="49"/>
+    <include_object name="ShaftSensorContainer" pos_x="5" pos_y="68"/>
+    <include_object name="MachineUpContainer" pos_x="5" pos_y="87"/>
+    <include_object name="Feeder2Container" pos_x="105" pos_y="30"/>
+    <include_object name="FlashContainer" pos_x="105" pos_y="49"/>
+    <include_object name="TramLineContainer" pos_x="105" pos_y="68"/>
+    <include_object name="FeederModeContainer" pos_x="105" pos_y="87"/>
+    <include_object name="HeightContainer" pos_x="5" pos_y="110"/>
+    <include_object name="WeightContainer" pos_x="70" pos_y="110"/>
+    <include_object name="FeederContainer" pos_x="135" pos_y="110"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+    <include_object name="LeftDepthONF" pos_x="20" pos_y="188"/>
+    <include_object name="cmOSF" pos_x="52" pos_y="188"/>
+    <include_object name="RightDepthONF" pos_x="85" pos_y="188"/>
+    <include_object name="cmOSF" pos_x="117" pos_y="188"/>
+    <include_object name="L_OSF" pos_x="5" pos_y="188"/>
+    <include_object name="R_OSF" pos_x="70" pos_y="188"/>
+  </datamask>
+  <datamask background_colour="white" name="HelpMask">
+    <include_object name="HelpSKM" role="soft_key_mask"/>
+    <include_object name="HelpTopiOSF" pos_x="5" pos_y="5"/>
+    <include_object name="HelpOSF" pos_x="10" pos_y="30"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="CalibrationSaveMask">
+    <include_object name="CalibrationPointSaveSKM" role="soft_key_mask"/>
+    <include_object name="SaveCaptionOSF" pos_x="5" pos_y="5"/>
+    <include_object name="FilenameContainer" pos_x="5" pos_y="30"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <datamask background_colour="white" name="CalibrationLoadMask">
+    <include_object name="CalibrationPointLoadSKM" role="soft_key_mask"/>
+    <include_object name="LoadCaptionOSF" pos_x="5" pos_y="5"/>
+    <include_object name="FilenameContainer" pos_x="5" pos_y="30"/>
+    <include_object name="FlagContainer" pos_x="0" pos_y="0"/>
+  </datamask>
+  <alarmmask acoustic_signal="high" background_colour="white" name="AlarmMask" priority="high">
+    <include_object name="AlarmSKM" role="soft_key_mask"/>
+    <include_object name="AlarmsOSF" pos_x="5" pos_y="5"/>
+    <include_object name="AlarmContainer" pos_x="5" pos_y="30"/>
+  </alarmmask>
+  <container height="60" hidden="false" name="FreeModeButtonContainer" width="60">
+    <include_object name="ButtonRectangle" pos_x="4" pos_y="4"/>
+    <include_object name="InvertedFreeOSF" pos_x="19" pos_y="20"/>
+    <include_object name="InvertedModeOSF" pos_x="19" pos_y="35"/>
+  </container>
+  <container height="60" hidden="false" name="TransportModeContainer" width="60">
+    <include_object name="ButtonRectangle" pos_x="4" pos_y="4"/>
+    <include_object name="InvertedTransportOSF" pos_x="5" pos_y="20"/>
+    <include_object name="InvertedModeOSF" pos_x="17" pos_y="35"/>
+  </container>
+  <container height="60" hidden="false" name="FieldModeContainer" width="60">
+    <include_object name="ButtonRectangle" pos_x="4" pos_y="4"/>
+    <include_object name="InvertedFieldOSF" pos_x="16" pos_y="20"/>
+    <include_object name="InvertedModeOSF" pos_x="20" pos_y="35"/>
+  </container>
+  <container height="115" hidden="false" name="AlarmContainer" width="190">
+    <include_object name="AxisAlarmContainer" pos_x="0" pos_y="0"/>
+    <include_object name="FeederAlarmContainer" pos_x="0" pos_y="30"/>
+    <include_object name="FrontLevelAlarmContainer" pos_x="0" pos_y="60"/>
+    <include_object name="RearLevelAlarmContainer" pos_x="0" pos_y="90"/>
+  </container>
+  <container height="25" hidden="false" name="AxisAlarmContainer" width="190">
+    <include_object name="BulbOffPic" pos_x="0" pos_y="0"/>
+    <include_object name="AxisAlarmHider" pos_x="0" pos_y="0"/>
+    <include_object name="FeedAxisOSF" pos_x="30" pos_y="8"/>
+    <include_object name="AxisRPMONF" pos_x="125" pos_y="8"/>
+    <include_object name="RPMONF" pos_x="160" pos_y="8"/>
+  </container>
+  <container height="25" hidden="false" name="AxisAlarmHider" width="25">
+    <include_object name="Alarm3Pic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="25" hidden="false" name="FeederAlarmContainer" width="190">
+    <include_object name="BulbOffPic" pos_x="0" pos_y="0"/>
+    <include_object name="ServoAlarmHider" pos_x="0" pos_y="0"/>
+    <include_object name="FeederOSF" pos_x="30" pos_y="8"/>
+    <include_object name="FeederCodeONF" pos_x="125" pos_y="8"/>
+    <include_object name="CodeOSF" pos_x="160" pos_y="8"/>
+  </container>
+  <container height="25" hidden="false" name="ServoAlarmHider" width="25">
+    <include_object name="Alarm3Pic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="25" hidden="false" name="FrontLevelAlarmContainer" width="190">
+    <include_object name="BulbOffPic" pos_x="0" pos_y="0"/>
+    <include_object name="FrontLevelAlarmHider" pos_x="0" pos_y="0"/>
+    <include_object name="FrontLevelOSF" pos_x="30" pos_y="8"/>
+  </container>
+  <container height="25" hidden="false" name="FrontLevelAlarmHider" width="25">
+    <include_object name="Alarm3Pic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="25" hidden="false" name="RearLevelAlarmContainer" width="190">
+    <include_object name="BulbOffPic" pos_x="0" pos_y="0"/>
+    <include_object name="RearLevelAlarmHider" pos_x="0" pos_y="0"/>
+    <include_object name="RearLevelOSF" pos_x="30" pos_y="8"/>
+  </container>
+  <container height="25" hidden="false" name="RearLevelAlarmHider" width="25">
+    <include_object name="Alarm3Pic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="BaseRateContainer" width="190">
+    <include_object name="BaseRateOSF" pos_x="25" pos_y="3"/>
+    <include_object name="Selection30Rect" pos_x="100" pos_y="0"/>
+    <include_object name="BaseRateINF" pos_x="103" pos_y="3"/>
+    <include_object name="kghaOSF" pos_x="135" pos_y="3"/>
+  </container>
+  <container height="50" hidden="false" name="MarkerAutomateContainer" width="190">
+    <include_object name="MarkerAutomateIBF" pos_x="5" pos_y="5"/>
+    <include_object name="MarkerAutomateISF" pos_x="25" pos_y="8"/>
+    <include_object name="MarkerModeILF" pos_x="140" pos_y="10"/>
+  </container>
+  <container height="40" hidden="false" name="TramLineAutomateContainer" width="190">
+    <include_object name="TramLineAutomateIBF" pos_x="5" pos_y="5"/>
+    <include_object name="TramLineAutomateOSF" pos_x="25" pos_y="8"/>
+    <include_object name="CounterContainer" pos_x="40" pos_y="25"/>
+  </container>
+  <container height="15" hidden="false" name="TotalMassContainer" width="190">
+    <include_object name="TotalMassOSF" pos_x="0" pos_y="3"/>
+    <include_object name="TotalMassONF" pos_x="100" pos_y="3"/>
+    <include_object name="kgOSF" pos_x="145" pos_y="3"/>
+  </container>
+  <container height="15" hidden="false" name="TotalAreaContainer" width="190">
+    <include_object name="TotalAreaOSF" pos_x="0" pos_y="3"/>
+    <include_object name="TotalAreaONF" pos_x="100" pos_y="3"/>
+    <include_object name="haOSF" pos_x="145" pos_y="3"/>
+  </container>
+  <container height="15" hidden="false" name="AverageRateContainer" width="190">
+    <include_object name="AverageRateOSF" pos_x="0" pos_y="3"/>
+    <include_object name="AverageRateONF" pos_x="100" pos_y="3"/>
+    <include_object name="kghaOSF" pos_x="145" pos_y="3"/>
+  </container>
+  <container height="75" hidden="false" name="CalibrationContainer" width="190">
+    <include_object name="CalibrationTopicContainer" pos_x="0" pos_y="0"/>
+    <include_object name="CalibrationRow1Container" pos_x="0" pos_y="20"/>
+    <include_object name="CalibrationRow2Container" pos_x="0" pos_y="40"/>
+    <include_object name="CalibrationRow3Container" pos_x="0" pos_y="60"/>
+    <include_object name="Line" pos_x="0" pos_y="15"/>
+    <include_object name="Line0" pos_x="60" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="CalibrationTopicContainer" width="190">
+    <include_object name="PercentOSF" pos_x="80" pos_y="0"/>
+    <include_object name="kgOSF" pos_x="120" pos_y="0"/>
+    <include_object name="kghaOSF" pos_x="150" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="CalibrationRow1Container" width="190">
+    <include_object name="Point1OSF" pos_x="0" pos_y="3"/>
+    <include_object name="P1PercentINF" pos_x="60" pos_y="3"/>
+    <include_object name="Selection40Rect" pos_x="105" pos_y="0"/>
+    <include_object name="P1MassINF" pos_x="108" pos_y="3"/>
+    <include_object name="P1RateONF" pos_x="150" pos_y="3"/>
+  </container>
+  <container height="15" hidden="false" name="CalibrationRow2Container" width="190">
+    <include_object name="Point2OSF" pos_x="0" pos_y="3"/>
+    <include_object name="P2PercentINF" pos_x="60" pos_y="3"/>
+    <include_object name="Selection40Rect" pos_x="105" pos_y="0"/>
+    <include_object name="P2MassINF" pos_x="108" pos_y="3"/>
+    <include_object name="P2RateONF" pos_x="150" pos_y="3"/>
+  </container>
+  <container height="15" hidden="false" name="CalibrationRow3Container" width="190">
+    <include_object name="Point3OSF" pos_x="0" pos_y="3"/>
+    <include_object name="P3PercentINF" pos_x="60" pos_y="3"/>
+    <include_object name="Selection40Rect" pos_x="105" pos_y="0"/>
+    <include_object name="P3MassINF" pos_x="108" pos_y="3"/>
+    <include_object name="P3RateONF" pos_x="150" pos_y="3"/>
+  </container>
+  <container height="15" hidden="false" name="FrontLevelContainer" width="90">
+    <include_object name="FrontLevelOSF0" pos_x="0" pos_y="3"/>
+    <include_object name="FrontLevelIBF" pos_x="75" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="RearLevelContainer" width="90">
+    <include_object name="RearLevelOSF0" pos_x="0" pos_y="3"/>
+    <include_object name="RearLevelIBF" pos_x="75" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="ShaftSensorContainer" width="90">
+    <include_object name="ShaftSensorOSF" pos_x="0" pos_y="3"/>
+    <include_object name="ShaftSensorIBF" pos_x="75" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="MachineUpContainer" width="90">
+    <include_object name="MachineUpOSF" pos_x="0" pos_y="3"/>
+    <include_object name="MachineUpIBF" pos_x="75" pos_y="0"/>
+  </container>
+  <container height="75" hidden="false" name="HeightContainer" width="60">
+    <include_object name="HeightOSF" pos_x="0" pos_y="0"/>
+    <include_object name="HeightONF" pos_x="0" pos_y="60"/>
+    <include_object name="PercentOSF" pos_x="40" pos_y="60"/>
+    <include_object name="HeightMeter" pos_x="0" pos_y="15"/>
+  </container>
+  <container height="75" hidden="false" name="WeightContainer" width="60">
+    <include_object name="WeightOSF" pos_x="0" pos_y="0"/>
+    <include_object name="WeightONF" pos_x="0" pos_y="60"/>
+    <include_object name="WeightMeter" pos_x="0" pos_y="15"/>
+    <include_object name="kgOSF" pos_x="40" pos_y="60"/>
+  </container>
+  <container height="90" hidden="false" name="FeederContainer" width="60">
+    <include_object name="FeederOSF0" pos_x="0" pos_y="0"/>
+    <include_object name="FeederONF" pos_x="0" pos_y="60"/>
+    <include_object name="PercentOSF" pos_x="40" pos_y="60"/>
+    <include_object name="FeederRateONF" pos_x="0" pos_y="75"/>
+    <include_object name="kgOSF" pos_x="40" pos_y="75"/>
+    <include_object name="FeederMeter" pos_x="0" pos_y="15"/>
+  </container>
+  <container height="15" hidden="false" name="FlashContainer" width="90">
+    <include_object name="FlashOSF" pos_x="0" pos_y="3"/>
+    <include_object name="FlashIBF" pos_x="75" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="TramLineContainer" width="90">
+    <include_object name="TramLineOSF" pos_x="0" pos_y="3"/>
+    <include_object name="TramLineIBF" pos_x="75" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="Feeder2Container" width="90">
+    <include_object name="FeederSettingOSF" pos_x="0" pos_y="3"/>
+    <include_object name="Selection24Rect" pos_x="66" pos_y="0"/>
+    <include_object name="FeederPercentINF" pos_x="69" pos_y="3"/>
+  </container>
+  <container height="20" hidden="false" name="AreaContainer" width="120">
+    <include_object name="AreaOSF" pos_x="0" pos_y="8"/>
+    <include_object name="AreaONF" pos_x="50" pos_y="8"/>
+    <include_object name="AreaResetButton" pos_x="80" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="AdjustmentContainer" width="120">
+    <include_object name="AdjustmentOSF" pos_x="0" pos_y="3"/>
+    <include_object name="Selection30Rect" pos_x="90" pos_y="0"/>
+    <include_object name="AdjustmentINF" pos_x="93" pos_y="3"/>
+  </container>
+  <container height="15" hidden="false" name="CounterContainer" width="120">
+    <include_object name="CounterOSF" pos_x="0" pos_y="3"/>
+    <include_object name="Selection30Rect" pos_x="50" pos_y="0"/>
+    <include_object name="CounterINF" pos_x="53" pos_y="3"/>
+    <include_object name="SlashOSF" pos_x="82" pos_y="3"/>
+    <include_object name="Selection30Rect" pos_x="90" pos_y="0"/>
+    <include_object name="ModulusINF" pos_x="93" pos_y="3"/>
+  </container>
+  <container height="10" hidden="false" name="TramLineHider" width="125">
+    <include_object name="TramLineOnPic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="75" hidden="false" name="MarkerContainer" width="65">
+    <include_object name="MarkersOSF" pos_x="0" pos_y="0"/>
+    <include_object name="LeftMarkerMeter" pos_x="0" pos_y="15"/>
+    <include_object name="RightMarkerMeter" pos_x="5" pos_y="15"/>
+    <include_object name="ClockwiseHider" pos_x="25" pos_y="60"/>
+    <include_object name="CounterClockwiseHider" pos_x="25" pos_y="60"/>
+    <include_object name="LeftRightHider" pos_x="25" pos_y="60"/>
+    <include_object name="RightLeftHider" pos_x="25" pos_y="60"/>
+  </container>
+  <container height="40" hidden="false" name="AgrixContainer" width="190">
+    <include_object name="PictureGraphic4" pos_x="0" pos_y="0"/>
+    <include_object name="VersionOSF" pos_x="110" pos_y="0"/>
+    <include_object name="DateOSF" pos_x="110" pos_y="20"/>
+  </container>
+  <container height="20" hidden="false" name="FlagContainer" width="200">
+    <include_object name="AlarmFlagContainer" pos_x="0" pos_y="0"/>
+    <include_object name="GPSContainer" pos_x="140" pos_y="0"/>
+    <include_object name="TCContainer" pos_x="160" pos_y="0"/>
+    <include_object name="PrecisionContainer" pos_x="180" pos_y="0"/>
+  </container>
+  <container height="20" hidden="false" name="GPSContainer" width="20">
+    <include_object name="GPSPic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="20" hidden="false" name="TCContainer" width="20">
+    <include_object name="TCPic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="20" hidden="false" name="PrecisionContainer" width="20">
+    <include_object name="PrecisionPic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="40" hidden="false" name="HalfRaiseContainer" width="190">
+    <include_object name="HalfRaiseOSF" pos_x="25" pos_y="3"/>
+    <include_object name="HalfRaiseONF" pos_x="103" pos_y="3"/>
+    <include_object name="PercentOSF" pos_x="135" pos_y="3"/>
+    <include_object name="HalfRaiseLBG" pos_x="15" pos_y="20"/>
+  </container>
+  <container height="20" hidden="false" name="AlarmFlagContainer" width="20">
+    <include_object name="AlarmFlagPic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="10" hidden="false" name="TramLineContainer0" width="125">
+    <include_object name="TramLineOffPic" pos_x="0" pos_y="0"/>
+    <include_object name="TramLineHider" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="WeightSetPointContainer" width="60">
+    <include_object name="WeightSetPointONF" pos_x="0" pos_y="0"/>
+    <include_object name="PercentOSF" pos_x="40" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="ClockwiseHider" width="15">
+    <include_object name="ClockwiseSmallPic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="CounterClockwiseHider" width="15">
+    <include_object name="CounterClockwiseSmallPic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="LeftRightHider" width="15">
+    <include_object name="PictureGraphic5" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="15" hidden="false" name="RightLeftHider" width="15">
+    <include_object name="RightLeftSmallPic" pos_x="0" pos_y="0"/>
+  </container>
+  <container height="100" hidden="false" name="FilenameContainer" width="190">
+    <include_object name="Thin_vertical_line11" pos_x="49" pos_y="1"/>
+    <include_object name="Thin_horiz_line11" pos_x="1" pos_y="20"/>
+    <include_object name="FirstfOSF" pos_x="25" pos_y="28"/>
+    <include_object name="SecondfOSF" pos_x="25" pos_y="53"/>
+    <include_object name="ThirdfOSF" pos_x="25" pos_y="78"/>
+    <include_object name="Selection70Rect" pos_x="55" pos_y="25"/>
+    <include_object name="FileSavePoint1ISF" pos_x="58" pos_y="28"/>
+    <include_object name="Selection70Rect" pos_x="55" pos_y="50"/>
+    <include_object name="FileSavePoint2ISF" pos_x="58" pos_y="53"/>
+    <include_object name="Selection70Rect" pos_x="55" pos_y="75"/>
+    <include_object name="FileSavePoint3ISF" pos_x="58" pos_y="78"/>
+  </container>
+  <container height="80" hidden="false" name="DepthContainer" width="70">
+    <include_object name="DepthOSF" pos_x="0" pos_y="0"/>
+    <include_object name="DepthMeter" pos_x="5" pos_y="15"/>
+    <include_object name="LeftDepthONF" pos_x="0" pos_y="68"/>
+    <include_object name="RightDepthONF" pos_x="40" pos_y="68"/>
+  </container>
+  <container height="15" hidden="false" name="FeederModeContainer" width="90">
+    <include_object name="NrmlOSF" pos_x="0" pos_y="3"/>
+    <include_object name="NormalModeIBF" pos_x="25" pos_y="0"/>
+    <include_object name="DrctOSF" pos_x="50" pos_y="3"/>
+    <include_object name="DirectModeIBF" pos_x="75" pos_y="0"/>
+  </container>
+  <softkeymask background_colour="white" name="FreeModeMenuSKM">
+    <include_object name="FreeModeKey"/>
+    <include_object name="CalibrationKey"/>
+    <include_object name="AlarmKey"/>
+    <include_object name="ReportKey"/>
+    <include_object name="HelpKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="TransportModeMenuSKM">
+    <include_object name="AlarmKey"/>
+    <include_object name="ReportKey"/>
+    <include_object name="HelpKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="FieldModeMenuSKM">
+    <include_object name="DriveKey"/>
+    <include_object name="SettingsKey"/>
+    <include_object name="AlarmKey"/>
+    <include_object name="ReportKey"/>
+    <include_object name="HelpKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="DriveSKM">
+    <include_object name="MainMenuKey"/>
+    <include_object name="MoreWeightKey"/>
+    <include_object name="LessWeightKey"/>
+    <include_object name="SEQKey"/>
+    <include_object name="NewSEQKey"/>
+    <include_object name="WheelTrackOnKey"/>
+    <include_object name="WheelTrackOffKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="CalibrationSKM">
+    <include_object name="MainMenuKey"/>
+    <include_object name="Point1Key"/>
+    <include_object name="Point2Key"/>
+    <include_object name="Point3Key"/>
+    <include_object name="SaveKey"/>
+    <include_object name="LoadKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="AlarmInfoSKM">
+    <include_object name="MainMenuKey"/>
+    <include_object name="AckAxisAlarmKey"/>
+    <include_object name="AckFeederKey"/>
+    <include_object name="AckFrontKey"/>
+    <include_object name="AckRearKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="ConfigurationSKM">
+    <include_object name="MainMenuKey"/>
+    <include_object name="HalfRaiseUpKey"/>
+    <include_object name="HalfRaiseDownKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="ReportSKM">
+    <include_object name="MainMenuKey"/>
+    <include_object name="CounterResetKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="FreeModeSKM">
+    <include_object name="MainMenuKey"/>
+    <include_object name="MachineUpKey"/>
+    <include_object name="MachineDownKey"/>
+    <include_object name="MoreWeight2Key"/>
+    <include_object name="LessWeight2Key"/>
+    <include_object name="RigthUp2Key"/>
+    <include_object name="RightDown2Key"/>
+    <include_object name="LeftUp2Key"/>
+    <include_object name="LeftDown2Key"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="AlarmSKM">
+    <include_object name="BackKey"/>
+    <include_object name="AckAxisAlarmKey"/>
+    <include_object name="AckFeederKey"/>
+    <include_object name="AckFrontKey"/>
+    <include_object name="AckRearKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="HelpSKM">
+    <include_object name="MainMenuKey"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="CalibrationPointSaveSKM">
+    <include_object name="BackKey"/>
+    <include_object name="FILE1_KEY"/>
+    <include_object name="FILE2_KEY"/>
+    <include_object name="FILE3_KEY"/>
+  </softkeymask>
+  <softkeymask background_colour="white" name="CalibrationPointLoadSKM">
+    <include_object name="BackKey"/>
+    <include_object name="Loadfile1Key"/>
+    <include_object name="Loadfile2Key"/>
+    <include_object name="Loadfile3Key"/>
+  </softkeymask>
+  <key background_colour="white" key_code="1" name="FreeModeKey">
+    <include_object name="FreePic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="2" name="CalibrationKey">
+    <include_object name="CalibrationPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="3" name="AlarmKey">
+    <include_object name="AlarmPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="4" name="ReportKey">
+    <include_object name="ReportPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="5" name="DriveKey">
+    <include_object name="PictureGraphic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="6" name="SettingsKey">
+    <include_object name="PictureGraphic0" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="7" name="MainMenuKey">
+    <include_object name="MainMenuPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="8" name="MarkersUpKey">
+    <include_object name="MarkersUpPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="9" name="RightMarkerDownKey">
+    <include_object name="RightMarkerDownPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="10" name="LeftMarkerDownKey">
+    <include_object name="LeftMarkerDownPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="11" name="WheelTrackOnKey">
+    <include_object name="TracksOnPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="12" name="WheelTrackOffKey">
+    <include_object name="TracksOffPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="13" name="MoreWeightKey">
+    <include_object name="MoreWeightPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="14" name="LessWeightKey">
+    <include_object name="LessWeightPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="15" name="SEQKey">
+    <include_object name="SEQPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="16" name="NewSEQKey">
+    <include_object name="NewSEQPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="17" name="Point1Key">
+    <include_object name="Point1Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="18" name="Point2Key">
+    <include_object name="Point2Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="19" name="Point3Key">
+    <include_object name="Point3Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="20" name="MachineUpKey">
+    <include_object name="PictureGraphic2" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="21" name="MachineDownKey">
+    <include_object name="PictureGraphic3" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="22" name="MoreWeight2Key">
+    <include_object name="WeigtMore2Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="23" name="LessWeight2Key">
+    <include_object name="WeightLess2Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="24" name="RigthUp2Key">
+    <include_object name="RigthUp2Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="25" name="RightDown2Key">
+    <include_object name="RightDown2Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="26" name="LeftUp2Key">
+    <include_object name="LeftUp2Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="27" name="LeftDown2Key">
+    <include_object name="LeftDown2Pic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="28" name="HalfRaiseUpKey">
+    <include_object name="HalfRaiseUpPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="29" name="HalfRaiseDownKey">
+    <include_object name="HalfRaiseDownPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="30" name="BackKey">
+    <include_object name="BackPic" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="31" name="AckAxisAlarmKey">
+    <include_object name="NoAlarmPic" pos_x="28" pos_y="0"/>
+    <include_object name="OneOSF" pos_x="3" pos_y="8"/>
+  </key>
+  <key background_colour="white" key_code="32" name="AckFeederKey">
+    <include_object name="NoAlarmPic" pos_x="28" pos_y="0"/>
+    <include_object name="TwoOSF" pos_x="3" pos_y="8"/>
+  </key>
+  <key background_colour="white" key_code="33" name="AckFrontKey">
+    <include_object name="NoAlarmPic" pos_x="28" pos_y="0"/>
+    <include_object name="ThreeOSF" pos_x="3" pos_y="8"/>
+  </key>
+  <key background_colour="white" key_code="34" name="AckRearKey">
+    <include_object name="NoAlarmPic" pos_x="28" pos_y="0"/>
+    <include_object name="FourOSF" pos_x="3" pos_y="8"/>
+  </key>
+  <key background_colour="white" key_code="35" name="HelpKey">
+    <include_object name="PictureGraphic6" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="36" name="SaveKey">
+    <include_object name="SAVE_OSF" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="37" name="LoadKey">
+    <include_object name="LOAD_OSF" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="38" name="FILE1_KEY">
+    <include_object name="FILE1_OSF" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="39" name="FILE2_KEY">
+    <include_object name="FILE2_OSF" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="40" name="FILE3_KEY">
+    <include_object name="FILE3_OSF" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="44" name="Loadfile1Key">
+    <include_object name="LoadFile1OSF" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="45" name="Loadfile2Key">
+    <include_object name="LoadFile2OSF" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="46" name="Loadfile3Key">
+    <include_object name="LoadFile3OSF" pos_x="0" pos_y="0"/>
+  </key>
+  <key background_colour="white" key_code="47" name="CounterResetKey">
+    <include_object name="ResetOSF0" pos_x="0" pos_y="0"/>
+  </key>
+  <button background_colour="white" border_colour="black" height="60" key_code="101" name="TransportModeButton" width="60">
+    <include_object name="NormalTransportOSF" pos_x="1" pos_y="16"/>
+    <include_object name="NormalModeOSF" pos_x="16" pos_y="31"/>
+  </button>
+  <button background_colour="white" border_colour="black" height="60" key_code="102" name="FieldModeButton" width="60">
+    <include_object name="NormalFieldOSF" pos_x="12" pos_y="16"/>
+    <include_object name="NormalModeOSF" pos_x="16" pos_y="31"/>
+  </button>
+  <button background_colour="white" border_colour="black" height="60" key_code="103" name="FreeModeButton" width="60">
+    <include_object name="NormalFreeOSF" pos_x="15" pos_y="16"/>
+    <include_object name="NormalModeOSF" pos_x="15" pos_y="31"/>
+  </button>
+  <button background_colour="white" border_colour="black" height="20" key_code="104" name="AreaResetButton" width="40">
+    <include_object name="ResetOSF" pos_x="2" pos_y="2"/>
+  </button>
+  <button background_colour="white" border_colour="black" height="20" key_code="105" name="AckAxisButton" width="30">
+    <include_object name="AckOSF" pos_x="2" pos_y="2"/>
+  </button>
+  <button background_colour="white" border_colour="black" height="20" key_code="106" name="AckFeederButton" width="30">
+    <include_object name="AckOSF" pos_x="2" pos_y="2"/>
+  </button>
+  <button background_colour="white" border_colour="black" height="20" key_code="107" name="AckFrontLevelButton" width="30">
+    <include_object name="AckOSF" pos_x="2" pos_y="2"/>
+  </button>
+  <button background_colour="white" border_colour="black" height="20" key_code="108" name="AckRearLevelButton" width="30">
+    <include_object name="AckOSF" pos_x="2" pos_y="2"/>
+  </button>
+  <inputboolean background_colour="white" enabled="yes" name="MarkerAutomateIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="yes" name="TramLineAutomateIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="no" name="FrontLevelIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="no" name="RearLevelIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="no" name="ShaftSensorIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="no" name="MachineUpIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="yes" name="FlashIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="yes" name="TramLineIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="no" name="NormalModeIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputboolean background_colour="white" enabled="no" name="DirectModeIBF" value="1" width="15">
+    <include_object name="NormalFA" role="foreground_colour"/>
+  </inputboolean>
+  <inputstring background_colour="white" enabled="true" height="9" horizontal_justification="left" length="10" name="FileSavePoint1ISF" options="none" value="FILE_1    " width="64">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="CalibPointSaveInoutAttr" role="input_attributes"/>
+  </inputstring>
+  <inputstring background_colour="white" enabled="true" height="9" horizontal_justification="left" length="10" name="FileSavePoint2ISF" options="none" value="FILE_2    " width="64">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="CalibPointSaveInoutAttr" role="input_attributes"/>
+  </inputstring>
+  <inputstring background_colour="white" enabled="true" height="9" horizontal_justification="left" length="10" name="FileSavePoint3ISF" options="none" value="FILE_3    " width="64">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="CalibPointSaveInoutAttr" role="input_attributes"/>
+  </inputstring>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="9" horizontal_justification="right" max_value="999" min_value="0" name="BaseRateINF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="24">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="9" horizontal_justification="middle" max_value="10" min_value="0" name="CounterINF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="24">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="9" horizontal_justification="middle" max_value="10" min_value="1" name="ModulusINF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="4" width="24">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="no" format="fixed" height="9" horizontal_justification="right" max_value="100" min_value="0" name="P1PercentINF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="10" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="9" horizontal_justification="right" max_value="1000" min_value="0" name="P1MassINF" number_of_decimals="2" offset="0" options="none" scale="0.010000" value="0" width="34">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="no" format="fixed" height="9" horizontal_justification="right" max_value="100" min_value="0" name="P2PercentINF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="50" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="9" horizontal_justification="right" max_value="1000" min_value="0" name="P2MassINF" number_of_decimals="2" offset="0" options="none" scale="0.010000" value="0" width="34">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="no" format="fixed" height="9" horizontal_justification="right" max_value="100" min_value="0" name="P3PercentINF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="90" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="9" horizontal_justification="right" max_value="1000" min_value="0" name="P3MassINF" number_of_decimals="2" offset="0" options="none" scale="0.010000" value="0" width="34">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="9" horizontal_justification="right" max_value="100" min_value="0" name="FeederPercentINF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="18">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="9" horizontal_justification="middle" max_value="200" min_value="0" name="AdjustmentINF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="100" width="24">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </inputnumber>
+  <inputlist enabled="yes" height="32" name="MarkerModeILF" value="0" width="32">
+    <include_object name="ClockwisePic"/>
+    <include_object name="CounterCWPic"/>
+    <include_object name="LeftRightPic"/>
+    <include_object name="PictureGraphic1"/>
+  </inputlist>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="12" name="FeedAxisOSF" options="none" value="1. Feed Axis" width="90">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="3" name="RPMONF" options="none" value="rpm" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="9" name="FeederOSF" options="none" value="2. Feeder" width="90">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="1" name="PercentOSF" options="none" value="%" width="10">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="14" name="FrontLevelOSF" options="none" value="3. Front Level" width="90">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="13" name="RearLevelOSF" options="none" value="4. Rear Level" width="90">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="9" name="BaseRateOSF" options="none" value="Base Rate" width="60">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="5" name="kghaOSF" options="none" value="kg/ha" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="15" name="MarkerAutomateISF" options="none" value="Marker Automate" width="100">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="18" name="TramLineAutomateOSF" options="none" value="Tram Line Automate" width="120">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="7" name="CounterOSF" options="none" value="Counter" width="50">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="1" name="SlashOSF" options="none" value="/" width="6">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="10" name="TotalMassOSF" options="none" value="Total Mass" width="90">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="2" name="kgOSF" options="none" value="kg" width="20">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="10" name="TotalAreaOSF" options="none" value="Total Area" width="90">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="2" name="haOSF" options="none" value="ha" width="20">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="12" name="AverageRateOSF" options="none" value="Average Rate" width="90">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="11" name="CalibrationOSF" options="none" value="Calibration" width="190">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="7" name="Point1OSF" options="none" value="Point 1" width="50">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="7" name="Point2OSF" options="none" value="Point 2" width="50">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="7" name="Point3OSF" options="none" value="Point 3" width="50">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="6" name="AlarmsOSF" options="none" value="Alarms" width="190">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="13" name="ConfigurationOSF" options="none" value="Configuration" width="190">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="6" name="ReportOSF" options="none" value="Report" width="190">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="11" name="FrontLevelOSF0" options="none" value="Front Level" width="75">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="10" name="RearLevelOSF0" options="none" value="Rear Level" width="75">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="12" name="ShaftSensorOSF" options="none" value="Shaft Sensor" width="75">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="10" name="MachineUpOSF" options="none" value="Machine Up" width="75">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="middle" length="6" name="HeightOSF" options="none" value="Height" width="60">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="middle" length="6" name="WeightOSF" options="none" value="Weight" width="60">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="middle" length="6" name="FeederOSF0" options="none" value="Feeder" width="60">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="9" name="FreeModeOSF" options="none" value="Free Mode" width="190">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="11" name="FlashOSF" options="none" value="Flash Light" width="75">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="9" name="TramLineOSF" options="none" value="Tram Line" width="75">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="10" name="FeederSettingOSF" options="none" value="Feeder [%]" width="60">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="5" name="DriveOSF" options="none" value="Drive" width="190">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="4" name="AreaOSF" options="none" value="Area" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="10" name="AdjustmentOSF" options="none" value="Adjustment" width="60">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="5" name="ResetOSF" options="none" value="RESET" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="middle" length="7" name="MarkersOSF" options="none" value="Markers" width="65">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="black" height="15" horizontal_justification="left" length="4" name="InvertedFreeOSF" options="none" value="FREE" width="24">
+    <include_object name="InvertedFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="black" height="15" horizontal_justification="left" length="4" name="InvertedModeOSF" options="none" value="MODE" width="24">
+    <include_object name="InvertedFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="8" name="NormalTransportOSF" options="none" value="TRANSFER" width="54">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="4" name="NormalModeOSF" options="none" value="MODE" width="24">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="5" name="NormalFieldOSF" options="none" value="FIELD" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="4" name="NormalFreeOSF" options="none" value="FREE" width="24">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="black" height="15" horizontal_justification="left" length="8" name="InvertedTransportOSF" options="none" value="TRANSFER" width="54">
+    <include_object name="InvertedFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="black" height="15" horizontal_justification="left" length="5" name="InvertedFieldOSF" options="none" value="FIELD" width="30">
+    <include_object name="InvertedFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="12" name="VersionOSF" options="none" value="Version 1.2 " width="80">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="10" name="DateOSF" options="none" value="2005-04-28" width="80">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="10" name="HalfRaiseOSF" options="none" value="Half Raise" width="60">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="8" horizontal_justification="left" length="3" name="AckOSF" options="none" value="ACK" width="18">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="4" name="CodeOSF" options="none" value="code" width="25">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="16" horizontal_justification="left" length="2" name="OneOSF" options="none" value="1." width="24">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="16" horizontal_justification="left" length="2" name="TwoOSF" options="none" value="2." width="24">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="16" horizontal_justification="left" length="2" name="ThreeOSF" options="none" value="3." width="24">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="16" horizontal_justification="left" length="2" name="FourOSF" options="none" value="4." width="24">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="150" horizontal_justification="left" length="1000" name="HelpOSF" options="autowrap" value="PDF (Portable Document Format) on tiedostoformaatti, jolla painettua materiaalia voidaan esittää verkossa lähes täsmälleen painetun kaltaisena. Lomakkeiden käsittelyyn tarvitaan Adobe Acrobat Reader -niminen ilmaisohjelma, jonka voi ladata Adoben www-sivuilta. Ohjelman avulla lomakkeen voi täyttää suoraan tai tulostaa täytettäväksi käsin. Ohjelmassa täytettyä lomaketta ei voi tallentaa, joten se on heti täyttämisen jälkeen tulostettava.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                " width="180">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="4" name="HelpTopiOSF" options="none" value="Help" width="50">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="16" horizontal_justification="left" length="4" name="SAVE_OSF" options="none" value="SAVE" width="64">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="16" horizontal_justification="left" length="4" name="LOAD_OSF" options="none" value="LOAD" width="64">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="4" name="SaveCaptionOSF" options="none" value="Save" width="48">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="14" horizontal_justification="left" length="5" name="FILE1_OSF" options="none" value="FILE1" width="60">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="14" horizontal_justification="left" length="5" name="FILE2_OSF" options="none" value="FILE2" width="61">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="14" horizontal_justification="left" length="5" name="FILE3_OSF" options="none" value="FILE3" width="61">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="2" name="FirstfOSF" options="none" value="1." width="16">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="2" name="SecondfOSF" options="none" value="2." width="16">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="2" name="ThirdfOSF" options="none" value="3." width="16">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="5" name="LoadFile1OSF" options="none" value="FILE1" width="60">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="5" name="LoadFile2OSF" options="none" value="FILE2" width="60">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="15" horizontal_justification="left" length="5" name="LoadFile3OSF" options="none" value="FILE3" width="60">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="20" horizontal_justification="left" length="4" name="LoadCaptionOSF" options="none" value="Load" width="48">
+    <include_object name="CaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="16" horizontal_justification="left" length="5" name="ResetOSF0" options="none" value="RESET" width="60">
+    <include_object name="SoftKeyCaptionFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="middle" length="5" name="DepthOSF" options="none" value="Depth" width="70">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="4" name="NrmlOSF" options="none" value="Nrml" width="25">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="4" name="DrctOSF" options="none" value="Drct" width="25">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="2" name="cmOSF" options="none" value="cm" width="12">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="2" name="L_OSF" options="none" value="L:" width="12">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputstring background_colour="white" height="9" horizontal_justification="left" length="2" name="R_OSF" options="none" value="R:" width="12">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputstring>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="AxisRPMONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="FeederCodeONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="15" horizontal_justification="left" name="OutputNumberField" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="TotalMassONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="TotalAreaONF" number_of_decimals="2" offset="0" options="none" scale="0.010000" value="0" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="AverageRateONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="P1RateONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="P2RateONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="P3RateONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="40">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="HeightONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" width="35">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="HeightNV" role="variable_reference"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="WeightONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" width="35">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="WeightNV" role="variable_reference"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="FeederONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" width="35">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="FeederNV" role="variable_reference"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="FeederRateONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="35">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="middle" name="AreaONF" number_of_decimals="2" offset="0" options="none" scale="0.010000" value="0" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="right" name="HalfRaiseONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" width="24">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="HalfRaiseNV" role="variable_reference"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="15" horizontal_justification="right" name="WeightSetPointONF" number_of_decimals="0" offset="0" options="none" scale="1.000000" value="0" width="35">
+    <include_object name="NormalFA" role="font_attributes"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="left" name="RightDepthONF" number_of_decimals="1" offset="-200" options="none" scale="0.100000" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="RightDepthNV" role="variable_reference"/>
+  </outputnumber>
+  <outputnumber background_colour="white" format="fixed" height="9" horizontal_justification="left" name="LeftDepthONF" number_of_decimals="1" offset="-200" options="none" scale="0.100000" width="30">
+    <include_object name="NormalFA" role="font_attributes"/>
+    <include_object name="LeftDepthNV" role="variable_reference"/>
+  </outputnumber>
+  <line height="1" line_direction="toplefttobottomright" name="Line" width="190">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </line>
+  <line height="75" line_direction="toplefttobottomright" name="Line0" width="1">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </line>
+  <line height="100" line_direction="toplefttobottomright" name="Thin_vertical_line11" width="1">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </line>
+  <line height="1" line_direction="toplefttobottomright" name="Thin_horiz_line11" width="190">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </line>
+  <rectangle height="56" line_suppression="0" name="ButtonRectangle" width="56">
+    <include_object name="LineAttributes" role="line_attributes"/>
+    <include_object name="FillAttributes" role="fill_attributes"/>
+  </rectangle>
+  <rectangle height="15" line_suppression="0" name="Selection70Rect" width="70">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </rectangle>
+  <rectangle height="14" line_suppression="0" name="File2_rectangle" width="83">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </rectangle>
+  <rectangle height="14" line_suppression="0" name="File3_rectangle" width="83">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </rectangle>
+  <rectangle height="15" line_suppression="0" name="Selection30Rect" width="30">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </rectangle>
+  <rectangle height="15" line_suppression="0" name="Selection40Rect" width="40">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </rectangle>
+  <rectangle height="15" line_suppression="0" name="Selection24Rect" width="24">
+    <include_object name="LineAttributes" role="line_attributes"/>
+  </rectangle>
+  <meter arc_and_tick_colour="black" border_colour="black" end_angle="220" max_value="100" min_value="0" name="HeightMeter" needle_colour="black" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="320" width="60">
+    <include_object name="HeightNV" role="variable_reference"/>
+  </meter>
+  <meter arc_and_tick_colour="black" border_colour="black" end_angle="220" max_value="300" min_value="0" name="WeightMeter" needle_colour="black" number_of_ticks="7" options="arc+ticks+clockwise" start_angle="320" width="60">
+    <include_object name="WeightNV" role="variable_reference"/>
+  </meter>
+  <meter arc_and_tick_colour="black" border_colour="black" end_angle="220" max_value="100" min_value="0" name="FeederMeter" needle_colour="black" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="320" width="60">
+    <include_object name="FeederNV" role="variable_reference"/>
+  </meter>
+  <meter arc_and_tick_colour="black" border_colour="black" end_angle="220" max_value="2" min_value="0" name="LeftMarkerMeter" needle_colour="black" number_of_ticks="7" options="arc+ticks+clockwise" start_angle="90" value="0" width="60"/>
+  <meter arc_and_tick_colour="black" border_colour="black" end_angle="90" max_value="2" min_value="0" name="RightMarkerMeter" needle_colour="black" number_of_ticks="7" options="arc+ticks" start_angle="320" value="0" width="60"/>
+  <meter arc_and_tick_colour="black" border_colour="black" end_angle="220" max_value="100" min_value="0" name="DepthMeter" needle_colour="black" number_of_ticks="11" options="arc+ticks+clockwise" start_angle="320" value="0" width="60"/>
+  <linearbargraph colour="black" height="16" max_value="100" min_value="0" name="HalfRaiseLBG" number_of_ticks="0" options="border+horizontal+growpositive" target_line_colour="black" target_value="0" width="160">
+    <include_object name="HalfRaiseNV" role="variable_reference"/>
+  </linearbargraph>
+  <picturegraphic file="FreePic.png" format="1bit" name="FreePic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="CalibrationPic.png" format="1bit" name="CalibrationPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="AlarmPic.png" format="1bit" name="AlarmPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="ReportPic.png" format="1bit" name="ReportPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="PictureGraphic.png" format="1bit" name="PictureGraphic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="PictureGraphic0.png" format="1bit" name="PictureGraphic0" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="MainMenuPic.png" format="1bit" name="MainMenuPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="MarkersUpPic.png" format="1bit" name="MarkersUpPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="RightMarkerDownPic.png" format="1bit" name="RightMarkerDownPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="LeftMarkerDownPic.png" format="1bit" name="LeftMarkerDownPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="TracksOnPic.png" format="1bit" name="TracksOnPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="TracksOffPic.png" format="1bit" name="TracksOffPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="SEQPic.png" format="1bit" name="SEQPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="NewSEQPic.png" format="1bit" name="NewSEQPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="MoreWeightPic.png" format="1bit" name="MoreWeightPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="LessWeightPic.png" format="1bit" name="LessWeightPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="Point1Pic.png" format="1bit" name="Point1Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="Point2Pic.png" format="1bit" name="Point2Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="Point3Pic.png" format="1bit" name="Point3Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="BulbOffPic.png" format="1bit" name="BulbOffPic" options="none" transparency_colour="black" width="24"/>
+  <picturegraphic file="Alarm3Pic.png" format="1bit" name="Alarm3Pic" options="flashing" transparency_colour="black" width="24"/>
+  <picturegraphic file="ClockwisePic.png" format="1bit" name="ClockwisePic" options="none" transparency_colour="black" width="32"/>
+  <picturegraphic file="CounterCWPic.png" format="1bit" name="CounterCWPic" options="none" transparency_colour="black" width="32"/>
+  <picturegraphic file="LeftRightPic.png" format="1bit" name="LeftRightPic" options="none" transparency_colour="black" width="32"/>
+  <picturegraphic file="PictureGraphic1.png" format="1bit" name="PictureGraphic1" options="none" transparency_colour="black" width="32"/>
+  <picturegraphic file="PictureGraphic2.png" format="1bit" name="PictureGraphic2" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="PictureGraphic3.png" format="1bit" name="PictureGraphic3" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="WeigtMore2Pic.png" format="1bit" name="WeigtMore2Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="WeightLess2Pic.png" format="1bit" name="WeightLess2Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="RigthUp2Pic.png" format="1bit" name="RigthUp2Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="RightDown2Pic.png" format="1bit" name="RightDown2Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="LeftUp2Pic.png" format="1bit" name="LeftUp2Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="LeftDown2Pic.png" format="1bit" name="LeftDown2Pic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="TramLineOffPic.png" format="1bit" name="TramLineOffPic" options="none" transparency_colour="black" width="125"/>
+  <picturegraphic file="TramLineOnPic.png" format="1bit" name="TramLineOnPic" options="flashing" transparency_colour="black" width="125"/>
+  <picturegraphic file="PictureGraphic4.png" format="1bit" name="PictureGraphic4" options="none" transparency_colour="black" width="100"/>
+  <picturegraphic file="GPSPic.png" format="1bit" name="GPSPic" options="none" transparency_colour="black" width="20"/>
+  <picturegraphic file="TCPic.png" format="1bit" name="TCPic" options="none" transparency_colour="black" width="20"/>
+  <picturegraphic file="PrecisionPic.png" format="1bit" name="PrecisionPic" options="none" transparency_colour="black" width="20"/>
+  <picturegraphic file="HalfRaiseUpPic.png" format="1bit" name="HalfRaiseUpPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="HalfRaiseDownPic.png" format="1bit" name="HalfRaiseDownPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="AlarmFlagPic.png" format="1bit" name="AlarmFlagPic" options="flashing" transparency_colour="black" width="20"/>
+  <picturegraphic file="BackPic.png" format="1bit" name="BackPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="ClockwiseSmallPic.png" format="1bit" name="ClockwiseSmallPic" options="none" transparency_colour="black" width="15"/>
+  <picturegraphic file="CounterClockwiseSmallPic.png" format="1bit" name="CounterClockwiseSmallPic" options="none" transparency_colour="black" width="15"/>
+  <picturegraphic file="PictureGraphic5.png" format="1bit" name="PictureGraphic5" options="none" transparency_colour="black" width="15"/>
+  <picturegraphic file="RightLeftSmallPic.png" format="1bit" name="RightLeftSmallPic" options="none" transparency_colour="black" width="15"/>
+  <picturegraphic file="SuperSeedPic.png" format="1bit" name="SuperSeedPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="FeedAdjustPic.png" format="1bit" name="FeedAdjustPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="WeightAdjustPic.png" format="1bit" name="WeightAdjustPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="HalfRaiseAdjustPic.png" format="1bit" name="HalfRaiseAdjustPic" options="none" transparency_colour="black" width="60"/>
+  <picturegraphic file="NoAlarmPic.png" format="1bit" name="NoAlarmPic" options="none" transparency_colour="black" width="32"/>
+  <picturegraphic file="PictureGraphic6.png" format="1bit" name="PictureGraphic6" options="none" transparency_colour="black" width="60"/>
+  <numbervariable name="HeightNV" value="25"/>
+  <numbervariable name="WeightNV" value="50"/>
+  <numbervariable name="FeederNV" value="75"/>
+  <numbervariable name="HalfRaiseNV" value="50"/>
+  <numbervariable name="RightDepthNV" value="0"/>
+  <numbervariable name="LeftDepthNV" value="0"/>
+  <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" name="NormalFA"/>
+  <fontattributes font_colour="black" font_size="12x16" font_style="normal" font_type="latin1" name="CaptionFA"/>
+  <fontattributes font_colour="white" font_size="6x8" font_style="normal" font_type="latin1" name="InvertedFA"/>
+  <fontattributes font_colour="black" font_size="12x16" font_style="normal" font_type="latin1" name="SoftKeyCaptionFA"/>
+  <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" name="FontAttributes"/>
+  <lineattributes line_art="1111111111111111" line_colour="black" line_width="1" name="LineAttributes"/>
+  <lineattributes line_art="0000000000000000" line_colour="black" line_width="0" name="LineAttributes0"/>
+  <fillattributes fill_colour="black" fill_type="fillcolour" name="FillAttributes"/>
+  <inputattributes length="37" name="CalibPointSaveInoutAttr" validation_string="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_" validation_type="validcharacters"/>
+  <auxiliaryfunction background_colour="white" function_type="boolean" name="SeqAuxFun">
+    <include_object name="SEQPic" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="white" function_type="boolean" name="NewSeqAuxFun">
+    <include_object name="NewSEQPic" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="white" function_type="analog" name="AdjAuxFun">
+    <include_object name="FeedAdjustPic" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="white" function_type="analog" name="WeightingFun">
+    <include_object name="WeightAdjustPic" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+  <auxiliaryfunction background_colour="white" function_type="analog" name="HalfRaiseAuxFun">
+    <include_object name="HalfRaiseAdjustPic" pos_x="0" pos_y="0"/>
+  </auxiliaryfunction>
+</objectpool>

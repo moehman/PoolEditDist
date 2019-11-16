@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?><objectpool dimension="200" fix_bitmap_path="images\" sk_height="32" sk_width="60" std_bitmap_path="images\">
+    <workingset background_colour="white" id="1" name="workingset" selectable="yes" use="designator">
+      <include_object id="1000" name="mainScreen" role="active_mask"/>
+   <outputstring background_colour="black" height="24" horizontal_justification="middle" id="256" language="" length="9" name="label11" options="transparent+autowrap" pos_x="13" pos_y="3" use="designator" value="VAMA LANA" width="34">
+   <include_object id="445" name="black8x12SK" role="font_attributes"/>
+</outputstring>
+   </workingset>
+    <datamask background_colour="white" id="1000" name="mainScreen" use="mask">
+      <include_object id="257" name="softkeymask" role="soft_key_mask"/>
+   
+   <include_object id="557" name="fieldModeButton" pos_x="12" pos_y="79"/>
+      <include_object id="559" name="transferModeButton" pos_x="113" pos_y="79"/>
+   </datamask>
+    <softkeymask background_colour="white" id="257" name="softkeymask" use="designator">
+      <include_object id="466" name="fieldModeKey"/>
+      <include_object id="468" name="configModeKey"/>
+   </softkeymask>
+    <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="258" language="" name="black6x8" use="mask"/>
+    
+<datamask background_colour="white" id="2000" name="driveScreen" use="mask">
+   <include_object id="1234" name="drive_softkeymask1" role="soft_key_mask"/>
+   
+<rectangle height="60" id="259" line_suppression="" name="background0" pos_x="135" pos_y="5" use="mask" width="60">
+   <include_object id="422" name="yellowFill" role="fill_attributes"/>
+   <include_object id="423" name="yellowLineSK" role="line_attributes"/>
+</rectangle>
+      <rectangle height="60" id="260" line_suppression="" name="background2" pos_x="5" pos_y="5" use="mask" width="60">
+   <include_object id="422" name="yellowFill" role="fill_attributes"/>
+   <include_object id="423" name="yellowLineSK" role="line_attributes"/>
+</rectangle>
+      <container height="70" hidden="no" id="261" name="meter_wiz0" pos_x="63" pos_y="2" use="mask" width="70">
+         <ellipse ellipse_type="closedsegment" end_angle="90" height="60" id="262" name="background3" pos_x="7" pos_y="8" start_angle="0" use="mask" width="60">
+   <include_object id="424" name="blueFill" role="fill_attributes"/>
+   
+
+         <include_object id="430" name="blackLine" role="line_attributes"/>
+         </ellipse>
+         <ellipse ellipse_type="closedsegment" end_angle="180" height="60" id="263" name="background" pos_x="7" pos_y="8" start_angle="90" use="mask" width="60">
+            
+            <include_object id="470" name="redFill" role="fill_attributes"/>
+         <include_object id="430" name="blackLine" role="line_attributes"/>
+         </ellipse>
+         <include_object id="425" name="tractorBackContainer2" pos_x="22" pos_y="22"/>
+         <meter arc_and_tick_colour="black" border_colour="black" end_angle="30" id="264" max_value="30" min_value="0" name="metercomp0" needle_colour="black" number_of_ticks="7" options="clockwise" pos_x="17" pos_y="18" start_angle="150" use="mask" value="5" width="40">
+            <include_object id="678" name="angleTilt" role="variable_reference"/>
+         </meter>
+         <meter arc_and_tick_colour="black" border_colour="black" end_angle="75" id="265" max_value="30" min_value="0" name="metercomp" needle_colour="red" number_of_ticks="7" options="ticks+arc+clockwise" pos_x="7" pos_y="8" start_angle="15" use="mask" value="0" width="60">
+            <include_object id="678" name="angleTilt" role="variable_reference"/>
+         </meter>
+         <outputstring background_colour="white" height="8" horizontal_justification="middle" id="266" language="" length="3" name="label0" options="transparent" pos_x="0" pos_y="7" use="mask" value="-10" width="18">
+            <include_object id="258" name="black6x8" role="font_attributes"/>
+         </outputstring>
+         <outputstring background_colour="white" height="8" horizontal_justification="middle" id="267" language="" length="1" name="label1" options="transparent" pos_x="31" pos_y="0" use="mask" value="0" width="12">
+            <include_object id="258" name="black6x8" role="font_attributes"/>
+         </outputstring>
+         <outputstring background_colour="white" height="8" horizontal_justification="middle" id="268" language="" length="2" name="label2" options="transparent" pos_x="55" pos_y="7" use="mask" value="10" width="12">
+            <include_object id="258" name="black6x8" role="font_attributes"/>
+         </outputstring>
+         <outputnumber background_colour="228" format="fixed" height="8" horizontal_justification="middle" id="269" max_value="30" min_value="0" name="number" number_of_decimals="0" offset="-15" options="" pos_x="27" pos_y="53" scale="1.0" use="mask" value="0" width="18">
+            <include_object id="258" name="black6x8" role="font_attributes"/>
+         <include_object id="678" name="angleTilt" role="variable_reference"/>
+         </outputnumber>
+         
+         <meter arc_and_tick_colour="black" border_colour="black" end_angle="120" id="270" max_value="30" min_value="0" name="metercomp1" needle_colour="black" number_of_ticks="7" options="clockwise" pos_x="17" pos_y="18" start_angle="60" use="mask" value="5" width="40">
+            <include_object id="678" name="angleTilt" role="variable_reference"/>
+         </meter>
+      <include_object id="677" name="tiltAngleBarGraph" pos_x="7" pos_y="8"/>
+      </container>
+   <polygon height="42" id="271" name="polygon3" polygon_type="convex" pos_x="12" pos_y="14" use="mask" width="44">
+   <point pos_x="18" pos_y="21"/>
+   <point pos_x="14" pos_y="2"/>
+   <point pos_x="22" pos_y="8"/>
+   <point pos_x="28" pos_y="21"/>
+   
+   
+<include_object id="430" name="blackLine" role="line_attributes"/>
+         <point pos_x="26" pos_y="30"/>
+         <point pos_x="16" pos_y="37"/>
+         <include_object id="304" name="silverFill" role="fill_attributes"/>
+      </polygon>
+      <polygon height="14" id="272" name="polygon4" polygon_type="convex" pos_x="22" pos_y="40" use="mask" width="10">
+   <point pos_x="2" pos_y="11"/>
+   <point pos_x="4" pos_y="2"/>
+   <point pos_x="8" pos_y="3"/>
+   <point pos_x="6" pos_y="12"/>
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+   
+   
+   
+<include_object id="314" name="blackFill" role="fill_attributes"/>
+      </polygon>
+      <polygon height="41" id="273" name="polygon5" polygon_type="convex" pos_x="149" pos_y="15" use="mask" width="31">
+   <point pos_x="18" pos_y="17"/>
+   <point pos_x="7" pos_y="4"/>
+   <point pos_x="17" pos_y="7"/>
+   <point pos_x="24" pos_y="14"/>
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+   <point pos_x="26" pos_y="24"/>
+   <point pos_x="23" pos_y="32"/>
+   <point pos_x="8" pos_y="38"/>
+         <include_object id="304" name="silverFill" role="fill_attributes"/>
+<point pos_x="18" pos_y="28"/>
+      </polygon>
+      <polygon height="9" id="274" name="polygon6" polygon_type="convex" pos_x="154" pos_y="46" use="mask" width="9">
+   <point pos_x="0" pos_y="5"/>
+   <point pos_x="6" pos_y="0"/>
+   <point pos_x="8" pos_y="3"/>
+   <point pos_x="2" pos_y="8"/>
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+      <include_object id="680" name="frontBladeBarGraph" pos_x="5" pos_y="69"/>
+      <include_object id="681" name="rearBladeBarGraph" pos_x="135" pos_y="69"/>
+      <include_object id="431" name="pressureMeterContainer" pos_x="1" pos_y="80"/>
+      
+      
+      
+   <container height="14" hidden="no" id="275" name="pressureFrontContainer" pos_x="4" pos_y="163" use="mask" width="57">
+         
+         <rectangle height="14" id="276" line_suppression="" name="background8" pos_x="0" pos_y="0" use="mask" width="44">
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+</rectangle>
+         <outputstring background_colour="black" height="12" horizontal_justification="left" id="277" language="" length="3" name="label7" options="transparent" pos_x="19" pos_y="1" use="mask" value="bar" width="24">
+   
+<include_object id="446" name="black8x12" role="font_attributes"/>
+         </outputstring>
+         <include_object id="595" name="frontPressureSp" pos_x="2" pos_y="1"/>
+         <rectangle height="14" id="278" line_suppression="" name="background9" pos_x="43" pos_y="0" use="mask" width="14">
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+</rectangle>
+      <include_object id="670" name="frontPressureBoolean" pos_x="45" pos_y="3"/>
+      </container>
+      <container height="14" hidden="no" id="279" name="pressureRearContainer" pos_x="139" pos_y="163" use="mask" width="57">
+   
+   <rectangle height="14" id="280" line_suppression="" name="background8" pos_x="0" pos_y="0" use="mask" width="44">
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </rectangle>
+   <outputstring background_colour="black" height="12" horizontal_justification="left" id="281" language="" length="3" name="label7" options="transparent" pos_x="19" pos_y="1" use="mask" value="bar" width="24">
+      <include_object id="446" name="black8x12" role="font_attributes"/>
+   </outputstring>
+   <include_object id="579" name="rearPressureSp" pos_x="2" pos_y="1"/>
+   <rectangle height="14" id="282" line_suppression="" name="background9" pos_x="43" pos_y="0" use="mask" width="14">
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </rectangle>
+<include_object id="580" name="rearPressureBoolean" pos_x="45" pos_y="4"/>
+      </container>
+      <container height="14" hidden="no" id="283" name="tiltContainer" pos_x="4" pos_y="182" use="mask" width="57">
+   <include_object id="667" name="tiltAutomatBoolean" pos_x="45" pos_y="4"/>
+   <rectangle height="14" id="284" line_suppression="" name="background8" pos_x="0" pos_y="0" use="mask" width="44">
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </rectangle>
+   <outputstring background_colour="black" height="12" horizontal_justification="left" id="285" language="" length="4" name="label7" options="transparent" pos_x="7" pos_y="1" use="mask" value="TILT" width="32">
+      <include_object id="446" name="black8x12" role="font_attributes"/>
+   </outputstring>
+   
+   <rectangle height="14" id="286" line_suppression="" name="background9" pos_x="43" pos_y="0" use="mask" width="14">
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </rectangle>
+</container>
+      <container height="14" hidden="no" id="287" name="orientContainer" pos_x="68" pos_y="182" use="mask" width="65">
+   <include_object id="668" name="orientAutomatBoolean" pos_x="53" pos_y="4"/>
+   <rectangle height="14" id="288" line_suppression="" name="background8" pos_x="0" pos_y="0" use="mask" width="52">
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </rectangle>
+   <outputstring background_colour="black" height="12" horizontal_justification="left" id="289" language="" length="6" name="label7" options="transparent" pos_x="2" pos_y="1" use="mask" value="ORIENT" width="48">
+      <include_object id="446" name="black8x12" role="font_attributes"/>
+   </outputstring>
+   <rectangle height="14" id="290" line_suppression="" name="background9" pos_x="51" pos_y="0" use="mask" width="14">
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </rectangle>
+</container>
+      <include_object id="471" name="trackContainer" pos_x="139" pos_y="182"/>
+      <include_object id="447" name="levelerTurningAutomatContainer" pos_x="88" pos_y="96"/>
+      <include_object id="457" name="levelerOrientAutomatContainer" pos_x="69" pos_y="149"/>
+   <include_object id="543" name="pressureMeterContainer2" pos_x="120" pos_y="80"/>
+   
+   <outputnumber background_colour="white" format="fixed" height="8" horizontal_justification="middle" id="291" max_value="30" min_value="0" name="number0" number_of_decimals="0" offset="-15" options="" pos_x="91" pos_y="77" scale="1.0" use="mask" value="0" width="18">
+   
+   <include_object id="679" name="angleTiltSp" role="variable_reference"/>
+<include_object id="258" name="black6x8" role="font_attributes"/>
+      </outputnumber>
+   </datamask>
+   <datamask background_colour="white" id="3000" name="configScreen" use="mask">
+   <softkeymask background_colour="white" id="292" name="softkeymask" role="soft_key_mask" use="designator">
+         <include_object id="306" name="menuKey"/>
+      <include_object id="565" name="valveConfigKey"/>
+      <key background_colour="silver" id="293" key_code="1" name="pidConfigKey" use="designator">
+   <outputstring background_colour="black" height="26" horizontal_justification="middle" id="294" language="" length="10" name="label3" options="transparent+autowrap" pos_x="6" pos_y="3" use="designator" value="PID CONFIG" width="49">
+      <include_object id="445" name="black8x12SK" role="font_attributes"/>
+   </outputstring>
+   <macro id="0" name="macro0" number_of_bytes="1" role="on_key_press" use="designator">
+      <command_change_active_mask child_id="6000" parent_id="1"/>
+   </macro>
+</key>
+      </softkeymask>
+   
+<outputstring background_colour="black" height="16" horizontal_justification="middle" id="295" language="" length="6" name="label9" options="transparent" pos_x="63" pos_y="4" use="mask" value="Config" width="72">
+   <include_object id="528" name="black12x16" role="font_attributes"/>
+</outputstring>
+   <include_object id="671" name="wheelGain" pos_x="98" pos_y="38"/>
+      <include_object id="673" name="wheelOffset" pos_x="98" pos_y="52"/>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="296" language="" length="10" name="label15" options="transparent" pos_x="7" pos_y="38" use="mask" value="Wheel gain" width="60">
+   <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="297" language="" name="black6x8" role="font_attributes" use="mask"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="298" language="" length="12" name="label16" options="transparent" pos_x="7" pos_y="52" use="mask" value="Wheel offset" width="72">
+   <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="299" language="" name="black6x8" role="font_attributes" use="mask"/>
+</outputstring>
+   </datamask>
+   <container height="27" hidden="no" id="300" name="tractorBackContainer" use="designator" width="30">
+      <rectangle height="16" id="301" line_suppression="" name="leftWheel" pos_x="0" pos_y="11" use="designator" width="8">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+   <rectangle height="19" id="302" line_suppression="" name="frame" pos_x="7" pos_y="0" use="designator" width="16">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <rectangle height="16" id="303" line_suppression="" name="rightWheel" pos_x="22" pos_y="11" use="designator" width="8">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+   </container>
+<fillattributes fill_colour="silver" fill_type="fillcolour" id="304" name="silverFill" use="designator"/>
+   <lineattributes id="305" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" use="designator"/>
+<key background_colour="silver" id="306" key_code="1" name="menuKey" use="designator">
+   
+   
+   
+<polygon height="14" id="307" name="arrowLeftPolygon0" polygon_type="convex" pos_x="2" pos_y="15" use="designator" width="12">
+   <point pos_x="10" pos_y="13"/>
+   
+   
+   
+   
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   
+   <point pos_x="10" pos_y="0"/>
+<point pos_x="0" pos_y="7"/>
+      </polygon>
+      <outputstring background_colour="black" height="12" horizontal_justification="left" id="308" language="" length="4" name="label3" options="transparent" pos_x="15" pos_y="2" use="designator" value="MENU" width="32">
+   
+<include_object id="445" name="black8x12SK" role="font_attributes"/>
+      </outputstring>
+      <rectangle height="12" id="309" line_suppression="" name="background4" pos_x="15" pos_y="16" use="designator" width="12">
+   
+   
+<include_object id="305" name="blackLineSK" role="line_attributes"/>
+      </rectangle>
+      <rectangle height="12" id="310" line_suppression="" name="background5" pos_x="29" pos_y="16" use="designator" width="12">
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <rectangle height="12" id="311" line_suppression="" name="background6" pos_x="43" pos_y="16" use="designator" width="12">
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+   <macro id="2" name="macro0" number_of_bytes="1" role="on_key_press" use="designator">
+   
+<command_change_active_mask child_id="1000" parent_id="1"/>
+      </macro>
+   </key>
+   <key background_colour="228" id="312" key_code="1" name="levelerSystemLoweringKey" use="designator">
+   
+<include_object id="300" name="tractorBackContainer" pos_x="15" pos_y="2"/>
+      <rectangle height="5" id="313" line_suppression="" name="rectangle" pos_x="10" pos_y="25" use="designator" width="40">
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <include_object id="315" name="arrowDownPolygon" pos_x="23" pos_y="9"/>
+   </key>
+   <fillattributes fill_colour="black" fill_type="fillcolour" id="314" name="blackFill" use="designator"/>
+   <polygon height="15" id="315" name="arrowDownPolygon" polygon_type="convex" use="designator" width="14">
+   
+   
+   <point pos_x="11" pos_y="8"/>
+   <point pos_x="8" pos_y="8"/>
+   <point pos_x="8" pos_y="0"/>
+<point pos_x="6" pos_y="0"/>
+      <point pos_x="6" pos_y="8"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <point pos_x="3" pos_y="8"/>
+      <point pos_x="7" pos_y="14"/>
+   </polygon>
+   <key background_colour="228" id="316" key_code="1" name="levelerSystemLiftingKey" use="designator">
+      <include_object id="300" name="tractorBackContainer" pos_x="15" pos_y="2"/>
+   
+   <rectangle height="5" id="317" line_suppression="" name="rectangle" pos_x="10" pos_y="12" use="designator" width="40">
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   </rectangle>
+   
+<include_object id="318" name="arrowUpPolygon" pos_x="23" pos_y="18"/>
+   </key>
+   <polygon height="15" id="318" name="arrowUpPolygon" polygon_type="convex" use="designator" width="14">
+   <point pos_x="3" pos_y="6"/>
+   <point pos_x="6" pos_y="6"/>
+   <point pos_x="6" pos_y="14"/>
+   <point pos_x="8" pos_y="14"/>
+   <point pos_x="8" pos_y="6"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <point pos_x="11" pos_y="6"/>
+   <point pos_x="7" pos_y="0"/>
+</polygon>
+   <container height="16" hidden="no" id="319" name="tractorUpContainerSK" use="designator" width="14">
+   <rectangle height="8" id="320" line_suppression="" name="leftWheel" pos_x="0" pos_y="8" use="designator" width="4">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   </rectangle>
+   <rectangle height="8" id="321" line_suppression="" name="frame" pos_x="3" pos_y="7" use="designator" width="8">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   </rectangle>
+   <rectangle height="8" id="322" line_suppression="" name="rightWheel" pos_x="10" pos_y="8" use="designator" width="4">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   </rectangle>
+<rectangle height="5" id="323" line_suppression="" name="rightWheel0" pos_x="10" pos_y="0" use="designator" width="3">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <rectangle height="5" id="324" line_suppression="" name="rightWheel1" pos_x="1" pos_y="0" use="designator" width="3">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <rectangle height="8" id="325" line_suppression="" name="rightWheel2" pos_x="5" pos_y="0" use="designator" width="4">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+   </container>
+   <key background_colour="228" id="326" key_code="1" name="levelerBodyLeftKey" use="designator">
+   
+   
+   
+<include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+      <polygon height="8" id="327" name="polygon1" polygon_type="convex" pos_x="24" pos_y="20" use="designator" width="8">
+   <point pos_x="5" pos_y="7"/>
+   <point pos_x="7" pos_y="1"/>
+   <point pos_x="4" pos_y="0"/>
+   <point pos_x="2" pos_y="6"/>
+   
+   
+<include_object id="305" name="blackLineSK" role="line_attributes"/>
+         <include_object id="314" name="blackFill" role="fill_attributes"/>
+      </polygon>
+      <rectangle height="4" id="328" line_suppression="" name="leftWheel0" pos_x="18" pos_y="18" use="designator" width="22">
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   
+<include_object id="305" name="blackLineSK" role="line_attributes"/>
+      </rectangle>
+      <polygon height="10" id="329" name="polygon0" polygon_type="convex" pos_x="16" pos_y="22" use="designator" width="22">
+   
+   
+   <point pos_x="1" pos_y="4"/>
+   <point pos_x="20" pos_y="10"/>
+   <point pos_x="21" pos_y="7"/>
+<point pos_x="2" pos_y="1"/>
+         <include_object id="330" name="whiteFill" role="fill_attributes"/>
+         <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      </polygon>
+      <include_object id="331" name="arrowLeftPolygon" pos_x="2" pos_y="16"/>
+   </key>
+   <fillattributes fill_colour="white" fill_type="fillcolour" id="330" name="whiteFill" use="designator"/>
+   <polygon height="14" id="331" name="arrowLeftPolygon" polygon_type="convex" use="designator" width="15">
+   <point pos_x="6" pos_y="11"/>
+   <point pos_x="6" pos_y="8"/>
+   <point pos_x="14" pos_y="8"/>
+   <point pos_x="14" pos_y="6"/>
+   <point pos_x="6" pos_y="6"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <point pos_x="6" pos_y="3"/>
+   <point pos_x="0" pos_y="7"/>
+</polygon>
+   <key background_colour="228" id="332" key_code="1" name="levelerBodyRightKey" use="designator">
+      <include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+   
+   <polygon height="8" id="333" name="polygon1" polygon_type="convex" pos_x="26" pos_y="20" use="designator" width="8">
+      <point pos_x="3" pos_y="7"/>
+      <point pos_x="1" pos_y="1"/>
+      <point pos_x="4" pos_y="0"/>
+      <point pos_x="6" pos_y="6"/>
+      <lineattributes id="334" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes" use="designator"/>
+      <fillattributes fill_colour="black" fill_type="fillcolour" id="335" name="blackFill" role="fill_attributes" use="designator"/>
+   </polygon>
+   <rectangle height="4" id="336" line_suppression="" name="leftWheel0" pos_x="18" pos_y="18" use="designator" width="22">
+      <fillattributes fill_colour="white" fill_type="fillcolour" id="337" name="whiteFill" role="fill_attributes" use="designator"/>
+      <lineattributes id="338" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes" use="designator"/>
+   </rectangle>
+   <polygon height="10" id="339" name="polygon0" polygon_type="convex" pos_x="19" pos_y="22" use="designator" width="22">
+      <point pos_x="21" pos_y="4"/>
+      <point pos_x="2" pos_y="10"/>
+      <point pos_x="1" pos_y="7"/>
+      <point pos_x="20" pos_y="1"/>
+      <fillattributes fill_colour="white" fill_type="fillcolour" id="340" name="whiteFill" role="fill_attributes" use="designator"/>
+      <lineattributes id="341" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes" use="designator"/>
+   </polygon>
+   
+<include_object id="342" name="arrowRightPolygon" pos_x="42" pos_y="16"/>
+   </key>
+   <polygon height="14" id="342" name="arrowRightPolygon" polygon_type="convex" use="designator" width="15">
+   <point pos_x="8" pos_y="11"/>
+   <point pos_x="8" pos_y="8"/>
+   <point pos_x="0" pos_y="8"/>
+   <point pos_x="0" pos_y="6"/>
+   <point pos_x="8" pos_y="6"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <point pos_x="8" pos_y="3"/>
+   <point pos_x="14" pos_y="7"/>
+</polygon>
+   <container height="22" hidden="no" id="343" name="levelerLeftContainer1" use="designator" width="39">
+   
+   
+   
+<polygon height="14" id="344" name="arrowDownPolygon0" polygon_type="convex" pos_x="29" pos_y="9" use="designator" width="10">
+   <point pos_x="8" pos_y="7"/>
+   <point pos_x="5" pos_y="1"/>
+   <point pos_x="2" pos_y="1"/>
+   <point pos_x="4" pos_y="4"/>
+   <point pos_x="4" pos_y="9"/>
+   
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <point pos_x="1" pos_y="12"/>
+   <point pos_x="6" pos_y="11"/>
+<include_object id="330" name="whiteFill" role="fill_attributes"/>
+      </polygon>
+      <ellipse ellipse_type="closedsection" end_angle="35" height="14" id="345" name="ellipse0" pos_x="0" pos_y="9" start_angle="147" use="designator" width="14">
+   
+   
+<include_object id="305" name="blackLineSK" role="line_attributes"/>
+         <include_object id="330" name="whiteFill" role="fill_attributes"/>
+      </ellipse>
+   </container>
+   <key background_colour="228" id="346" key_code="1" name="frontBladeMoreKey" use="designator">
+      <include_object id="349" name="levelerLeftContainer3" pos_x="11" pos_y="1"/>
+   
+   
+   
+   
+   
+<include_object id="343" name="levelerLeftContainer1" pos_x="11" pos_y="1"/>
+      <include_object id="355" name="levelerLeftContainer2b" pos_x="12" pos_y="1"/>
+      <include_object id="357" name="arrowCWContainer" pos_x="11" pos_y="19"/>
+   </key>
+   <container height="22" hidden="no" id="347" name="levelerLeftContainer2" use="designator" width="39">
+   
+   
+   
+   
+   <polygon height="10" id="348" name="arrowDownPolygon1" polygon_type="convex" pos_x="0" pos_y="0" use="designator" width="14">
+      <point pos_x="10" pos_y="0"/>
+      <point pos_x="4" pos_y="0"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <point pos_x="1" pos_y="9"/>
+      <point pos_x="13" pos_y="9"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </polygon>
+</container>
+   <container height="22" hidden="no" id="349" name="levelerLeftContainer3" use="designator" width="39">
+   <polygon height="10" id="350" name="arrowDownPolygon1" polygon_type="convex" pos_x="8" pos_y="2" use="designator" width="27">
+      <point pos_x="23" pos_y="3"/>
+      <point pos_x="2" pos_y="0"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <point pos_x="2" pos_y="6"/>
+      <point pos_x="23" pos_y="6"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </polygon>
+<rectangle height="7" id="351" line_suppression="" name="background1" pos_x="26" pos_y="3" use="designator" width="12">
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+   </container>
+   <container height="22" hidden="no" id="352" name="levelerLeftContainer3b" use="designator" width="39">
+   <polygon height="10" id="353" name="arrowDownPolygon1" polygon_type="convex" pos_x="8" pos_y="2" use="designator" width="27">
+      <point pos_x="23" pos_y="3"/>
+      <point pos_x="2" pos_y="0"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <point pos_x="2" pos_y="6"/>
+      <point pos_x="23" pos_y="6"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </polygon>
+   <rectangle height="7" id="354" line_suppression="" name="background1" pos_x="26" pos_y="3" use="designator" width="12">
+      
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+      </rectangle>
+</container>
+   <container height="22" hidden="no" id="355" name="levelerLeftContainer2b" use="designator" width="39">
+   <polygon height="10" id="356" name="arrowDownPolygon1" polygon_type="convex" pos_x="0" pos_y="0" use="designator" width="14">
+      <point pos_x="10" pos_y="0"/>
+      <point pos_x="4" pos_y="0"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <point pos_x="1" pos_y="9"/>
+      <point pos_x="13" pos_y="9"/>
+      
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+      </polygon>
+</container>
+   <container height="10" hidden="no" id="357" name="arrowCWContainer" use="designator" width="18">
+   
+   <ellipse ellipse_type="open" end_angle="180" height="10" id="358" name="ellipse0" pos_x="3" pos_y="0" start_angle="90" use="designator" width="14">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+      
+   </ellipse>
+<polygon height="6" id="359" name="arrowDownPolygon2" polygon_type="convex" pos_x="0" pos_y="1" use="designator" width="9">
+   <point pos_x="7" pos_y="4"/>
+   <point pos_x="4" pos_y="1"/>
+   
+   <point pos_x="1" pos_y="4"/>
+   
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+         <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+   </container>
+   <lineattributes id="360" line_art="1111111111111111" line_colour="black" line_width="2" name="blackLine2SK" use="designator"/>
+   <container height="16" hidden="no" id="361" name="arrowCWContainer2" use="designator" width="12">
+   <ellipse ellipse_type="open" end_angle="30" height="12" id="362" name="ellipse0" pos_x="0" pos_y="0" start_angle="150" use="designator" width="12">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="9" id="363" name="arrowDownPolygon2" polygon_type="convex" pos_x="4" pos_y="7" use="designator" width="8">
+      <point pos_x="2" pos_y="1"/>
+      <point pos_x="2" pos_y="6"/>
+      <point pos_x="7" pos_y="6"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+</container>
+   <container height="15" hidden="no" id="364" name="arrowCWContainer3" use="designator" width="12">
+   <ellipse ellipse_type="open" end_angle="120" height="12" id="365" name="ellipse0" pos_x="0" pos_y="3" start_angle="60" use="designator" width="12">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="9" id="366" name="arrowDownPolygon2" polygon_type="convex" pos_x="0" pos_y="0" use="designator" width="8">
+      <point pos_x="6" pos_y="7"/>
+      <point pos_x="6" pos_y="2"/>
+      <point pos_x="1" pos_y="2"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+</container>
+   <container height="10" hidden="no" id="367" name="arrowCCWContainer" use="designator" width="18">
+   <ellipse ellipse_type="open" end_angle="180" height="10" id="368" name="ellipse0" pos_x="1" pos_y="0" start_angle="90" use="designator" width="14">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="6" id="369" name="arrowDownPolygon2" polygon_type="convex" pos_x="10" pos_y="1" use="designator" width="9">
+      <point pos_x="1" pos_y="4"/>
+      <point pos_x="4" pos_y="1"/>
+      <point pos_x="7" pos_y="4"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+</container>
+   <key background_colour="228" id="370" key_code="1" name="frontBladeLessKey" use="designator">
+   
+   
+   
+   
+<include_object id="349" name="levelerLeftContainer3" pos_x="11" pos_y="1"/>
+      <include_object id="343" name="levelerLeftContainer1" pos_x="11" pos_y="1"/>
+      <include_object id="355" name="levelerLeftContainer2b" pos_x="12" pos_y="1"/>
+      <include_object id="367" name="arrowCCWContainer" pos_x="13" pos_y="19"/>
+   </key>
+   <key background_colour="228" id="371" key_code="1" name="frontBladeLeftKey" use="designator">
+      <rectangle height="7" id="372" line_suppression="" name="leftWheel1" pos_x="27" pos_y="21" use="designator" width="4">
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+</rectangle>
+   
+   
+   <rectangle height="4" id="373" line_suppression="" name="leftWheel0" pos_x="18" pos_y="26" use="designator" width="22">
+      
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+      </rectangle>
+   <polygon height="8" id="374" name="polygon0" polygon_type="convex" pos_x="18" pos_y="16" use="designator" width="23">
+      <point pos_x="21" pos_y="5"/>
+      <point pos_x="1" pos_y="7"/>
+      <point pos_x="1" pos_y="4"/>
+      <point pos_x="21" pos_y="2"/>
+      
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+      </polygon>
+   
+<include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+      <include_object id="375" name="arrowCCWContainer2" pos_x="35" pos_y="11"/>
+      <include_object id="378" name="arrowCCWContainer3" pos_x="11" pos_y="12"/>
+   </key>
+   <container height="15" hidden="no" id="375" name="arrowCCWContainer2" use="designator" width="12">
+   <ellipse ellipse_type="open" end_angle="30" height="12" id="376" name="ellipse0" pos_x="0" pos_y="3" start_angle="150" use="designator" width="12">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="9" id="377" name="arrowDownPolygon2" polygon_type="convex" pos_x="4" pos_y="0" use="designator" width="8">
+      <point pos_x="2" pos_y="7"/>
+      <point pos_x="2" pos_y="2"/>
+      <point pos_x="7" pos_y="2"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+</container>
+   <container height="16" hidden="no" id="378" name="arrowCCWContainer3" use="designator" width="12">
+   <ellipse ellipse_type="open" end_angle="120" height="12" id="379" name="ellipse0" pos_x="0" pos_y="0" start_angle="60" use="designator" width="12">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="9" id="380" name="arrowDownPolygon2" polygon_type="convex" pos_x="0" pos_y="7" use="designator" width="8">
+      <point pos_x="6" pos_y="1"/>
+      <point pos_x="6" pos_y="6"/>
+      <point pos_x="1" pos_y="6"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+</container>
+   <key background_colour="228" id="381" key_code="1" name="frontBladeRightKey" use="designator">
+   <rectangle height="7" id="382" line_suppression="" name="leftWheel1" pos_x="27" pos_y="21" use="designator" width="4">
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </rectangle>
+   <rectangle height="4" id="383" line_suppression="" name="leftWheel0" pos_x="18" pos_y="26" use="designator" width="22">
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </rectangle>
+   <polygon height="8" id="384" name="polygon0" polygon_type="convex" pos_x="18" pos_y="16" use="designator" width="23">
+      <point pos_x="21" pos_y="7"/>
+      <point pos_x="1" pos_y="5"/>
+      <point pos_x="1" pos_y="2"/>
+      <point pos_x="21" pos_y="4"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+   
+   
+   
+<include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+      <include_object id="361" name="arrowCWContainer2" pos_x="36" pos_y="12"/>
+      <include_object id="364" name="arrowCWContainer3" pos_x="10" pos_y="11"/>
+   </key>
+<key background_colour="228" id="385" key_code="1" name="rearBladeMoreKey" use="designator">
+      <include_object id="352" name="levelerLeftContainer3b" pos_x="11" pos_y="1"/>
+   
+   
+   
+   
+<include_object id="343" name="levelerLeftContainer1" pos_x="11" pos_y="1"/>
+      <include_object id="357" name="arrowCWContainer" pos_x="33" pos_y="20"/>
+      <include_object id="347" name="levelerLeftContainer2" pos_x="11" pos_y="1"/>
+   </key>
+   <key background_colour="228" id="386" key_code="1" name="rearBladeLessKey" use="designator">
+   <include_object id="343" name="levelerLeftContainer1" pos_x="11" pos_y="1"/>
+   
+   
+   
+<include_object id="352" name="levelerLeftContainer3b" pos_x="11" pos_y="1"/>
+      <include_object id="347" name="levelerLeftContainer2" pos_x="11" pos_y="1"/>
+      <include_object id="367" name="arrowCCWContainer" pos_x="33" pos_y="20"/>
+   </key>
+   <key background_colour="228" id="387" key_code="1" name="rearBladeLeftKey" use="designator">
+   <rectangle height="7" id="388" line_suppression="" name="leftWheel1" pos_x="27" pos_y="21" use="designator" width="4">
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </rectangle>
+   <rectangle height="4" id="389" line_suppression="" name="leftWheel0" pos_x="18" pos_y="18" use="designator" width="22">
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </rectangle>
+   <polygon height="8" id="390" name="polygon0" polygon_type="convex" pos_x="18" pos_y="23" use="designator" width="23">
+      <point pos_x="21" pos_y="5"/>
+      <point pos_x="1" pos_y="7"/>
+      <point pos_x="1" pos_y="4"/>
+      <point pos_x="21" pos_y="2"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+   
+   
+   
+<include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+      <include_object id="375" name="arrowCCWContainer2" pos_x="36" pos_y="18"/>
+      <include_object id="378" name="arrowCCWContainer3" pos_x="10" pos_y="19"/>
+   </key>
+   <key background_colour="228" id="391" key_code="1" name="rearBladeRightKey" use="designator">
+   <rectangle height="7" id="392" line_suppression="" name="leftWheel1" pos_x="27" pos_y="21" use="designator" width="4">
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </rectangle>
+   <rectangle height="4" id="393" line_suppression="" name="leftWheel0" pos_x="18" pos_y="18" use="designator" width="22">
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   </rectangle>
+   <polygon height="8" id="394" name="polygon0" polygon_type="convex" pos_x="18" pos_y="23" use="designator" width="23">
+      <point pos_x="21" pos_y="7"/>
+      <point pos_x="1" pos_y="5"/>
+      <point pos_x="1" pos_y="2"/>
+      <point pos_x="21" pos_y="4"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+   
+   
+   
+<include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+      <include_object id="361" name="arrowCWContainer2" pos_x="36" pos_y="18"/>
+      <include_object id="364" name="arrowCWContainer3" pos_x="10" pos_y="18"/>
+   </key>
+   <key background_colour="228" id="395" key_code="1" name="rearBladeUpKey" use="designator">
+      <include_object id="417" name="levelerLeftContainer3c" pos_x="10" pos_y="7"/>
+   
+   
+   
+   
+<include_object id="343" name="levelerLeftContainer1" pos_x="9" pos_y="6"/>
+      <include_object id="347" name="levelerLeftContainer2" pos_x="11" pos_y="7"/>
+      <include_object id="318" name="arrowUpPolygon" pos_x="47" pos_y="8"/>
+   </key>
+   <key background_colour="228" id="396" key_code="1" name="rearBladeDownKey" use="designator">
+      <include_object id="417" name="levelerLeftContainer3c" pos_x="10" pos_y="7"/>
+   
+   
+   
+   
+<include_object id="343" name="levelerLeftContainer1" pos_x="9" pos_y="6"/>
+      <include_object id="347" name="levelerLeftContainer2" pos_x="11" pos_y="7"/>
+      <include_object id="315" name="arrowDownPolygon" pos_x="47" pos_y="8"/>
+   </key>
+   <key background_colour="228" id="397" key_code="1" name="levelerSystemRotateLeftKey" use="designator">
+   
+   
+   
+<include_object id="300" name="tractorBackContainer" pos_x="15" pos_y="2"/>
+      <polygon height="12" id="398" name="polygon2" polygon_type="convex" pos_x="10" pos_y="16" use="designator" width="40">
+   <point pos_x="38" pos_y="6"/>
+   <point pos_x="2" pos_y="11"/>
+   <point pos_x="1" pos_y="6"/>
+   <point pos_x="37" pos_y="1"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+      <include_object id="375" name="arrowCCWContainer2" pos_x="44" pos_y="14"/>
+      <include_object id="378" name="arrowCCWContainer3" pos_x="3" pos_y="15"/>
+   </key>
+   <key background_colour="228" id="399" key_code="1" name="levelerSystemRotateRightKey" use="designator">
+      <include_object id="300" name="tractorBackContainer" pos_x="15" pos_y="2"/>
+   
+   <polygon height="12" id="400" name="polygon2" polygon_type="convex" pos_x="10" pos_y="16" use="designator" width="40">
+      <point pos_x="38" pos_y="6"/>
+      <point pos_x="2" pos_y="1"/>
+      <point pos_x="1" pos_y="6"/>
+      <point pos_x="37" pos_y="11"/>
+      <lineattributes id="401" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes" use="designator"/>
+      <fillattributes fill_colour="black" fill_type="fillcolour" id="402" name="blackFill" role="fill_attributes" use="designator"/>
+   </polygon>
+   
+   
+<include_object id="361" name="arrowCWContainer2" pos_x="44" pos_y="15"/>
+      <include_object id="364" name="arrowCWContainer3" pos_x="3" pos_y="14"/>
+   </key>
+   <key background_colour="228" id="403" key_code="1" name="leverlerSystemUpKey" use="designator">
+   
+   
+   
+   
+<include_object id="343" name="levelerLeftContainer1" pos_x="7" pos_y="10"/>
+      <include_object id="355" name="levelerLeftContainer2b" pos_x="7" pos_y="10"/>
+      <include_object id="417" name="levelerLeftContainer3c" pos_x="7" pos_y="10"/>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="404" language="" length="4" name="label1" options="transparent" pos_x="18" pos_y="2" use="designator" value="AUTO" width="24">
+   <include_object id="419" name="black6x8SK" role="font_attributes"/>
+</outputstring>
+      <include_object id="318" name="arrowUpPolygon" pos_x="45" pos_y="10"/>
+   </key>
+   <container height="10" hidden="no" id="405" name="arrowBothContainer" use="designator" width="20">
+   <ellipse ellipse_type="open" end_angle="180" height="10" id="406" name="ellipse0" pos_x="3" pos_y="0" start_angle="90" use="designator" width="14">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="6" id="407" name="arrowDownPolygon2" polygon_type="convex" pos_x="0" pos_y="1" use="designator" width="9">
+      <point pos_x="7" pos_y="4"/>
+      <point pos_x="4" pos_y="1"/>
+      <point pos_x="1" pos_y="4"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+<polygon height="6" id="408" name="arrowDownPolygon5" polygon_type="convex" pos_x="12" pos_y="1" use="designator" width="9">
+   <point pos_x="7" pos_y="4"/>
+   <point pos_x="4" pos_y="1"/>
+   <point pos_x="1" pos_y="4"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+   </container>
+   <container height="17" hidden="no" id="409" name="arrowBothContainer2" use="designator" width="12">
+   <ellipse ellipse_type="open" end_angle="30" height="12" id="410" name="ellipse0" pos_x="0" pos_y="3" start_angle="150" use="designator" width="12">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="9" id="411" name="arrowDownPolygon2" polygon_type="convex" pos_x="4" pos_y="0" use="designator" width="8">
+      <point pos_x="2" pos_y="7"/>
+      <point pos_x="2" pos_y="2"/>
+      <point pos_x="7" pos_y="2"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+<polygon height="9" id="412" name="arrowDownPolygon6" polygon_type="convex" pos_x="4" pos_y="10" use="designator" width="8">
+   <point pos_x="2" pos_y="1"/>
+   <point pos_x="2" pos_y="6"/>
+   <point pos_x="7" pos_y="6"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+   </container>
+   <container height="17" hidden="no" id="413" name="arrowBothContainer3" use="designator" width="13">
+   <ellipse ellipse_type="open" end_angle="120" height="12" id="414" name="ellipse0" pos_x="1" pos_y="3" start_angle="60" use="designator" width="12">
+      <include_object id="360" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="9" id="415" name="arrowDownPolygon2" polygon_type="convex" pos_x="1" pos_y="0" use="designator" width="8">
+      <point pos_x="6" pos_y="7"/>
+      <point pos_x="6" pos_y="2"/>
+      <point pos_x="1" pos_y="2"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+   <polygon height="9" id="416" name="arrowDownPolygon6" polygon_type="convex" pos_x="1" pos_y="10" use="designator" width="8">
+      <point pos_x="6" pos_y="1"/>
+      <point pos_x="6" pos_y="6"/>
+      <point pos_x="1" pos_y="6"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+</container>
+   <container height="22" hidden="no" id="417" name="levelerLeftContainer3c" use="designator" width="39">
+   <polygon height="10" id="418" name="arrowDownPolygon1" polygon_type="convex" pos_x="8" pos_y="2" use="designator" width="31">
+      <point pos_x="29" pos_y="2"/>
+      <point pos_x="2" pos_y="0"/>
+      <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <point pos_x="2" pos_y="6"/>
+      <point pos_x="19" pos_y="7"/>
+      
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+         <point pos_x="29" pos_y="7"/>
+      </polygon>
+   
+</container>
+   <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="419" language="" name="black6x8SK" use="designator"/>
+   <key background_colour="228" id="420" key_code="1" name="leverlerSystemDownKey" use="designator">
+   
+   
+   
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="421" language="" length="4" name="label1" options="transparent" pos_x="18" pos_y="2" use="designator" value="AUTO" width="24">
+      <include_object id="419" name="black6x8SK" role="font_attributes"/>
+   </outputstring>
+   
+<include_object id="343" name="levelerLeftContainer1" pos_x="7" pos_y="10"/>
+      <include_object id="355" name="levelerLeftContainer2b" pos_x="7" pos_y="10"/>
+      <include_object id="417" name="levelerLeftContainer3c" pos_x="7" pos_y="10"/>
+      <include_object id="315" name="arrowDownPolygon" pos_x="45" pos_y="10"/>
+   </key>
+   <fillattributes fill_colour="228" fill_type="fillcolour" id="422" name="yellowFill" use="mask"/>
+   <lineattributes id="423" line_art="1111111111111111" line_colour="228" line_width="1" name="yellowLineSK" use="mask"/>
+   <fillattributes fill_colour="111" fill_type="fillcolour" id="424" name="blueFill" use="mask"/>
+   <container height="27" hidden="no" id="425" name="tractorBackContainer2" use="mask" width="30">
+   <rectangle height="16" id="426" line_suppression="" name="leftWheel" pos_x="0" pos_y="11" use="mask" width="8">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      
+   <include_object id="429" name="silverLineSK" role="line_attributes"/>
+      </rectangle>
+   <rectangle height="19" id="427" line_suppression="" name="frame" pos_x="7" pos_y="0" use="mask" width="16">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      
+   <include_object id="429" name="silverLineSK" role="line_attributes"/>
+      </rectangle>
+   <rectangle height="16" id="428" line_suppression="" name="rightWheel" pos_x="22" pos_y="11" use="mask" width="8">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      
+   <include_object id="429" name="silverLineSK" role="line_attributes"/>
+      </rectangle>
+</container>
+   <lineattributes id="429" line_art="1111111111111111" line_colour="silver" line_width="1" name="silverLineSK" use="mask"/>
+<lineattributes id="430" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLine" use="mask"/>
+   <container height="78" hidden="no" id="431" name="pressureMeterContainer" use="mask" width="78">
+      <ellipse ellipse_type="open" end_angle="180" height="78" id="432" name="background" pos_x="0" pos_y="0" start_angle="0" use="mask" width="78">
+         
+         <include_object id="304" name="silverFill" role="fill_attributes"/>
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+      </ellipse>
+      <meter arc_and_tick_colour="black" border_colour="black" end_angle="135" id="433" max_value="150" min_value="0" name="metercomp" needle_colour="red" number_of_ticks="7" options="ticks+arc+clockwise" pos_x="12" pos_y="12" start_angle="0" use="mask" value="35" width="54">
+         <include_object id="555" name="frontPressureMeasured" role="variable_reference"/>
+      </meter>
+      <outputstring background_colour="white" height="8" horizontal_justification="middle" id="434" language="" length="1" name="label0" options="transparent" pos_x="36" pos_y="68" use="mask" value="0" width="6">
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+      </outputstring>
+      
+      <outputstring background_colour="white" height="8" horizontal_justification="middle" id="435" language="" length="2" name="label13" options="transparent" pos_x="0" pos_y="36" use="mask" value="50" width="12">
+   <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="436" language="" name="black6x8" role="font_attributes" use="mask"/>
+</outputstring>
+      <outputstring background_colour="white" height="8" horizontal_justification="middle" id="437" language="" length="2" name="label14" options="transparent" pos_x="8" pos_y="12" use="mask" value="75" width="12">
+   <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="438" language="" name="black6x8" role="font_attributes" use="mask"/>
+</outputstring>
+      <outputstring background_colour="white" height="8" horizontal_justification="middle" id="439" language="" length="2" name="label2" options="transparent" pos_x="9" pos_y="59" use="mask" value="25" width="12">
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+      </outputstring>
+      
+      <outputstring background_colour="white" height="8" horizontal_justification="middle" id="440" language="" length="3" name="label4" options="transparent" pos_x="30" pos_y="3" use="mask" value="100" width="18">
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+      </outputstring>
+      <outputstring background_colour="white" height="8" horizontal_justification="middle" id="441" language="" length="3" name="label5" options="transparent" pos_x="53" pos_y="13" use="mask" value="125" width="18">
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+      </outputstring>
+      <outputstring background_colour="white" height="8" horizontal_justification="middle" id="442" language="" length="3" name="label6" options="transparent" pos_x="61" pos_y="34" use="mask" value="150" width="18">
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+      </outputstring>
+      <outputnumber background_colour="white" format="fixed" height="8" horizontal_justification="middle" id="443" max_value="1000" min_value="0" name="number" number_of_decimals="0" offset="0" options="transparent" pos_x="27" pos_y="52" scale="1.0" use="mask" value="35" width="18">
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+      <include_object id="555" name="frontPressureMeasured" role="variable_reference"/>
+      </outputnumber>
+      <outputstring background_colour="white" height="8" horizontal_justification="middle" id="444" language="" length="3" name="title" options="transparent" pos_x="46" pos_y="52" use="mask" value="bar" width="18">
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+      </outputstring>
+   <include_object id="596" name="frontPressureBarGraph" pos_x="9" pos_y="9"/>
+   </container>
+<fontattributes font_colour="black" font_size="8x12" font_style="normal" font_type="latin1" id="445" language="" name="black8x12SK" use="designator"/>
+   <fontattributes font_colour="black" font_size="8x12" font_style="normal" font_type="latin1" id="446" language="" name="black8x12" use="mask"/>
+   <container height="34" hidden="no" id="447" name="levelerTurningAutomatContainer" use="mask" width="23">
+   <rectangle height="8" id="448" line_suppression="" name="leftWheel" pos_x="4" pos_y="9" use="mask" width="4">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+      </rectangle>
+   <rectangle height="8" id="449" line_suppression="" name="frame" pos_x="7" pos_y="8" use="mask" width="8">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+      </rectangle>
+   <rectangle height="8" id="450" line_suppression="" name="rightWheel" pos_x="14" pos_y="9" use="mask" width="4">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+      </rectangle>
+   
+   
+   <rectangle height="8" id="451" line_suppression="" name="rightWheel2" pos_x="9" pos_y="1" use="mask" width="4">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+      </rectangle>
+<polygon height="8" id="452" name="polygon7" polygon_type="convex" pos_x="7" pos_y="21" use="mask" width="8">
+   <point pos_x="3" pos_y="7"/>
+   <point pos_x="1" pos_y="1"/>
+   <point pos_x="4" pos_y="0"/>
+   <point pos_x="6" pos_y="6"/>
+   
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+<include_object id="430" name="blackLine" role="line_attributes"/>
+      </polygon>
+      <rectangle height="4" id="453" line_suppression="" name="leftWheel2" pos_x="0" pos_y="19" use="mask" width="22">
+   
+   
+<include_object id="430" name="blackLine" role="line_attributes"/>
+         <include_object id="304" name="silverFill" role="fill_attributes"/>
+      </rectangle>
+      <polygon height="10" id="454" name="polygon8" polygon_type="convex" pos_x="1" pos_y="24" use="mask" width="22">
+   <point pos_x="21" pos_y="4"/>
+   <point pos_x="2" pos_y="10"/>
+   <point pos_x="1" pos_y="7"/>
+   <point pos_x="20" pos_y="1"/>
+   
+   
+<include_object id="430" name="blackLine" role="line_attributes"/>
+         <include_object id="304" name="silverFill" role="fill_attributes"/>
+      </polygon>
+      <polygon height="7" id="455" name="polygon9" polygon_type="convex" pos_x="3" pos_y="0" use="mask" width="6">
+   <point pos_x="1" pos_y="5"/>
+   <point pos_x="3" pos_y="1"/>
+   <point pos_x="5" pos_y="2"/>
+   <point pos_x="3" pos_y="6"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+</polygon>
+      <polygon height="7" id="456" name="polygon10" polygon_type="convex" pos_x="12" pos_y="0" use="mask" width="6">
+   <point pos_x="1" pos_y="5"/>
+   <point pos_x="3" pos_y="1"/>
+   <point pos_x="5" pos_y="2"/>
+   <point pos_x="3" pos_y="6"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+</polygon>
+   </container>
+   <container height="28" hidden="no" id="457" name="levelerOrientAutomatContainer" use="mask" width="61">
+   <polygon height="13" id="458" name="arrowDownPolygon0" polygon_type="convex" pos_x="52" pos_y="20" use="mask" width="8">
+      <point pos_x="6" pos_y="4"/>
+      <point pos_x="4" pos_y="0"/>
+      <point pos_x="1" pos_y="0"/>
+      <point pos_x="3" pos_y="4"/>
+      <point pos_x="2" pos_y="8"/>
+      
+      
+      <point pos_x="5" pos_y="7"/>
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+      </polygon>
+   <ellipse ellipse_type="closedsection" end_angle="35" height="10" id="459" name="ellipse0" pos_x="35" pos_y="19" start_angle="147" use="mask" width="10">
+      
+      <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   <include_object id="430" name="blackLine" role="line_attributes"/>
+      </ellipse>
+<polygon height="13" id="460" name="arrowDownPolygon3" polygon_type="convex" pos_x="36" pos_y="9" use="mask" width="25">
+   <point pos_x="7" pos_y="3"/>
+   <point pos_x="4" pos_y="3"/>
+   
+   <point pos_x="2" pos_y="10"/>
+   
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+   <point pos_x="23" pos_y="10"/>
+<point pos_x="23" pos_y="7"/>
+         <point pos_x="10" pos_y="6"/>
+         <include_object id="430" name="blackLine" role="line_attributes"/>
+      </polygon>
+      <polygon height="20" id="461" name="arrowDownPolygon4" polygon_type="convex" pos_x="0" pos_y="3" use="mask" width="36">
+   <point pos_x="20" pos_y="9"/>
+   <point pos_x="6" pos_y="9"/>
+   <point pos_x="4" pos_y="16"/>
+   
+   <point pos_x="34" pos_y="17"/>
+   <point pos_x="34" pos_y="9"/>
+   <point pos_x="32" pos_y="0"/>
+   
+<include_object id="430" name="blackLine" role="line_attributes"/>
+         <point pos_x="22" pos_y="0"/>
+         <include_object id="304" name="silverFill" role="fill_attributes"/>
+      </polygon>
+      <ellipse ellipse_type="closed" end_angle="35" height="16" id="462" name="ellipse1" pos_x="21" pos_y="12" start_angle="147" use="mask" width="16">
+   
+   
+<include_object id="430" name="blackLine" role="line_attributes"/>
+         <include_object id="304" name="silverFill" role="fill_attributes"/>
+      </ellipse>
+      <ellipse ellipse_type="closed" end_angle="35" height="10" id="463" name="ellipse2" pos_x="3" pos_y="18" start_angle="147" use="mask" width="10">
+   <lineattributes id="464" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLine" role="line_attributes" use="mask"/>
+   
+<include_object id="304" name="silverFill" role="fill_attributes"/>
+      </ellipse>
+      <include_object id="465" name="arrowUpDownPolygon" pos_x="39" pos_y="0"/>
+      <include_object id="465" name="arrowUpDownPolygon" pos_x="52" pos_y="0"/>
+   </container>
+   <polygon height="11" id="465" name="arrowUpDownPolygon" polygon_type="convex" use="mask" width="7">
+   <point pos_x="6" pos_y="3"/>
+   <point pos_x="3" pos_y="0"/>
+   <point pos_x="0" pos_y="3"/>
+   <point pos_x="2" pos_y="3"/>
+   <point pos_x="2" pos_y="7"/>
+   
+   
+   <point pos_x="0" pos_y="7"/>
+   <point pos_x="3" pos_y="10"/>
+<point pos_x="6" pos_y="7"/>
+      <point pos_x="4" pos_y="7"/>
+      <point pos_x="4" pos_y="3"/>
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+   <key background_colour="silver" id="466" key_code="1" name="fieldModeKey" use="designator">
+   
+   <outputstring background_colour="black" height="24" horizontal_justification="middle" id="467" language="" length="12" name="label3" options="transparent+autowrap" pos_x="6" pos_y="3" use="designator" value="FIELD SCREEN" width="48">
+      
+   <include_object id="445" name="black8x12SK" role="font_attributes"/>
+      </outputstring>
+   
+   
+   
+<macro id="3" name="macro1" number_of_bytes="1" role="on_key_press" use="designator">
+   <command_change_active_mask child_id="2000" parent_id="1"/>
+</macro>
+   </key>
+   <key background_colour="silver" id="468" key_code="1" name="configModeKey" use="designator">
+   <outputstring background_colour="black" height="24" horizontal_justification="middle" id="469" language="" length="13" name="label3" options="transparent+autowrap" pos_x="6" pos_y="3" use="designator" value="CONFIG SCREEN" width="48">
+      
+   <include_object id="445" name="black8x12SK" role="font_attributes"/>
+      </outputstring>
+<macro id="4" name="macro2" number_of_bytes="1" role="on_key_press" use="designator">
+   <command_change_active_mask child_id="3000" parent_id="1"/>
+</macro>
+   </key>
+   <fillattributes fill_colour="202" fill_type="fillcolour" id="470" name="redFill" use="mask"/>
+<container height="14" hidden="no" id="471" name="trackContainer" use="mask" width="57">
+   <include_object id="669" name="turnAutomatBoolean" pos_x="45" pos_y="4"/>
+   <rectangle height="14" id="472" line_suppression="" name="background8" pos_x="0" pos_y="0" use="mask" width="44">
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </rectangle>
+   <outputstring background_colour="black" height="12" horizontal_justification="left" id="473" language="" length="5" name="label7" options="transparent" pos_x="2" pos_y="1" use="mask" value="TRACK" width="40">
+      <include_object id="446" name="black8x12" role="font_attributes"/>
+   </outputstring>
+   <rectangle height="14" id="474" line_suppression="" name="background9" pos_x="43" pos_y="0" use="mask" width="14">
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </rectangle>
+</container>
+<auxiliaryfunction background_colour="123" function_type="analog" id="475" name="levelerSystemLoweringLiftingAux" use="designator">
+      <include_object id="300" name="tractorBackContainer" pos_x="15" pos_y="2"/>
+      <rectangle height="5" id="476" line_suppression="" name="rectangle0" pos_x="10" pos_y="19" use="designator" width="40">
+   <fillattributes fill_colour="black" fill_type="fillcolour" id="477" name="blackFill" role="fill_attributes" use="designator"/>
+   <lineattributes id="478" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes" use="designator"/>
+</rectangle>
+      <include_object id="479" name="arrowUpDownPolygonSK" pos_x="27" pos_y="7"/>
+   </auxiliaryfunction>
+   <polygon height="11" id="479" name="arrowUpDownPolygonSK" polygon_type="convex" use="designator" width="7">
+   <point pos_x="6" pos_y="3"/>
+   <point pos_x="3" pos_y="0"/>
+   <point pos_x="0" pos_y="3"/>
+   <point pos_x="2" pos_y="3"/>
+   <point pos_x="2" pos_y="7"/>
+   <point pos_x="0" pos_y="7"/>
+   <point pos_x="3" pos_y="10"/>
+   <point pos_x="6" pos_y="7"/>
+   <point pos_x="4" pos_y="7"/>
+   <point pos_x="4" pos_y="3"/>
+   
+   
+<include_object id="305" name="blackLineSK" role="line_attributes"/>
+      <include_object id="314" name="blackFill" role="fill_attributes"/>
+   </polygon>
+   <auxiliaryfunction background_colour="123" function_type="analog" id="480" name="levelerBodyTurningAux" use="designator">
+   
+   
+   
+<include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+      <polygon height="8" id="481" name="polygon11" polygon_type="convex" pos_x="24" pos_y="20" use="designator" width="8">
+   <point pos_x="5" pos_y="7"/>
+   <point pos_x="7" pos_y="1"/>
+   <point pos_x="4" pos_y="0"/>
+   <point pos_x="2" pos_y="6"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+      <rectangle height="4" id="482" line_suppression="" name="leftWheel3" pos_x="18" pos_y="18" use="designator" width="22">
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <polygon height="10" id="483" name="polygon12" polygon_type="convex" pos_x="16" pos_y="22" use="designator" width="22">
+   <point pos_x="1" pos_y="4"/>
+   <point pos_x="20" pos_y="10"/>
+   <point pos_x="21" pos_y="7"/>
+   <point pos_x="2" pos_y="1"/>
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</polygon>
+      <include_object id="331" name="arrowLeftPolygon" pos_x="2" pos_y="16"/>
+      <include_object id="342" name="arrowRightPolygon" pos_x="42" pos_y="16"/>
+   </auxiliaryfunction>
+   <auxiliaryfunction background_colour="123" function_type="analog" id="484" name="frontBladeMoreLessAux" use="designator">
+   
+   
+   
+<include_object id="349" name="levelerLeftContainer3" pos_x="11" pos_y="1"/>
+      <include_object id="343" name="levelerLeftContainer1" pos_x="11" pos_y="1"/>
+      <include_object id="355" name="levelerLeftContainer2b" pos_x="12" pos_y="1"/>
+      <include_object id="405" name="arrowBothContainer" pos_x="11" pos_y="20"/>
+   </auxiliaryfunction>
+   <container height="10" hidden="no" id="485" name="arrowBothContainer0" width="19">
+   <ellipse ellipse_type="open" end_angle="180" height="10" id="486" name="ellipse0" pos_x="3" pos_y="0" start_angle="90" width="14">
+      <lineattributes id="487" line_art="1111111111111111" line_colour="black" line_width="2" name="blackLine2SK" role="line_attributes"/>
+   </ellipse>
+   <polygon height="6" id="488" name="arrowDownPolygon2" polygon_type="convex" pos_x="0" pos_y="1" width="9">
+      <point pos_x="7" pos_y="4"/>
+      <point pos_x="4" pos_y="1"/>
+      <point pos_x="1" pos_y="4"/>
+      <lineattributes id="489" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes"/>
+      <fillattributes fill_colour="black" fill_type="fillcolour" id="490" name="blackFill" role="fill_attributes"/>
+   </polygon>
+   <polygon height="6" id="491" name="arrowDownPolygon5" polygon_type="convex" pos_x="12" pos_y="1" width="9">
+      <point pos_x="7" pos_y="4"/>
+      <point pos_x="4" pos_y="1"/>
+      <point pos_x="1" pos_y="4"/>
+      <lineattributes id="492" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes"/>
+      <fillattributes fill_colour="black" fill_type="fillcolour" id="493" name="blackFill" role="fill_attributes"/>
+   </polygon>
+</container>
+   <auxiliaryfunction background_colour="123" function_type="analog" id="494" name="frontBladeLeftRightAux" use="designator">
+   
+   
+   
+   
+<rectangle height="7" id="495" line_suppression="" name="leftWheel4" pos_x="27" pos_y="21" use="designator" width="4">
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+</rectangle>
+      <rectangle height="4" id="496" line_suppression="" name="leftWheel5" pos_x="18" pos_y="26" use="designator" width="22">
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+</rectangle>
+      <polygon height="8" id="497" name="polygon13" polygon_type="convex" pos_x="18" pos_y="16" use="designator" width="23">
+   <point pos_x="21" pos_y="5"/>
+   <point pos_x="1" pos_y="7"/>
+   <point pos_x="1" pos_y="4"/>
+   <point pos_x="21" pos_y="2"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+      <include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+      <include_object id="409" name="arrowBothContainer2" pos_x="35" pos_y="10"/>
+      <include_object id="413" name="arrowBothContainer3" pos_x="9" pos_y="10"/>
+   </auxiliaryfunction>
+   <auxiliaryfunction background_colour="123" function_type="analog" id="498" name="rearBladeMoreLessAux" use="designator">
+   
+   
+   
+   
+<include_object id="405" name="arrowBothContainer" pos_x="33" pos_y="20"/>
+      <include_object id="352" name="levelerLeftContainer3b" pos_x="11" pos_y="1"/>
+      <include_object id="343" name="levelerLeftContainer1" pos_x="11" pos_y="1"/>
+      <include_object id="347" name="levelerLeftContainer2" pos_x="11" pos_y="1"/>
+   </auxiliaryfunction>
+   <auxiliaryfunction background_colour="123" function_type="analog" id="499" name="rearBladeUpDownAux" use="designator">
+      <include_object id="417" name="levelerLeftContainer3c" pos_x="10" pos_y="5"/>
+   
+   
+   
+   
+<include_object id="343" name="levelerLeftContainer1" pos_x="10" pos_y="5"/>
+      <include_object id="347" name="levelerLeftContainer2" pos_x="10" pos_y="5"/>
+      <include_object id="479" name="arrowUpDownPolygonSK" pos_x="50" pos_y="11"/>
+   </auxiliaryfunction>
+   <auxiliaryfunction background_colour="123" function_type="analog" id="500" name="rearBladeLeftRightAux" use="designator">
+   
+   
+   
+   
+   
+   
+<include_object id="319" name="tractorUpContainerSK" pos_x="22" pos_y="1"/>
+      <include_object id="413" name="arrowBothContainer3" pos_x="9" pos_y="17"/>
+      <include_object id="409" name="arrowBothContainer2" pos_x="35" pos_y="17"/>
+      <rectangle height="7" id="501" line_suppression="" name="leftWheel6" pos_x="27" pos_y="21" use="designator" width="4">
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+</rectangle>
+      <rectangle height="4" id="502" line_suppression="" name="leftWheel7" pos_x="18" pos_y="18" use="designator" width="22">
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="330" name="whiteFill" role="fill_attributes"/>
+</rectangle>
+      <polygon height="8" id="503" name="polygon14" polygon_type="convex" pos_x="18" pos_y="23" use="designator" width="23">
+   <point pos_x="21" pos_y="5"/>
+   <point pos_x="1" pos_y="7"/>
+   <point pos_x="1" pos_y="4"/>
+   <point pos_x="21" pos_y="2"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+   </auxiliaryfunction>
+
+<datamask background_colour="white" id="4000" name="valveConfigScreen" use="mask">
+   
+   <container height="200" hidden="false" id="504" name="hydraulicsContainer" pos_x="0" pos_y="0" use="mask" width="200">
+      
+      <outputstring background_colour="black" height="16" horizontal_justification="middle" id="505" language="" length="12" name="label0" options="transparent" pos_x="29" pos_y="5" use="mask" value="Valve Config" width="144">
+         
+      <include_object id="528" name="black12x16" role="font_attributes"/>
+         </outputstring>
+      
+      
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="506" language="" length="3" name="label29" options="transparent" pos_x="93" pos_y="52" use="mask" value="Nro" width="18">
+         
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+         </outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="507" language="" length="6" name="label30" options="transparent" pos_x="117" pos_y="52" use="mask" value="Invert" width="36">
+         
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+         </outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="508" language="" length="4" name="label31" options="transparent" pos_x="160" pos_y="52" use="mask" value="Gain" width="24">
+         
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+         </outputstring>
+      
+      
+      
+      <container height="12" hidden="false" id="509" name="container0" pos_x="0" pos_y="70" use="mask" width="195">
+         <outputstring background_colour="black" height="8" horizontal_justification="left" id="510" language="" length="13" name="label37" options="transparent" pos_x="7" pos_y="0" use="mask" value="Weighting arm" width="78">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </outputstring>
+         <include_object id="529" name="weightingArmNumber" pos_x="98" pos_y="0"/>
+         <include_object id="530" name="weightingArmInvert" pos_x="129" pos_y="0"/>
+         <include_object id="532" name="weightingArmGain" pos_x="161" pos_y="0"/>
+      </container>
+      <container height="14" hidden="false" id="511" name="container4" pos_x="5" pos_y="95" use="mask" width="188">
+         <outputstring background_colour="black" height="8" horizontal_justification="left" id="512" language="" length="8" name="label38" options="transparent" pos_x="3" pos_y="0" use="mask" value="Push arm" width="48">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </outputstring>
+         <include_object id="533" name="pushArmNumber" pos_x="93" pos_y="0"/>
+         <include_object id="534" name="pushArmInvert" pos_x="124" pos_y="0"/>
+         <include_object id="536" name="pushArmGain" pos_x="156" pos_y="0"/>
+      </container>
+      <container height="12" hidden="false" id="513" name="container5" pos_x="6" pos_y="120" use="mask" width="189">
+         <outputstring background_colour="black" height="8" horizontal_justification="left" id="514" language="" length="5" name="label39" options="transparent" pos_x="2" pos_y="0" use="mask" value="Blade" width="30">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </outputstring>
+         <include_object id="537" name="bladeNumber" pos_x="92" pos_y="0"/>
+         <include_object id="538" name="bladeInvert" pos_x="122" pos_y="0"/>
+         <include_object id="539" name="bladeGain" pos_x="154" pos_y="0"/>
+      </container>
+      <container height="12" hidden="false" id="515" name="container6" pos_x="5" pos_y="145" use="mask" width="188">
+         <outputstring background_colour="black" height="8" horizontal_justification="left" id="516" language="" length="4" name="label40" options="transparent" pos_x="3" pos_y="0" use="mask" value="Turn" width="24">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </outputstring>
+         <include_object id="540" name="turnNumber" pos_x="93" pos_y="0"/>
+         <include_object id="541" name="turnInvert" pos_x="124" pos_y="0"/>
+         <include_object id="542" name="turnGain" pos_x="156" pos_y="0"/>
+      </container>
+      
+   </container>
+   
+<softkeymask background_colour="white" id="517" name="softkeymask0" role="soft_key_mask" use="designator">
+   
+<include_object id="306" name="menuKey"/>
+      </softkeymask>
+   </datamask>
+   <auxiliaryfunction background_colour="123" function_type="boolean" id="518" name="levelerBodyTurningAutomatAux" use="designator">
+   
+   
+   
+   
+   
+   
+<polygon height="8" id="519" name="polygon15" polygon_type="convex" pos_x="25" pos_y="20" use="designator" width="8">
+   <point pos_x="3" pos_y="7"/>
+   <point pos_x="1" pos_y="1"/>
+   <point pos_x="4" pos_y="0"/>
+   <point pos_x="6" pos_y="6"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+      <polygon height="11" id="520" name="polygon16" polygon_type="convex" pos_x="20" pos_y="22" use="designator" width="22">
+   <point pos_x="1" pos_y="7"/>
+   <point pos_x="20" pos_y="1"/>
+   <point pos_x="21" pos_y="4"/>
+   <point pos_x="2" pos_y="10"/>
+   
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+<include_object id="304" name="silverFill" role="fill_attributes"/>
+      </polygon>
+      <rectangle height="4" id="521" line_suppression="" name="leftWheel8" pos_x="18" pos_y="18" use="designator" width="22">
+   
+   
+<include_object id="305" name="blackLineSK" role="line_attributes"/>
+         <include_object id="304" name="silverFill" role="fill_attributes"/>
+      </rectangle>
+      <polygon height="7" id="522" name="polygon17" polygon_type="convex" pos_x="31" pos_y="0" use="designator" width="6">
+   <point pos_x="1" pos_y="5"/>
+   <point pos_x="3" pos_y="1"/>
+   <point pos_x="5" pos_y="2"/>
+   <point pos_x="3" pos_y="6"/>
+   
+   
+<include_object id="305" name="blackLineSK" role="line_attributes"/>
+         <include_object id="314" name="blackFill" role="fill_attributes"/>
+      </polygon>
+      <polygon height="7" id="523" name="polygon18" polygon_type="convex" pos_x="21" pos_y="0" use="designator" width="6">
+   <point pos_x="1" pos_y="5"/>
+   <point pos_x="3" pos_y="1"/>
+   <point pos_x="5" pos_y="2"/>
+   <point pos_x="3" pos_y="6"/>
+   
+   
+<include_object id="314" name="blackFill" role="fill_attributes"/>
+         <include_object id="305" name="blackLineSK" role="line_attributes"/>
+      </polygon>
+      <rectangle height="8" id="524" line_suppression="" name="frame0" pos_x="25" pos_y="8" use="designator" width="8">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <rectangle height="8" id="525" line_suppression="" name="rightWheel3" pos_x="27" pos_y="1" use="designator" width="4">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <rectangle height="8" id="526" line_suppression="" name="leftWheel9" pos_x="22" pos_y="9" use="designator" width="4">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+      <rectangle height="8" id="527" line_suppression="" name="rightWheel4" pos_x="32" pos_y="9" use="designator" width="4">
+   <include_object id="304" name="silverFill" role="fill_attributes"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+</rectangle>
+   </auxiliaryfunction>
+   <fontattributes font_colour="black" font_size="12x16" font_style="normal" font_type="latin1" id="528" language="" name="black12x16" use="mask"/>
+<inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="529" max_value="16" min_value="1" name="weightingArmNumber" number_of_decimals="0" offset="0" options="" scale="1.0" use="mask" value="12" width="12">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </inputnumber>
+   <inputboolean background_colour="230" enabled="yes" id="530" name="weightingArmInvert" use="mask" value="0" width="8">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="531" language="" name="fontattributes6x8" role="foreground_colour" use="mask"/>
+         </inputboolean>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="532" max_value="100" min_value="0" name="weightingArmGain" number_of_decimals="2" offset="0" options="" scale="0.01" use="mask" value="12" width="24">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="533" max_value="16" min_value="1" name="pushArmNumber" number_of_decimals="0" offset="0" options="" scale="1.0" use="mask" value="12" width="12">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </inputnumber>
+   <inputboolean background_colour="230" enabled="yes" id="534" name="pushArmInvert" use="mask" value="0" width="8">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="535" language="" name="fontattributes6x8" role="foreground_colour" use="mask"/>
+         </inputboolean>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="536" max_value="100" min_value="0" name="pushArmGain" number_of_decimals="2" offset="0" options="" scale="0.01" use="mask" value="12" width="24">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="537" max_value="16" min_value="1" name="bladeNumber" number_of_decimals="0" offset="0" options="" scale="1.0" use="mask" value="12" width="12">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </inputnumber>
+   <inputboolean background_colour="230" enabled="yes" id="538" name="bladeInvert" use="mask" value="0" width="8">
+            
+         <include_object id="258" name="black6x8" role="foreground_colour"/>
+            </inputboolean>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="539" max_value="100" min_value="0" name="bladeGain" number_of_decimals="2" offset="0" options="" scale="0.01" use="mask" value="12" width="24">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="540" max_value="16" min_value="1" name="turnNumber" number_of_decimals="0" offset="0" options="" scale="1.0" use="mask" value="12" width="12">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </inputnumber>
+   <inputboolean background_colour="230" enabled="yes" id="541" name="turnInvert" use="mask" value="0" width="8">
+            
+         <include_object id="258" name="black6x8" role="foreground_colour"/>
+            </inputboolean>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="542" max_value="100" min_value="0" name="turnGain" number_of_decimals="2" offset="0" options="" scale="0.01" use="mask" value="12" width="24">
+            
+         <include_object id="258" name="black6x8" role="font_attributes"/>
+            </inputnumber>
+<container height="78" hidden="no" id="543" name="pressureMeterContainer2" use="mask" width="78">
+   <ellipse ellipse_type="open" end_angle="180" height="78" id="544" name="background" pos_x="0" pos_y="0" start_angle="0" use="mask" width="78">
+      <include_object id="304" name="silverFill" role="fill_attributes"/>
+      <include_object id="430" name="blackLine" role="line_attributes"/>
+   </ellipse>
+   <meter arc_and_tick_colour="black" border_colour="black" end_angle="135" id="545" max_value="300" min_value="150" name="metercomp" needle_colour="red" number_of_ticks="7" options="ticks+arc+clockwise" pos_x="12" pos_y="12" start_angle="0" use="mask" value="35" width="54">
+         <include_object id="556" name="rearPressureMeasured" role="variable_reference"/>
+      </meter>
+   <outputstring background_colour="white" height="8" horizontal_justification="middle" id="546" language="" length="3" name="label0" options="transparent" pos_x="27" pos_y="68" use="mask" value="-50" width="18">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   </outputstring>
+   <outputstring background_colour="white" height="8" horizontal_justification="middle" id="547" language="" length="3" name="label1" options="transparent" pos_x="6" pos_y="58" use="mask" value="-25" width="18">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   </outputstring>
+   <outputstring background_colour="white" height="8" horizontal_justification="middle" id="548" language="" length="1" name="label2" options="transparent" pos_x="3" pos_y="35" use="mask" value="0" width="6">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   </outputstring>
+   <outputstring background_colour="white" height="8" horizontal_justification="middle" id="549" language="" length="2" name="label3" options="transparent" pos_x="10" pos_y="12" use="mask" value="25" width="12">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   </outputstring>
+   <outputstring background_colour="white" height="8" horizontal_justification="middle" id="550" language="" length="2" name="label4" options="transparent" pos_x="33" pos_y="2" use="mask" value="50" width="12">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   </outputstring>
+   <outputstring background_colour="white" height="8" horizontal_justification="middle" id="551" language="" length="2" name="label5" options="transparent" pos_x="56" pos_y="12" use="mask" value="75" width="12">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   </outputstring>
+   <outputstring background_colour="white" height="8" horizontal_justification="middle" id="552" language="" length="3" name="label6" options="transparent" pos_x="59" pos_y="35" use="mask" value="100" width="18">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   </outputstring>
+   <outputnumber background_colour="white" format="fixed" height="8" horizontal_justification="middle" id="553" max_value="1000" min_value="0" name="number" number_of_decimals="0" offset="-200" options="transparent" pos_x="23" pos_y="52" scale="1.0" use="mask" value="0" width="24">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   <include_object id="556" name="rearPressureMeasured" role="variable_reference"/>
+      </outputnumber>
+   <outputstring background_colour="white" height="8" horizontal_justification="middle" id="554" language="" length="3" name="title" options="transparent" pos_x="49" pos_y="52" use="mask" value="bar" width="18">
+      <include_object id="258" name="black6x8" role="font_attributes"/>
+   </outputstring>
+   <include_object id="581" name="rearPressureBarGraph" pos_x="9" pos_y="9"/>
+</container>
+   <numbervariable id="555" name="frontPressureMeasured" use="mask" value="150"/>
+   <numbervariable id="556" name="rearPressureMeasured" use="mask" value="0"/>
+   <button background_colour="white" border_colour="black" height="36" id="557" key_code="1" latchable="no" name="fieldModeButton" use="mask" width="75">
+         <outputstring background_colour="black" height="24" horizontal_justification="middle" id="558" language="" length="10" name="label8" options="transparent+autowrap" pos_x="14" pos_y="1" use="mask" value="FIELD MODE" width="40">
+   
+<include_object id="446" name="black8x12" role="font_attributes"/>
+      </outputstring>
+      </button>
+   <button background_colour="white" border_colour="black" height="36" id="559" key_code="1" latchable="no" name="transferModeButton" use="mask" width="75">
+   <outputstring background_colour="black" height="24" horizontal_justification="middle" id="560" language="" length="13" name="label8" options="transparent+autowrap" pos_x="2" pos_y="1" use="mask" value="TRANSFER MODE" width="64">
+      
+   <include_object id="446" name="black8x12" role="font_attributes"/>
+      </outputstring>
+</button>
+   <auxiliaryfunction background_colour="123" function_type="analog" id="561" name="levelerBodyTiltAux" use="designator">
+      <include_object id="300" name="tractorBackContainer" pos_x="15" pos_y="2"/>
+   
+   <polygon height="12" id="562" name="polygon19" polygon_type="convex" pos_x="10" pos_y="16" use="designator" width="40">
+      <point pos_x="38" pos_y="6"/>
+      <point pos_x="2" pos_y="11"/>
+      <point pos_x="1" pos_y="6"/>
+      <point pos_x="37" pos_y="1"/>
+      <lineattributes id="563" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes" use="designator"/>
+      <fillattributes fill_colour="black" fill_type="fillcolour" id="564" name="blackFill" role="fill_attributes" use="designator"/>
+   </polygon>
+   
+<include_object id="413" name="arrowBothContainer3" pos_x="2" pos_y="13"/>
+      <include_object id="409" name="arrowBothContainer2" pos_x="44" pos_y="13"/>
+   </auxiliaryfunction>
+   <key background_colour="silver" id="565" key_code="1" name="valveConfigKey" use="designator">
+   
+   <outputstring background_colour="black" height="26" horizontal_justification="middle" id="566" language="" length="12" name="label3" options="transparent+autowrap" pos_x="6" pos_y="3" use="designator" value="VALVE CONFIG" width="49">
+      <include_object id="445" name="black8x12SK" role="font_attributes"/>
+   </outputstring>
+   
+   
+   
+   <macro id="5" name="macro0" number_of_bytes="1" role="on_key_press" use="designator">
+      <command_change_active_mask child_id="4000" parent_id="1"/>
+   </macro>
+</key>
+
+   <auxiliaryfunction background_colour="123" function_type="boolean" id="567" name="levelerBodyTiltAutomatAux" use="designator">
+   
+   
+   
+   
+   
+   
+   
+   
+   
+<include_object id="300" name="tractorBackContainer" pos_x="15" pos_y="2"/>
+      <polygon height="12" id="568" name="polygon19" polygon_type="convex" pos_x="10" pos_y="16" use="designator" width="40">
+   <point pos_x="38" pos_y="6"/>
+   <point pos_x="2" pos_y="11"/>
+   <point pos_x="1" pos_y="6"/>
+   <point pos_x="37" pos_y="1"/>
+   <include_object id="305" name="blackLineSK" role="line_attributes"/>
+   <include_object id="314" name="blackFill" role="fill_attributes"/>
+</polygon>
+      
+      
+   <include_object id="570" name="label10" pos_x="3" pos_y="3"/>
+   </auxiliaryfunction>
+<auxiliaryfunction background_colour="123" function_type="boolean" id="569" name="pushArmAutomatAux" use="designator">
+      <include_object id="347" name="levelerLeftContainer2" pos_x="7" pos_y="10"/>
+   
+   
+   <include_object id="570" name="label10" pos_x="3" pos_y="3"/>
+   
+<include_object id="417" name="levelerLeftContainer3c" pos_x="7" pos_y="10"/>
+      <include_object id="343" name="levelerLeftContainer1" pos_x="7" pos_y="10"/>
+   </auxiliaryfunction>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="570" language="" length="9" name="label10" options="transparent" use="designator" value="AUT / MAN" width="54">
+      <include_object id="419" name="black6x8SK" role="font_attributes"/>
+   </outputstring>
+   <auxiliaryfunction background_colour="123" function_type="boolean" id="571" name="levelerSystemLoweringLiftingAutomatAux" use="designator">
+   
+   
+   
+<include_object id="300" name="tractorBackContainer" pos_x="15" pos_y="2"/>
+      <include_object id="479" name="arrowUpDownPolygonSK" pos_x="27" pos_y="7"/>
+      <rectangle height="5" id="572" line_suppression="" name="rectangle0" pos_x="10" pos_y="19" use="designator" width="40">
+      <fillattributes fill_colour="black" fill_type="fillcolour" id="573" name="blackFill" role="fill_attributes" use="designator"/>
+      <lineattributes id="574" line_art="1111111111111111" line_colour="black" line_width="1" name="blackLineSK" role="line_attributes" use="designator"/>
+   </rectangle>
+      <include_object id="570" name="label10" pos_x="3" pos_y="3"/>
+   </auxiliaryfunction>
+<softkeymask background_colour="white" id="1234" name="drive_softkeymask1" use="designator">
+         
+      <include_object id="306" name="menuKey"/>
+         <include_object id="312" name="levelerSystemLoweringKey"/>
+         <include_object id="316" name="levelerSystemLiftingKey"/>
+         <include_object id="326" name="levelerBodyLeftKey"/>
+         <include_object id="332" name="levelerBodyRightKey"/>
+         <include_object id="346" name="frontBladeMoreKey"/>
+         <include_object id="370" name="frontBladeLessKey"/>
+         <include_object id="371" name="frontBladeLeftKey"/>
+         <include_object id="381" name="frontBladeRightKey"/>
+      
+         
+         
+         
+         
+         
+         
+         
+      <key background_colour="silver" id="575" key_code="1" name="menuKey0" use="designator">
+   
+   <outputstring background_colour="black" height="12" horizontal_justification="left" id="576" language="" length="2" name="" options="transparent" pos_x="20" pos_y="8" use="designator" value="&gt;&gt;" width="16">
+      <include_object id="445" name="black8x12SK" role="font_attributes"/>
+   </outputstring>
+   
+   
+   
+   <macro id="6" name="macro0" number_of_bytes="1" role="on_key_press" use="designator">
+      
+   <command_change_soft_key_mask child_id="1243" mask_type="datamask" parent_id="2000"/>
+         </macro>
+</key>
+   </softkeymask>
+   <softkeymask background_colour="white" id="1243" name="drive_softkeymask2" use="designator">
+      <include_object id="385" name="rearBladeMoreKey"/>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+<include_object id="386" name="rearBladeLessKey"/>
+      <include_object id="387" name="rearBladeLeftKey"/>
+      <include_object id="391" name="rearBladeRightKey"/>
+      <include_object id="395" name="rearBladeUpKey"/>
+      <include_object id="396" name="rearBladeDownKey"/>
+      <include_object id="397" name="levelerSystemRotateLeftKey"/>
+      <include_object id="399" name="levelerSystemRotateRightKey"/>
+      
+      
+      <key background_colour="silver" id="577" key_code="1" name="menuKey1" use="designator">
+   <outputstring background_colour="black" height="12" horizontal_justification="left" id="578" language="" length="2" name="" options="transparent" pos_x="20" pos_y="8" use="designator" value="&gt;&gt;" width="16">
+      <include_object id="445" name="black8x12SK" role="font_attributes"/>
+   </outputstring>
+   <macro id="7" name="macro0" number_of_bytes="1" role="on_key_press" use="designator">
+      <command_change_soft_key_mask child_id="1234" mask_type="datamask" parent_id="2000"/>
+   </macro>
+</key>
+   </softkeymask>
+<inputnumber background_colour="white" enabled="yes" format="fixed" height="12" horizontal_justification="left" id="579" max_value="299" min_value="0" name="rearPressureSp" number_of_decimals="0" offset="-200" options="transparent" scale="1.0" use="mask" value="200" width="16">
+      <include_object id="446" name="black8x12" role="font_attributes"/>
+   </inputnumber>
+   <inputboolean background_colour="white" enabled="yes" id="580" name="rearPressureBoolean" use="mask" value="0" width="8">
+      <include_object id="258" name="black6x8" role="foreground_colour"/>
+   </inputboolean>
+<archedbargraph bar_graph_width="3" colour="green" end_angle="60" height="60" id="581" max_value="1000" min_value="0" name="rearPressureBarGraph" options="clockwise" start_angle="50" target_line_colour="red" target_value="667" use="mask" value="1000" width="60"/>
+<datamask background_colour="white" id="5000" name="IOScreen" use="mask">
+   
+   <softkeymask background_colour="white" id="582" name="softkeymask0" role="soft_key_mask" use="designator">
+      
+   <include_object id="306" name="menuKey"/>
+      </softkeymask>
+<outputstring background_colour="black" height="16" horizontal_justification="middle" id="583" language="" length="2" name="label12" options="transparent" pos_x="87" pos_y="5" use="mask" value="IO" width="24">
+   
+<include_object id="528" name="black12x16" role="font_attributes"/>
+      </outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="584" language="" length="13" name="label41" options="transparent" pos_x="4" pos_y="37" use="mask" value="Weighting arm" width="78">
+   
+<include_object id="258" name="black6x8" role="font_attributes"/>
+      </outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="585" language="" length="7" name="label42" options="transparent" pos_x="93" pos_y="27" use="mask" value="Voltage" width="42">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="586" language="" length="5" name="label43" options="transparent" pos_x="146" pos_y="27" use="mask" value="Value" width="30">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="587" language="" length="12" name="label44" options="transparent" pos_x="4" pos_y="47" use="mask" value="Push arm loc" width="72">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="588" language="" length="10" name="label45" options="transparent" pos_x="4" pos_y="57" use="mask" value="Body angle" width="72">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="589" language="" length="12" name="label46" options="transparent" pos_x="4" pos_y="67" use="mask" value="Rear cutting" width="72">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="590" language="" length="12" name="label49" options="transparent" pos_x="4" pos_y="77" use="mask" value="Push arm prs" width="78">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="591" language="" length="13" name="label47" options="transparent" pos_x="4" pos_y="87" use="mask" value="Rear pressing" width="78">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="592" language="" length="12" name="label48" options="transparent" pos_x="4" pos_y="97" use="mask" value="Rear lifting" width="72">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="593" language="" length="12" name="label50" options="transparent" pos_x="4" pos_y="107" use="mask" value="Inclinometer" width="72">
+   <include_object id="258" name="black6x8" role="font_attributes"/>
+</outputstring>
+      <polygon height="20" id="594" name="polygon20" polygon_type="open" pos_x="138" pos_y="87" use="mask" width="8">
+         <include_object id="314" name="blackFill" role="fill_attributes"/>
+         <include_object id="430" name="blackLine" role="line_attributes"/>
+   
+   
+   <point pos_x="1" pos_y="1"/>
+   <point pos_x="4" pos_y="2"/>
+   <point pos_x="5" pos_y="9"/>
+<point pos_x="7" pos_y="10"/>
+      <point pos_x="5" pos_y="11"/>
+         <point pos_x="4" pos_y="18"/>
+         <point pos_x="1" pos_y="19"/>
+      </polygon>
+   </datamask>
+<inputnumber background_colour="white" enabled="yes" format="fixed" height="12" horizontal_justification="left" id="595" max_value="200" min_value="0" name="frontPressureSp" number_of_decimals="0" offset="0" options="transparent" scale="1.0" use="mask" value="0" width="16">
+   
+<include_object id="446" name="black8x12" role="font_attributes"/>
+         </inputnumber>
+   <archedbargraph bar_graph_width="3" colour="green" end_angle="60" height="60" id="596" max_value="1000" min_value="0" name="frontPressureBarGraph" options="clockwise" start_angle="50" target_line_colour="red" target_value="667" use="mask" value="1000" width="60">
+   
+   
+</archedbargraph>
+<datamask background_colour="white" id="6000" name="pidConfigScreen" use="mask">
+   <softkeymask background_colour="white" id="597" name="softkeymask" role="soft_key_mask" use="designator">
+      
+   <include_object id="306" name="menuKey"/>
+      </softkeymask>
+   <container height="200" hidden="false" id="598" name="PIDContainer" pos_x="0" pos_y="0" use="mask" width="200">
+      
+      <outputstring background_colour="black" height="16" horizontal_justification="middle" id="599" language="" length="10" name="label0" options="transparent" pos_x="36" pos_y="5" use="mask" value="PID Config" width="120">
+         <fontattributes font_colour="black" font_size="12x16" font_style="normal" font_type="latin1" id="600" language="" name="fontattributes12x16" role="font_attributes" use="mask"/>
+      </outputstring>
+      <container height="28" hidden="false" id="601" name="container0" pos_x="4" pos_y="25" use="mask" width="174">
+         <outputstring background_colour="black" height="19" horizontal_justification="left" id="602" language="" length="22" name="label37" options="transparent+autowrap" pos_x="0" pos_y="0" use="mask" value="Weighting bar pressure" width="80">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="603" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+         </outputstring>
+         <outputstring background_colour="black" height="8" horizontal_justification="left" id="604" language="" length="2" name="label47" options="transparent" pos_x="90" pos_y="0" use="mask" value="KP" width="12">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="605" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+         </outputstring>
+         <include_object id="643" name="weightingBarPressureKP" pos_x="120" pos_y="0"/>
+         <outputstring background_colour="black" height="8" horizontal_justification="left" id="606" language="" length="2" name="label53" options="transparent" pos_x="90" pos_y="9" use="mask" value="KI" width="12">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="607" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+         </outputstring>
+         <include_object id="645" name="weightingBarPressureKI" pos_x="120" pos_y="9"/>
+         <outputstring background_colour="black" height="8" horizontal_justification="left" id="608" language="" length="2" name="label54" options="transparent" pos_x="90" pos_y="18" use="mask" value="KD" width="12">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="609" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+         </outputstring>
+         <include_object id="647" name="weightingBarPressureKD" pos_x="120" pos_y="18"/>
+      </container>
+      <line height="1" id="610" line_direction="bottomlefttotopright" name="line11" pos_x="1" pos_y="53" use="mask" width="198">
+         <lineattributes id="611" line_art="1111111111111111" line_colour="black" line_width="1" name="blackline" role="line_attributes" use="mask"/>
+      </line>
+      
+      <line height="1" id="612" line_direction="bottomlefttotopright" name="line10" pos_x="1" pos_y="86" use="mask" width="198">
+         <lineattributes id="613" line_art="1111111111111111" line_colour="black" line_width="1" name="blackline" role="line_attributes" use="mask"/>
+      </line>
+      
+      <line height="1" id="614" line_direction="bottomlefttotopright" name="line7" pos_x="0" pos_y="120" use="mask" width="198">
+         <lineattributes id="615" line_art="1111111111111111" line_colour="black" line_width="1" name="blackline" role="line_attributes" use="mask"/>
+      </line>
+      
+      
+      
+   <container height="28" hidden="false" id="616" name="container1" pos_x="4" pos_y="57" use="mask" width="174">
+   <outputstring background_colour="black" height="19" horizontal_justification="left" id="617" language="" length="20" name="label37" options="transparent+autowrap" pos_x="0" pos_y="0" use="mask" value="Weighting bar height" width="80">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="618" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="619" language="" length="2" name="label47" options="transparent" pos_x="90" pos_y="0" use="mask" value="KP" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="620" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="649" name="weightingBarHeightKP" pos_x="120" pos_y="0"/>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="621" language="" length="2" name="label53" options="transparent" pos_x="90" pos_y="9" use="mask" value="KI" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="622" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="651" name="weightingBarHeightKI" pos_x="120" pos_y="9"/>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="623" language="" length="2" name="label54" options="transparent" pos_x="90" pos_y="18" use="mask" value="KD" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="624" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="653" name="weightingBarHeightKD" pos_x="120" pos_y="18"/>
+</container>
+      <container height="28" hidden="false" id="625" name="container2" pos_x="4" pos_y="91" use="mask" width="174">
+   <outputstring background_colour="black" height="19" horizontal_justification="left" id="626" language="" length="17" name="label37" options="transparent+autowrap" pos_x="0" pos_y="0" use="mask" value="Push bar pressure" width="80">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="627" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="628" language="" length="2" name="label47" options="transparent" pos_x="90" pos_y="0" use="mask" value="KP" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="629" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="655" name="pushBarPressureKP" pos_x="120" pos_y="0"/>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="630" language="" length="2" name="label53" options="transparent" pos_x="90" pos_y="9" use="mask" value="KI" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="631" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="657" name="pushBarPressureKI" pos_x="120" pos_y="9"/>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="632" language="" length="2" name="label54" options="transparent" pos_x="90" pos_y="18" use="mask" value="KD" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="633" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="659" name="pushBarPressureKD" pos_x="120" pos_y="18"/>
+</container>
+         <container height="28" hidden="false" id="634" name="container3" pos_x="4" pos_y="124" use="mask" width="174">
+   <outputstring background_colour="black" height="19" horizontal_justification="left" id="635" language="" length="15" name="label37" options="transparent+autowrap" pos_x="0" pos_y="0" use="mask" value="Push bar height" width="80">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="636" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="637" language="" length="2" name="label47" options="transparent" pos_x="90" pos_y="0" use="mask" value="KP" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="638" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="661" name="pushBarHeightKP" pos_x="120" pos_y="0"/>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="639" language="" length="2" name="label53" options="transparent" pos_x="90" pos_y="9" use="mask" value="KI" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="640" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="663" name="pushBarHeightKI" pos_x="120" pos_y="9"/>
+   <outputstring background_colour="black" height="8" horizontal_justification="left" id="641" language="" length="2" name="label54" options="transparent" pos_x="90" pos_y="18" use="mask" value="KD" width="12">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="642" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </outputstring>
+   <include_object id="665" name="pushBarHeightKD" pos_x="120" pos_y="18"/>
+</container>
+      </container>
+   
+</datamask>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="643" max_value="9999999" min_value="0" name="weightingBarPressureKP" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="644" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+         </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="645" max_value="9999999" min_value="0" name="weightingBarPressureKI" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="646" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+         </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="647" max_value="9999999" min_value="0" name="weightingBarPressureKD" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+            <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="648" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+         </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="649" max_value="9999999" min_value="0" name="weightingBarHeightKP" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="650" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="651" max_value="9999999" min_value="0" name="weightingBarHeightKI" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="652" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="653" max_value="9999999" min_value="0" name="weightingBarHeightKD" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="654" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+<inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="655" max_value="9999999" min_value="0" name="pushBarPressureKP" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="656" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="657" max_value="9999999" min_value="0" name="pushBarPressureKI" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="658" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="659" max_value="9999999" min_value="0" name="pushBarPressureKD" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="660" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="661" max_value="9999999" min_value="0" name="pushBarHeightKP" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="662" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="663" max_value="9999999" min_value="0" name="pushBarHeightKI" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="664" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+   <inputnumber background_colour="230" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="665" max_value="9999999" min_value="0" name="pushBarHeightKD" number_of_decimals="5" offset="0" options="" scale="0.00001" use="mask" value="1234567" width="48">
+      <fontattributes font_colour="black" font_size="6x8" font_style="normal" font_type="latin1" id="666" language="" name="fontattributes6x8" role="font_attributes" use="mask"/>
+   </inputnumber>
+   <inputboolean background_colour="white" enabled="yes" id="667" name="tiltAutomatBoolean" use="mask" value="0" width="8">
+      <include_object id="258" name="black6x8" role="foreground_colour"/>
+   </inputboolean>
+   <inputboolean background_colour="white" enabled="yes" id="668" name="orientAutomatBoolean" use="mask" value="0" width="8">
+      <include_object id="258" name="black6x8" role="foreground_colour"/>
+   </inputboolean>
+   <inputboolean background_colour="white" enabled="yes" id="669" name="turnAutomatBoolean" use="mask" value="0" width="8">
+      <include_object id="258" name="black6x8" role="foreground_colour"/>
+   </inputboolean>
+   <inputboolean background_colour="white" enabled="yes" id="670" name="frontPressureBoolean" use="mask" value="0" width="8">
+   <include_object id="258" name="black6x8" role="foreground_colour"/>
+</inputboolean>
+   <inputnumber background_colour="white" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="671" max_value="199998" min_value="0" name="wheelGain" number_of_decimals="3" offset="-99999" options="transparent" scale="0.001" use="mask" value="12345" width="42">
+   <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="672" language="" name="black6x8" role="font_attributes" use="mask"/>
+</inputnumber>
+   <inputnumber background_colour="white" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="673" max_value="199998" min_value="0" name="wheelOffset" number_of_decimals="3" offset="-99999" options="transparent" scale="0.001" use="mask" value="99999" width="42">
+   <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="674" language="" name="black6x8" role="font_attributes" use="mask"/>
+</inputnumber>
+<inputnumber background_colour="white" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="675" max_value="1998" min_value="0" name="tiltSetting" number_of_decimals="1" offset="-999" options="transparent" scale="0.1" value="0" width="30">
+   <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="676" language="" name="black6x8" role="font_attributes"/>
+</inputnumber>
+<archedbargraph bar_graph_width="3" colour="green" end_angle="50" height="60" id="677" max_value="1000" min_value="0" name="tiltAngleBarGraph" options="clockwise" start_angle="40" target_line_colour="red" target_value="667" use="mask" value="1000" width="60"/>
+   <numbervariable id="678" name="angleTilt" use="mask" value="0"/>
+<numbervariable id="679" name="angleTiltSp" use="mask" value="0"/>
+   <linearbargraph colour="black" height="8" id="680" max_value="30" min_value="0" name="frontBladeBarGraph" number_of_ticks="7" options="border+ticks+horizontal+growpositive" target_line_colour="red" target_value="500" use="mask" value="15" width="60">
+   
+   
+</linearbargraph>
+   <linearbargraph colour="black" height="8" id="681" max_value="30" min_value="0" name="rearBladeBarGraph" number_of_ticks="7" options="border+ticks+horizontal+growpositive" target_line_colour="red" target_value="0" use="mask" value="15" width="60"/>
+<auxiliaryfunction background_colour="123" function_type="analog" id="682" name="frontBladePressureAux" use="designator">
+   
+   
+   
+   
+<include_object id="349" name="levelerLeftContainer3" pos_x="11" pos_y="10"/>
+      <include_object id="343" name="levelerLeftContainer1" pos_x="11" pos_y="10"/>
+      <include_object id="355" name="levelerLeftContainer2b" pos_x="12" pos_y="10"/>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="683" language="" length="4" name="label17" options="transparent" pos_x="4" pos_y="2" use="designator" value="P+/-" width="24">
+   
+<include_object id="419" name="black6x8SK" role="font_attributes"/>
+      </outputstring>
+   </auxiliaryfunction>
+   <auxiliaryfunction background_colour="123" function_type="analog" id="684" name="rearBladePressureAux" use="designator">
+   
+   
+   
+   
+<include_object id="417" name="levelerLeftContainer3c" pos_x="10" pos_y="10"/>
+      <include_object id="343" name="levelerLeftContainer1" pos_x="10" pos_y="10"/>
+      <include_object id="347" name="levelerLeftContainer2" pos_x="10" pos_y="10"/>
+      <outputstring background_colour="black" height="8" horizontal_justification="left" id="685" language="" length="4" name="label18" options="transparent" pos_x="30" pos_y="2" use="designator" value="P+/-" width="24">
+   
+<include_object id="419" name="black6x8SK" role="font_attributes"/>
+      </outputstring>
+   </auxiliaryfunction>
+</objectpool>

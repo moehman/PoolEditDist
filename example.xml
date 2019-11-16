@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<objectpool dimension="200" fix_bitmap_path="images\" sk_height="32" sk_width="60" std_bitmap_path="images\">
+  <workingset background_colour="grey" id="" name="workingset" selectable="yes">
+    <include_object name="datamask0" role="active_mask"/>
+    <include_object block_col="0" block_font="" block_row="0" name="tractorcontainer" pos_x="14" pos_y="0" role=""/>
+  </workingset>
+  <datamask background_colour="grey" id="" name="datamask0" role="">
+    <include_object name="softkeymask" role="soft_key_mask"/>
+    <include_object block_col="0" block_font="" block_row="0" name="speedmeter" pos_x="0" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="pressuremeter" pos_x="1" pos_y="88" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="effectmeter" pos_x="0" pos_y="141" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="directionmeter" pos_x="100" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="clock" pos_x="100" pos_y="100" role=""/>
+  </datamask>
+  <alarmmask acoustic_signal="medium" background_colour="yellow" id="" name="alarmmask" priority="high" role="">
+    <include_object name="softkeymask" role="soft_key_mask"/>
+  </alarmmask>
+  <container height="200" hidden="no" id="" name="container" width="200"/>
+  <container height="101" hidden="no" id="" name="levelbar" width="60">
+    <rectangle block_col="0" block_font="" block_row="0" height="101" id="10" line_suppression="" name="background" pos_x="0" pos_y="0" width="60">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </rectangle>
+    <rectangle block_col="0" block_font="" block_row="0" height="95" id="10" line_suppression="" name="background0" pos_x="5" pos_y="5" width="50">
+      <include_object block_col="0" block_font="" block_row="0" name="linecolor" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </rectangle>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="olive" height="91" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="5" pos_y="9" target_line_colour="red" target_value="667" value="666" width="51"/>
+    <polygon block_col="0" block_font="" block_row="0" height="100" id="" name="mask" polygon_type="convex" pos_x="1" pos_y="0" width="58">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="black1" pos_x="0" pos_y="0" role="line_attributes"/>
+      <point pos_x="0" pos_y="100"/>
+      <point pos_x="58" pos_y="100"/>
+      <point pos_x="58" pos_y="60"/>
+      <point pos_x="55" pos_y="60"/>
+      <point pos_x="29" pos_y="99"/>
+      <point pos_x="3" pos_y="60"/>
+      <point pos_x="0" pos_y="60"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="5" pos_y="1" value="100" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label1" options="transparent" pos_x="5" pos_y="19" value="80" width="12">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label2" options="transparent" pos_x="5" pos_y="37" value="60" width="12">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label3" options="transparent" pos_x="5" pos_y="55" value="40" width="12">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label4" options="transparent" pos_x="5" pos_y="73" value="20" width="12">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label5" options="transparent" pos_x="5" pos_y="91" value="0" width="12">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role="font_attributes"/>
+    </outputstring>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="line0" pos_x="4" pos_y="9" width="20">
+      <include_object block_col="0" block_font="" block_row="0" name="black1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="line1" pos_x="4" pos_y="27" width="20">
+      <include_object block_col="0" block_font="" block_row="0" name="black1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="line2" pos_x="4" pos_y="45" width="20">
+      <include_object block_col="0" block_font="" block_row="0" name="black1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="line3" pos_x="4" pos_y="63" width="20">
+      <include_object block_col="0" block_font="" block_row="0" name="black1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="line4" pos_x="4" pos_y="81" width="20">
+      <include_object block_col="0" block_font="" block_row="0" name="black1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </line>
+  </container>
+  <softkeymask background_colour="grey" id="" name="softkeymask" role="">
+    <include_object block_col="0" block_font="" block_row="0" name="menukey"/>
+    <include_object name="startkey"/>
+    <include_object name="stopkey"/>
+    <include_object block_col="0" block_font="" block_row="0" name="gokey" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="rightkey" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="leftkey" role=""/>
+  </softkeymask>
+  <key background_colour="grey" id="" key_code="1" name="menukey">
+    <include_object block_col="0" block_font="" block_row="0" name="menucontainer" pos_x="14" pos_y="0" role=""/>
+  </key>
+  <button background_colour="white" border_colour="black" height="16" id="" key_code="1" latchable="no" name="button" width="32"/>
+  <inputboolean background_colour="white" enabled="yes" id="" name="inputboolean" value="0" width="8">
+    <include_object name="black6x8" role="foreground_colour"/>
+  </inputboolean>
+  <inputstring background_colour="black" enabled="true" height="8" horizontal_justification="left" id="" length="0" name="inputstring" options="transparent" value="A" width="32">
+    <include_object name="black6x8" role="font_attributes"/>
+  </inputstring>
+  <inputnumber background_colour="white" enabled="yes" format="fixed" height="8" horizontal_justification="left" id="" max_value="1000" min_value="0" name="inputnumber" number_of_decimals="0" offset="0" options="transparent" scale="1.0" value="0" width="32">
+    <include_object name="black6x8" role="font_attributes"/>
+  </inputnumber>
+  <inputlist enabled="yes" height="8" id="" name="inputlist" value="0" width="24">
+    <outputstring background_colour="black" height="8" horizontal_justification="left" id="" language="" length="1" name="label0" options="transparent" value="A" width="32">
+      <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="" language="" name="black6x8" role=""/>
+    </outputstring>
+    <outputstring background_colour="black" height="8" horizontal_justification="left" id="" language="" length="1" name="label1" options="transparent" value="B" width="32">
+      <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="" language="" name="black6x8" role=""/>
+    </outputstring>
+  </inputlist>
+  <outputstring background_colour="black" height="8" horizontal_justification="left" id="" language="" length="0" name="label" options="transparent" value="A" width="32">
+    <include_object name="black6x8" role="font_attributes"/>
+  </outputstring>
+  <outputnumber background_colour="white" format="fixed" height="8" horizontal_justification="left" id="" max_value="1000" min_value="0" name="outputnumber" number_of_decimals="0" offset="0" options="" scale="1.0" value="0" width="32">
+    <include_object name="black6x8" role="font_attributes"/>
+  </outputnumber>
+  <line height="20" id="" line_direction="toplefttobottomright" name="line" width="20">
+    <include_object name="black1" role="line_attributes"/>
+  </line>
+  <rectangle height="16" id="" line_suppression="" name="background" width="32">
+    <include_object name="black" role="fill_attributes"/>
+    <include_object name="black1" role="line_attributes"/>
+  </rectangle>
+  <ellipse ellipse_type="closed" end_angle="0" height="16" id="" name="ellipse" start_angle="0" width="32">
+    <include_object name="black" role="fill_attributes"/>
+    <include_object name="black1" role="line_attributes"/>
+  </ellipse>
+  <polygon height="20" id="" name="polygon" polygon_type="convex" width="20">
+    <include_object name="black" role="fill_attributes"/>
+    <include_object name="black1" role="line_attributes"/>
+    <point pos_x="00" pos_y="20"/>
+    <point pos_x="20" pos_y="0"/>
+    <point pos_x="0" pos_y="0"/>
+  </polygon>
+  <meter arc_and_tick_colour="black" border_colour="green" end_angle="224" id="" max_value="1000" min_value="0" name="basicmeter" needle_colour="red" number_of_ticks="11" options="arc+clockwise+ticks+border" start_angle="316" value="0" width="100"/>
+  <linearbargraph colour="green" height="8" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="0" options="border+targetline+ticks+horizontal+growpositive" target_line_colour="red" target_value="667" value="333" width="120">
+    <numbervariable id="" name="nv0" role="variable_reference" value="10000"/>
+    <numbervariable id="" name="nv1" role="target_value_variable_reference" value="10000"/>
+  </linearbargraph>
+  <archedbargraph bar_graph_width="8" colour="green" end_angle="180" height="40" id="" max_value="1000" min_value="0" name="archedbargraph" options="border+targetline+clockwise" start_angle="0" target_line_colour="red" target_value="667" value="333" width="40">
+    <numbervariable id="" name="nv0" role="variable_reference" value="10000"/>
+    <numbervariable id="" name="nv1" role="target_value_variable_reference" value="10000"/>
+  </archedbargraph>
+  <picturegraphic file="simpleBitmap.bmp" file1="" file4="" file8="" format="8bit" id="" name="picturegraphic" options="" rle="auto" transparency_colour="black" width="64"/>
+  <numbervariable id="" name="speed" role="" value="10000"/>
+  <numbervariable id="" name="pressure" role="" value="3000"/>
+  <numbervariable id="" name="effect" role="" value="35000"/>
+  <numbervariable id="" name="direction" role="" value="125000"/>
+  <stringvariable id="" language="" name="stringvariable" role="" value="ABC"/>
+  <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="" language="" name="black6x8" role=""/>
+  <fontattributes font_colour="white" font_size="6x8" font_style="" font_type="latin1" id="" language="" name="white6x8" role=""/>
+  <fontattributes font_colour="green" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="green6x8" role=""/>
+  <fontattributes font_colour="teal" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="teal6x8" role=""/>
+  <fontattributes font_colour="maroon" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="maroon6x8" role=""/>
+  <fontattributes font_colour="purple" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="purple6x8" role=""/>
+  <fontattributes font_colour="olive" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="olive6x8" role=""/>
+  <fontattributes font_colour="silver" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="silver6x8" role=""/>
+  <fontattributes font_colour="grey" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="grey6x8" role=""/>
+  <fontattributes font_colour="blue" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="blue6x8" role=""/>
+  <fontattributes font_colour="lime" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="lime6x8" role=""/>
+  <fontattributes font_colour="cyan" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="cyan6x8" role=""/>
+  <fontattributes font_colour="red" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="red6x8" role=""/>
+  <fontattributes font_colour="magenta" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="magenta6x8" role=""/>
+  <fontattributes font_colour="yellow" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="yellow6x8" role=""/>
+  <fontattributes font_colour="navy" font_size="6x8" font_style="normal" font_type="latin1" id="" language="" name="navy6x8" role=""/>
+  <fontattributes font_colour="black" font_size="8x8" font_style="normal" font_type="latin1" id="" language="" name="black8x8" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="black" line_width="1" name="black1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="white" line_width="1" name="white1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="green" line_width="1" name="green1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="teal" line_width="1" name="teal1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="maroon" line_width="1" name="maroon1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="purple" line_width="1" name="purple1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="olive" line_width="1" name="olive1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="silver" line_width="1" name="silver1" role=""/>
+  <include_object name="black" role=""/>
+  <include_object name="black" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="grey" line_width="1" name="grey1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="blue" line_width="1" name="blue1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="lime" line_width="1" name="lime1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="cyan" line_width="1" name="cyan1" role=""/>
+  <fillattributes fill_colour="black" fill_type="fillcolour" id="" name="black" role=""/>
+  <fillattributes fill_colour="white" fill_type="fillcolour" id="" name="white" role=""/>
+  <fillattributes fill_colour="green" fill_type="fillcolour" id="" name="green" role=""/>
+  <fillattributes fill_colour="teal" fill_type="fillcolour" id="" name="teal" role=""/>
+  <fillattributes fill_colour="maroon" fill_type="fillcolour" id="" name="maroon" role=""/>
+  <fillattributes fill_colour="purple" fill_type="fillcolour" id="" name="purple" role=""/>
+  <fillattributes fill_colour="olive" fill_type="fillcolour" id="" name="olive" role=""/>
+  <fillattributes fill_colour="silver" fill_type="fillcolour" id="" name="silver" role=""/>
+  <fillattributes fill_colour="grey" fill_type="fillcolour" id="" name="grey" role=""/>
+  <fillattributes fill_colour="blue" fill_type="fillcolour" id="" name="blue" role=""/>
+  <fillattributes fill_colour="lime" fill_type="fillcolour" id="" name="lime" role=""/>
+  <fillattributes fill_colour="cyan" fill_type="fillcolour" id="" name="cyan" role=""/>
+  <fillattributes fill_colour="red" fill_type="fillcolour" id="" name="red" role=""/>
+  <fillattributes fill_colour="magenta" fill_type="fillcolour" id="" name="magenta" role=""/>
+  <fillattributes fill_colour="yellow" fill_type="fillcolour" id="" name="yellow" role=""/>
+  <fillattributes fill_colour="navy" fill_type="fillcolour" id="" name="navy" role=""/>
+  <fillattributes fill_colour="black" fill_type="linecolour" id="" name="linecolor" role=""/>
+  <!-- inputattributes -->
+  <inputattributes id="" length="0" name="letters" role="" validation_string="abcdefghijklmnopqrstuvwxyz" validation_type="validcharacters"/>
+  <inputattributes id="" length="0" name="numbers" role="" validation_string="abcdefghijklmnopqrstuvwxyz" validation_type="validcharacters"/>
+  <objectpointer id="" name="objectpointer" value="">
+    <include_object name="ellipse" role="value"/>
+  </objectpointer>
+  <!-- macro -->
+  <macro id="" name="macro" number_of_bytes="1" role="">
+    <command_hide_show_object hide_show="show" object_id="3000"/>
+  </macro>
+  <macro id="" name="commands" number_of_bytes="1" role="">
+    <command_hide_show_object hide_show="show" object_id=""/>
+    <command_enable_disable_object enable_disable="enable" object_id="3000"/>
+    <command_select_input_object object_id=""/>
+    <command_control_audio_device frequency="0" number_of_repetitions="0" off_time="0" on_time="0"/>
+    <command_set_audio_volume volume="0"/>
+    <command_change_child_location child_id="0" d_pos_x="0" d_pos_y="0" parent_id="0"/>
+    <command_change_child_position c_pos_x="0" c_pos_y="0" child_id="0" parent_id="0"/>
+    <command_change_size height="0" object_id="0" width="0"/>
+    <command_change_background_colour background_colour="black" object_id="0"/>
+    <command_change_numeric_value object_id="0" value="0"/>
+    <command_change_string_value length="0" object_id="0" value=""/>
+    <command_change_end_point height="0" line_direction="toplefttobottomright" object_id="0" width="0"/>
+    <command_change_font_attributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" object_id="0"/>
+    <command_change_line_attributes line_art="65535" line_colour="black" line_width="1" object_id="0"/>
+    <command_change_fill_attributes fill_colour="black" fill_type="fillcolour" object_id="0"/>
+    <command_change_active_mask child_id="0" parent_id="0"/>
+    <command_change_soft_key_mask child_id="0" mask_type="1" parent_id="0"/>
+    <command_change_attribute attribute_id="1" object_id="0" value="0"/>
+    <command_change_priority object_id="0" priority="high"/>
+    <command_change_list_item child_id="0" list_index="0" parent_id="0"/>
+  </macro>
+  <auxiliaryfunction background_colour="white" function_type="boolean" id="" name="auxiliaryfunction"/>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="auxiliaryinput"/>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="Aauxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="Acontainer" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="Bauxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="Bcontainer" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="Cauxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="Ccontainer" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="analog" id="" input_id="0" name="Uauxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="Ucontainer" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="analog" id="" input_id="0" name="Vauxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="Vcontainer" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="analog" id="" input_id="0" name="Wauxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="Wcontainer" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="N1auxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="N1container" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="N2auxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="N2container" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="N3auxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="N3container" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="N4auxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="N4container" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <auxiliaryinput background_colour="white" function_type="boolean" id="" input_id="0" name="N5auxinput">
+    <include_object block_col="0" block_font="" block_row="0" name="N5container" pos_x="14" pos_y="0" role=""/>
+  </auxiliaryinput>
+  <lineattributes id="" line_art="1111111111111111" line_colour="red" line_width="1" name="red1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="magenta" line_width="1" name="magenta1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="yellow" line_width="1" name="yellow1" role=""/>
+  <lineattributes id="" line_art="1111111111111111" line_colour="navy" line_width="1" name="navy1" role=""/>
+  <container height="82" hidden="no" id="" name="speedmeter" width="100">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closedsection" end_angle="220" height="100" id="" name="background" pos_x="0" pos_y="0" start_angle="320" width="100">
+      <include_object name="black" role="fill_attributes"/>
+      <include_object name="grey1" role="line_attributes"/>
+    </ellipse>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label0" options="transparent" pos_x="15" pos_y="72" value="0" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label1" options="transparent" pos_x="3" pos_y="51" value="10" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label2" options="transparent" pos_x="6" pos_y="29" value="20" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label3" options="transparent" pos_x="22" pos_y="11" value="30" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label4" options="transparent" pos_x="44" pos_y="4" value="40" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label5" options="transparent" pos_x="66" pos_y="11" value="50" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="silver" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="number" number_of_decimals="0" offset="0" options="" pos_x="40" pos_y="66" scale="0.0010" value="5" width="20">
+      <include_object name="speed" role="variable_reference"/>
+      <include_object name="black8x8" role="font_attributes"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="title" options="transparent" pos_x="38" pos_y="34" value="km/h" width="24">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label6" options="transparent" pos_x="82" pos_y="29" value="60" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label7" options="transparent" pos_x="85" pos_y="51" value="70" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label8" options="transparent" pos_x="76" pos_y="72" value="80" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <meter arc_and_tick_colour="grey" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="220" id="" max_value="80000" min_value="0" name="metercomp" needle_colour="red" number_of_ticks="17" options="ticks+arc+clockwise" pos_x="17" pos_y="17" start_angle="320" value="5" width="66">
+      <include_object name="speed" role="variable_reference"/>
+    </meter>
+  </container>
+  <container height="53" hidden="no" id="" name="pressuremeter" width="64">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closedsection" end_angle="220" height="64" id="" name="background" pos_x="0" pos_y="0" start_angle="320" width="64">
+      <include_object name="black" role="fill_attributes"/>
+      <include_object name="grey1" role="line_attributes"/>
+    </ellipse>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label0" options="transparent" pos_x="9" pos_y="42" value="0" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label1" options="transparent" pos_x="5" pos_y="31" value="1" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label2" options="transparent" pos_x="6" pos_y="18" value="2" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label3" options="transparent" pos_x="15" pos_y="7" value="3" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label4" options="transparent" pos_x="29" pos_y="4" value="4" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label5" options="transparent" pos_x="42" pos_y="7" value="5" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="silver" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="number" number_of_decimals="1" offset="0" options="" pos_x="23" pos_y="40" scale="0.0010" value="5" width="19">
+      <include_object name="black6x8" role="font_attributes"/>
+      <include_object name="pressure" role="variable_reference"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="title" options="transparent" pos_x="23" pos_y="23" value="bar" width="18">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label6" options="transparent" pos_x="51" pos_y="18" value="6" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label7" options="transparent" pos_x="53" pos_y="31" value="7" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label8" options="transparent" pos_x="49" pos_y="42" value="8" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <meter arc_and_tick_colour="grey" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="220" id="" max_value="8000" min_value="0" name="metercomp" needle_colour="red" number_of_ticks="9" options="ticks+arc+clockwise" pos_x="13" pos_y="13" start_angle="320" value="5" width="38">
+      <include_object name="pressure" role="variable_reference"/>
+    </meter>
+  </container>
+  <include_object name="calibtable" role=""/>
+  <container height="59" hidden="no" id="" name="effectmeter" width="100">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closedsection" end_angle="190" height="100" id="" name="background" pos_x="0" pos_y="0" start_angle="350" width="100">
+      <include_object name="black" role="fill_attributes"/>
+      <include_object name="grey1" role="line_attributes"/>
+    </ellipse>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label0" options="transparent" pos_x="8" pos_y="46" value="0" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label1" options="transparent" pos_x="12" pos_y="23" value="20" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label2" options="transparent" pos_x="32" pos_y="9" value="40" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label3" options="transparent" pos_x="56" pos_y="9" value="60" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label4" options="transparent" pos_x="76" pos_y="23" value="80" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label5" options="transparent" pos_x="79" pos_y="46" value="100" width="18">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="silver" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="number" number_of_decimals="0" offset="0" options="" pos_x="35" pos_y="35" scale="0.0010" value="5" width="20">
+      <include_object name="black6x8" role="font_attributes"/>
+      <include_object name="effect" role="variable_reference"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="title" options="transparent" pos_x="58" pos_y="36" value="%" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <meter arc_and_tick_colour="grey" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="180" id="" max_value="100000" min_value="0" name="metercomp" needle_colour="red" number_of_ticks="11" options="ticks+arc+clockwise" pos_x="20" pos_y="20" start_angle="0" value="5" width="60">
+      <include_object name="effect" role="variable_reference"/>
+    </meter>
+  </container>
+  <include_object name="clock" role=""/>
+  <datamask background_colour="grey" id="" name="datamask1" role="">
+    <include_object block_col="0" block_font="" block_row="0" name="softkeymask" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="calibtable" pos_x="6" pos_y="25" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="calibtable" pos_x="6" pos_y="85" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="effectmeter" pos_x="0" pos_y="141" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="effectmeter" pos_x="100" pos_y="141" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="levelbar" pos_x="133" pos_y="31" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="statuscontainer" pos_x="0" pos_y="0" role=""/>
+  </datamask>
+  <container height="53" hidden="no" id="" name="calibtable" width="121">
+    <rectangle block_col="0" block_font="" block_row="0" height="53" id="" line_suppression="" name="rectangle" pos_x="0" pos_y="0" width="121">
+      <include_object name="black1" role="line_attributes"/>
+      <include_object name="white" role="fill_attributes"/>
+    </rectangle>
+    <rectangle block_col="0" block_font="" block_row="0" height="14" id="" line_suppression="" name="rowrectangle" pos_x="0" pos_y="0" width="121">
+      <include_object name="black1" role="line_attributes"/>
+      <include_object name="silver" role="fill_attributes"/>
+    </rectangle>
+    <rectangle block_col="0" block_font="" block_row="0" height="53" id="" line_suppression="" name="colrectangle" pos_x="0" pos_y="0" width="41">
+      <include_object name="black1" role="line_attributes"/>
+      <include_object name="silver" role="fill_attributes"/>
+    </rectangle>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="lineh0" pos_x="0" pos_y="13" width="121">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="lineh1" pos_x="0" pos_y="26" width="121">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="lineh2" pos_x="0" pos_y="39" width="121">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="53" id="" line_direction="toplefttobottomright" name="linev0" pos_x="40" pos_y="0" width="1">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="53" id="" line_direction="toplefttobottomright" name="linev1" pos_x="80" pos_y="0" width="1">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell0_0" options="transparent" pos_x="1" pos_y="3" value="POINT" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell0_1" options="transparent" pos_x="41" pos_y="3" value="%" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell0_2" options="transparent" pos_x="81" pos_y="3" value="kg/ha" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell1_0" options="transparent" pos_x="1" pos_y="16" value="P1" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell1_1" number_of_decimals="0" offset="0" options="transparent" pos_x="41" pos_y="16" scale="1" value="0" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell1_2" number_of_decimals="0" offset="0" options="transparent" pos_x="81" pos_y="16" scale="1" value="0" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell2_0" options="transparent" pos_x="1" pos_y="29" value="P2" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell2_1" number_of_decimals="0" offset="0" options="transparent" pos_x="41" pos_y="29" scale="1" value="0" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell2_2" number_of_decimals="0" offset="0" options="transparent" pos_x="81" pos_y="29" scale="1" value="0" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell3_0" options="transparent" pos_x="1" pos_y="42" value="P3" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell3_1" number_of_decimals="0" offset="0" options="transparent" pos_x="41" pos_y="42" scale="1" value="0" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell3_2" number_of_decimals="0" offset="0" options="transparent" pos_x="81" pos_y="42" scale="1" value="0" width="39">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+  </container>
+  <container height="32" hidden="false" id="" name="stopcontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="polygon" polygon_type="convex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="red" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="red1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="22" pos_y="31"/>
+      <point pos_x="31" pos_y="22"/>
+      <point pos_x="31" pos_y="10"/>
+      <point pos_x="22" pos_y="0"/>
+      <point pos_x="10" pos_y="0"/>
+      <point pos_x="0" pos_y="10"/>
+      <point pos_x="0" pos_y="22"/>
+      <point pos_x="10" pos_y="31"/>
+    </polygon>
+    <polygon block_col="0" block_font="" block_row="0" height="24" id="" name="polygon" polygon_type="convex" pos_x="4" pos_y="4" width="24">
+      <include_object block_col="0" block_font="" block_row="0" name="yellow" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="yellow1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="17" pos_y="23"/>
+      <point pos_x="23" pos_y="17"/>
+      <point pos_x="23" pos_y="7"/>
+      <point pos_x="17" pos_y="0"/>
+      <point pos_x="7" pos_y="0"/>
+      <point pos_x="0" pos_y="7"/>
+      <point pos_x="0" pos_y="17"/>
+      <point pos_x="7" pos_y="23"/>
+    </polygon>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="4" pos_y="12" value="STOP" width="24">
+      <include_object block_col="0" block_font="" block_row="0" name="black6x8" pos_x="0" pos_y="0" role="font_attributes"/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="tractorcontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="polygon" polygon_type="convex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="red" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="red1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="31" pos_y="25"/>
+      <point pos_x="31" pos_y="17"/>
+      <point pos_x="28" pos_y="14"/>
+      <point pos_x="18" pos_y="12"/>
+      <point pos_x="15" pos_y="4"/>
+      <point pos_x="4" pos_y="4"/>
+      <point pos_x="2" pos_y="13"/>
+      <point pos_x="2" pos_y="25"/>
+    </polygon>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="16" id="" name="ellipse" pos_x="0" pos_y="16" start_angle="0" width="16">
+      <fillattributes fill_colour="black" fill_type="fillcolour" id="" name="black" role="fill_attributes"/>
+      <lineattributes id="" line_art="1111111111111111" line_colour="black" line_width="1" name="black1" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="14" id="" name="ellipse" pos_x="17" pos_y="18" start_angle="0" width="14">
+      <fillattributes fill_colour="black" fill_type="fillcolour" id="" name="black" role="fill_attributes"/>
+      <lineattributes id="" line_art="1111111111111111" line_colour="black" line_width="1" name="black1" role="line_attributes"/>
+    </ellipse>
+  </container>
+  <key background_colour="grey" id="" key_code="1" name="stopkey">
+    <include_object block_col="0" block_font="" block_row="0" name="stopcontainer" pos_x="14" pos_y="0" role=""/>
+  </key>
+  <container height="32" hidden="false" id="" name="startcontainer" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="32" id="" name="ellipse" pos_x="0" pos_y="0" start_angle="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="green" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="green1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="155" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="75" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="lime" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="335" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="255" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="lime" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="1" pos_y="12" value="START" width="30">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="Acontainer" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="32" id="" name="ellipse" pos_x="0" pos_y="0" start_angle="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="green" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="green1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="155" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="75" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="lime" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="335" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="255" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="lime" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="12" value="A" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="Bcontainer" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="32" id="" name="ellipse" pos_x="0" pos_y="0" start_angle="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="green" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="green1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="155" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="75" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="lime" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="335" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="255" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="lime" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="12" value="B" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="Ccontainer" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="32" id="" name="ellipse" pos_x="0" pos_y="0" start_angle="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="155" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="75" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="335" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="255" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="12" value="C" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="Ucontainer" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="32" id="" name="ellipse" pos_x="0" pos_y="0" start_angle="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="155" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="75" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="335" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="255" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask0" polygon_type="nonconvex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="9" pos_y="29"/>
+      <point pos_x="1" pos_y="31"/>
+      <point pos_x="3" pos_y="23"/>
+      <point pos_x="9" pos_y="23"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="12" value="U" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="Vcontainer" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="32" id="" name="ellipse" pos_x="0" pos_y="0" start_angle="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="155" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="75" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="335" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="255" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask0" polygon_type="nonconvex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="9" pos_y="29"/>
+      <point pos_x="1" pos_y="31"/>
+      <point pos_x="3" pos_y="23"/>
+      <point pos_x="9" pos_y="23"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="12" value="V" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="Wcontainer" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="32" id="" name="ellipse" pos_x="0" pos_y="0" start_angle="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="155" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="75" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="335" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="255" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask0" polygon_type="nonconvex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="9" pos_y="29"/>
+      <point pos_x="1" pos_y="31"/>
+      <point pos_x="3" pos_y="23"/>
+      <point pos_x="9" pos_y="23"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="12" value="W" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="N1container" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="26" id="" name="ellipse" pos_x="3" pos_y="3" start_angle="0" width="26">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="16" id="" name="ellipse" pos_x="8" pos_y="8" start_angle="0" width="16">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask0" polygon_type="nonconvex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="12" pos_y="20"/>
+      <point pos_x="8" pos_y="2"/>
+      <point pos_x="24" pos_y="2"/>
+      <point pos_x="19" pos_y="20"/>
+    </polygon>
+    <rectangle block_col="0" block_font="" block_row="0" height="3" id="10" line_suppression="" name="background" pos_x="7" pos_y="0" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+    </rectangle>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="8" value="1" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="grey6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="N2container" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="26" id="" name="ellipse" pos_x="3" pos_y="3" start_angle="0" width="26">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="16" id="" name="ellipse" pos_x="8" pos_y="8" start_angle="0" width="16">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask0" polygon_type="nonconvex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="red" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="maroon1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="12" pos_y="20"/>
+      <point pos_x="8" pos_y="2"/>
+      <point pos_x="24" pos_y="2"/>
+      <point pos_x="19" pos_y="20"/>
+    </polygon>
+    <rectangle block_col="0" block_font="" block_row="0" height="3" id="10" line_suppression="" name="background" pos_x="7" pos_y="0" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="red" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="maroon1" pos_x="0" pos_y="0" role=""/>
+    </rectangle>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="8" value="2" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="maroon6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="N3container" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="26" id="" name="ellipse" pos_x="3" pos_y="3" start_angle="0" width="26">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="16" id="" name="ellipse" pos_x="8" pos_y="8" start_angle="0" width="16">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask0" polygon_type="nonconvex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="lime" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="green1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="12" pos_y="20"/>
+      <point pos_x="8" pos_y="2"/>
+      <point pos_x="24" pos_y="2"/>
+      <point pos_x="19" pos_y="20"/>
+    </polygon>
+    <rectangle block_col="0" block_font="" block_row="0" height="3" id="10" line_suppression="" name="background" pos_x="7" pos_y="0" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="lime" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="green1" pos_x="0" pos_y="0" role=""/>
+    </rectangle>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="8" value="3" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="green6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="N4container" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="26" id="" name="ellipse" pos_x="3" pos_y="3" start_angle="0" width="26">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="16" id="" name="ellipse" pos_x="8" pos_y="8" start_angle="0" width="16">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask0" polygon_type="nonconvex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="teal" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="blue1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="12" pos_y="20"/>
+      <point pos_x="8" pos_y="2"/>
+      <point pos_x="24" pos_y="2"/>
+      <point pos_x="19" pos_y="20"/>
+    </polygon>
+    <rectangle block_col="0" block_font="" block_row="0" height="3" id="10" line_suppression="" name="background" pos_x="7" pos_y="0" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="teal" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="blue1" pos_x="0" pos_y="0" role=""/>
+    </rectangle>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="8" value="4" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="blue6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="N5container" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="26" id="" name="ellipse" pos_x="3" pos_y="3" start_angle="0" width="26">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="16" id="" name="ellipse" pos_x="8" pos_y="8" start_angle="0" width="16">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask0" polygon_type="nonconvex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="yellow" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="olive1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="12" pos_y="20"/>
+      <point pos_x="8" pos_y="2"/>
+      <point pos_x="24" pos_y="2"/>
+      <point pos_x="19" pos_y="20"/>
+    </polygon>
+    <rectangle block_col="0" block_font="" block_row="0" height="3" id="10" line_suppression="" name="background" pos_x="7" pos_y="0" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="yellow" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="olive1" pos_x="0" pos_y="0" role=""/>
+    </rectangle>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="12" pos_y="8" value="5" width="6">
+      <include_object block_col="0" block_font="" block_row="0" name="olive6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <include_object name="gokey" role=""/>
+  <key background_colour="grey" id="" key_code="1" name="startkey">
+    <include_object block_col="0" block_font="" block_row="0" name="startcontainer" pos_x="14" pos_y="0" role=""/>
+  </key>
+  <container height="32" hidden="false" id="" name="gocontainer" width="32">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="0" height="32" id="" name="ellipse" pos_x="0" pos_y="0" start_angle="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="blue" role="fill_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="blue1" pos_x="0" pos_y="0" role="line_attributes"/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="155" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="75" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="cyan" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="cyan1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="open" end_angle="335" height="28" id="" name="ellipse" pos_x="2" pos_y="2" start_angle="255" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="cyan" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="cyan1" pos_x="0" pos_y="0" role=""/>
+    </ellipse>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="9" pos_y="12" value="GO" width="12">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="100" hidden="no" id="" name="clock" width="100">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="89" height="100" id="" name="background" pos_x="0" pos_y="0" start_angle="91" width="100">
+      <include_object name="black" role="fill_attributes"/>
+      <include_object name="grey1" role="line_attributes"/>
+    </ellipse>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="title" options="transparent" pos_x="44" pos_y="33" value="PM" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <meter arc_and_tick_colour="silver" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="90" id="" max_value="60" min_value="0" name="hourarm" needle_colour="red" number_of_ticks="13" options="clockwise" pos_x="30" pos_y="30" start_angle="90" value="7" width="40"/>
+    <meter arc_and_tick_colour="silver" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="90" id="" max_value="60" min_value="0" name="minarm" needle_colour="red" number_of_ticks="13" options="ticks+arc+clockwise" pos_x="15" pos_y="15" start_angle="90" value="25" width="70"/>
+    <meter arc_and_tick_colour="silver" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="90" id="" max_value="60" min_value="0" name="secarm" needle_colour="green" number_of_ticks="13" options="clockwise" pos_x="15" pos_y="15" start_angle="90" value="48" width="70"/>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label1" options="transparent" pos_x="67" pos_y="9" value="1" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label2" options="transparent" pos_x="83" pos_y="25" value="2" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label3" options="transparent" pos_x="88" pos_y="46" value="3" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label4" options="transparent" pos_x="82" pos_y="67" value="4" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label5" options="transparent" pos_x="68" pos_y="82" value="5" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label6" options="transparent" pos_x="47" pos_y="88" value="6" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label7" options="transparent" pos_x="27" pos_y="83" value="7" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label8" options="transparent" pos_x="11" pos_y="68" value="8" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label9" options="transparent" pos_x="4" pos_y="46" value="9" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label10" options="transparent" pos_x="6" pos_y="26" value="10" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label11" options="transparent" pos_x="21" pos_y="10" value="11" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label12" options="transparent" pos_x="43" pos_y="4" value="12" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+  </container>
+  <container height="16" hidden="false" id="" name="gpscontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="100" id="" name="mask" polygon_type="convex" pos_x="1" pos_y="0" width="58">
+      <include_object block_col="0" block_font="" block_row="0" name="green" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="0" pos_y="0"/>
+      <point pos_x="0" pos_y="15"/>
+      <point pos_x="25" pos_y="15"/>
+      <point pos_x="31" pos_y="9"/>
+      <point pos_x="31" pos_y="0"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="7" pos_y="3" value="GPS" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="lime6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="16" hidden="false" id="" name="tccontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="100" id="" name="mask" polygon_type="convex" pos_x="1" pos_y="0" width="58">
+      <include_object block_col="0" block_font="" block_row="0" name="green" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="0" pos_y="0"/>
+      <point pos_x="0" pos_y="15"/>
+      <point pos_x="25" pos_y="15"/>
+      <point pos_x="31" pos_y="9"/>
+      <point pos_x="31" pos_y="0"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="9" pos_y="3" value="TC" width="12">
+      <include_object block_col="0" block_font="" block_row="0" name="lime6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="16" hidden="false" id="" name="tecucontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="100" id="" name="mask" polygon_type="convex" pos_x="1" pos_y="0" width="58">
+      <include_object block_col="0" block_font="" block_row="0" name="green" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="0" pos_y="0"/>
+      <point pos_x="0" pos_y="15"/>
+      <point pos_x="25" pos_y="15"/>
+      <point pos_x="31" pos_y="9"/>
+      <point pos_x="31" pos_y="0"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="3" pos_y="3" value="TECU" width="24">
+      <include_object block_col="0" block_font="" block_row="0" name="lime6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="16" hidden="false" id="" name="calibcontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="100" id="" name="mask" polygon_type="convex" pos_x="1" pos_y="0" width="58">
+      <include_object block_col="0" block_font="" block_row="0" name="olive" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="yellow1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="0" pos_y="0"/>
+      <point pos_x="0" pos_y="15"/>
+      <point pos_x="25" pos_y="15"/>
+      <point pos_x="31" pos_y="9"/>
+      <point pos_x="31" pos_y="0"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="1" pos_y="3" value="CALIB" width="30">
+      <include_object block_col="0" block_font="" block_row="0" name="yellow6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="16" hidden="false" id="" name="poscontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="100" id="" name="mask" polygon_type="convex" pos_x="1" pos_y="0" width="58">
+      <include_object block_col="0" block_font="" block_row="0" name="olive" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="yellow1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="0" pos_y="0"/>
+      <point pos_x="0" pos_y="15"/>
+      <point pos_x="25" pos_y="15"/>
+      <point pos_x="31" pos_y="9"/>
+      <point pos_x="31" pos_y="0"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="7" pos_y="3" value="POS" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="yellow6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="16" hidden="false" id="" name="errcontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="100" id="" name="mask" polygon_type="convex" pos_x="1" pos_y="0" width="58">
+      <include_object block_col="0" block_font="" block_row="0" name="maroon" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="red1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="0" pos_y="0"/>
+      <point pos_x="0" pos_y="15"/>
+      <point pos_x="25" pos_y="15"/>
+      <point pos_x="31" pos_y="9"/>
+      <point pos_x="31" pos_y="0"/>
+    </polygon>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="1" pos_y="3" value="ALARM" width="30">
+      <include_object block_col="0" block_font="" block_row="0" name="yellow6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <include_object name="softkeymask" role=""/>
+  <container height="16" hidden="false" id="" name="statuscontainer" width="200">
+    <include_object block_col="0" block_font="" block_row="0" name="gpscontainer" pos_x="0" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="tccontainer" pos_x="32" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="tecucontainer" pos_x="64" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="calibcontainer" pos_x="96" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="poscontainer" pos_x="128" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="errcontainer" pos_x="160" pos_y="0" role=""/>
+  </container>
+  <datamask background_colour="grey" id="" name="datamask2" role="">
+    <include_object block_col="0" block_font="" block_row="0" name="softkeymask" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="statuscontainer" pos_x="0" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="trendbars" pos_x="107" pos_y="27" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="trendbars" pos_x="7" pos_y="27" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="voltmeter" pos_x="7" pos_y="116" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="voltmeter" pos_x="107" pos_y="116" role=""/>
+  </datamask>
+  <container height="80" hidden="false" id="" name="trendbars" width="85">
+    <rectangle block_col="0" block_font="" block_row="0" height="80" id="10" line_suppression="" name="background" pos_x="0" pos_y="0" width="85">
+      <include_object block_col="0" block_font="" block_row="0" name="black" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="grey1" pos_x="0" pos_y="0" role=""/>
+    </rectangle>
+    <container block_col="0" block_font="" block_row="0" height="60" hidden="false" id="" name="bars" pos_x="22" pos_y="3" width="60">
+      <rectangle block_col="0" block_font="" block_row="0" height="60" id="10" line_suppression="" name="background" pos_x="0" pos_y="0" width="60">
+        <include_object block_col="0" block_font="" block_row="0" name="grey" pos_x="0" pos_y="0" role=""/>
+        <include_object block_col="0" block_font="" block_row="0" name="silver1" pos_x="0" pos_y="0" role=""/>
+      </rectangle>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="0" pos_y="0" target_line_colour="red" target_value="667" value="50" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="6" pos_y="0" target_line_colour="red" target_value="667" value="150" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="12" pos_y="0" target_line_colour="red" target_value="667" value="250" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="18" pos_y="0" target_line_colour="red" target_value="667" value="350" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="24" pos_y="0" target_line_colour="red" target_value="667" value="450" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="30" pos_y="0" target_line_colour="red" target_value="667" value="550" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="36" pos_y="0" target_line_colour="red" target_value="666" value="650" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="42" pos_y="0" target_line_colour="red" target_value="667" value="750" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="48" pos_y="0" target_line_colour="red" target_value="667" value="850" width="6"/>
+      <linearbargraph block_col="0" block_font="" block_row="0" colour="red" height="60" id="" max_value="1000" min_value="0" name="linearbargraph" number_of_ticks="11" options="growpositive" pos_x="54" pos_y="0" target_line_colour="red" target_value="667" value="950" width="6"/>
+    </container>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="2" pos_y="2" value="100" width="18">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="8" pos_y="55" value="0%" width="12">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="32" pos_y="67" value="kg/ha" width="40">
+      <include_object block_col="0" block_font="" block_row="0" name="white8x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <fontattributes font_colour="white" font_size="8x8" font_style="normal" font_type="latin1" id="" language="" name="white8x8" role=""/>
+  <datamask background_colour="grey" id="" name="datamask3" role="">
+    <include_object block_col="0" block_font="" block_row="0" name="softkeymask" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="statuscontainer" pos_x="0" pos_y="0" role=""/>
+    <picturegraphic block_col="0" block_font="" block_row="0" file="bunny1.png" file1="" file4="" file8="" format="8bit" id="" name="bunny1" options="transparent" pos_x="4" pos_y="18" rle="auto" transparency_colour="grey" width="78"/>
+    <picturegraphic block_col="0" block_font="" block_row="0" file="bunny2.png" file1="" file4="" file8="" format="8bit" id="" name="bunny2" options="transparent" pos_x="89" pos_y="18" rle="auto" transparency_colour="grey" width="74"/>
+    <picturegraphic block_col="0" block_font="" block_row="0" file="bunny3.png" file1="" file4="" file8="" format="8bit" id="" name="bunny3" options="transparent" pos_x="34" pos_y="98" rle="auto" transparency_colour="grey" width="77"/>
+    <picturegraphic block_col="0" block_font="" block_row="0" file="bunny4.png" file1="" file4="" file8="" format="8bit" id="" name="bunny4" options="transparent" pos_x="120" pos_y="99" rle="auto" transparency_colour="grey" width="77"/>
+  </datamask>
+  <key background_colour="grey" id="" key_code="1" name="gokey">
+    <include_object block_col="0" block_font="" block_row="0" name="gocontainer" pos_x="14" pos_y="0" role=""/>
+  </key>
+  <container height="32" hidden="false" id="" name="rightarrowcontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask" polygon_type="convex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="green" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="green1" pos_x="0" pos_y="0" role="line_attributes"/>
+      <point pos_x="0" pos_y="22"/>
+      <point pos_x="0" pos_y="10"/>
+      <point pos_x="16" pos_y="10"/>
+      <point pos_x="16" pos_y="2"/>
+      <point pos_x="30" pos_y="16"/>
+      <point pos_x="16" pos_y="30"/>
+      <point pos_x="16" pos_y="22"/>
+    </polygon>
+    <polygon block_col="0" block_font="" block_row="0" height="28" id="" name="mask" polygon_type="convex" pos_x="2" pos_y="2" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role="line_attributes"/>
+      <point pos_x="0" pos_y="18"/>
+      <point pos_x="0" pos_y="10"/>
+      <point pos_x="16" pos_y="10"/>
+      <point pos_x="16" pos_y="5"/>
+      <point pos_x="25" pos_y="14"/>
+      <point pos_x="16" pos_y="23"/>
+      <point pos_x="16" pos_y="18"/>
+    </polygon>
+  </container>
+  <key background_colour="grey" id="" key_code="1" name="rightkey">
+    <include_object block_col="0" block_font="" block_row="0" name="rightarrowcontainer" pos_x="14" pos_y="0" role=""/>
+  </key>
+  <container height="32" hidden="false" id="" name="leftarrowcontainer" width="32">
+    <polygon block_col="0" block_font="" block_row="0" height="32" id="" name="mask" polygon_type="convex" pos_x="0" pos_y="0" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="green" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="green1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="31" pos_y="22"/>
+      <point pos_x="31" pos_y="10"/>
+      <point pos_x="16" pos_y="10"/>
+      <point pos_x="16" pos_y="2"/>
+      <point pos_x="0" pos_y="16"/>
+      <point pos_x="16" pos_y="30"/>
+      <point pos_x="16" pos_y="22"/>
+    </polygon>
+    <polygon block_col="0" block_font="" block_row="0" height="28" id="" name="mask" polygon_type="convex" pos_x="2" pos_y="2" width="28">
+      <include_object block_col="0" block_font="" block_row="0" name="lime1" pos_x="0" pos_y="0" role=""/>
+      <point pos_x="27" pos_y="18"/>
+      <point pos_x="27" pos_y="10"/>
+      <point pos_x="12" pos_y="10"/>
+      <point pos_x="12" pos_y="5"/>
+      <point pos_x="2" pos_y="14"/>
+      <point pos_x="12" pos_y="23"/>
+      <point pos_x="12" pos_y="18"/>
+    </polygon>
+  </container>
+  <key background_colour="grey" id="" key_code="1" name="leftkey">
+    <include_object block_col="0" block_font="" block_row="0" name="leftarrowcontainer" pos_x="14" pos_y="0" role=""/>
+  </key>
+  <container height="65" hidden="no" id="" name="voltmeter" width="80">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closedsection" end_angle="220" height="80" id="" name="background" pos_x="0" pos_y="0" start_angle="320" width="80">
+      <include_object name="black" role="fill_attributes"/>
+      <include_object name="grey1" role="line_attributes"/>
+    </ellipse>
+    <archedbargraph bar_graph_width="4" block_col="0" block_font="" block_row="0" colour="yellow" end_angle="56" height="48" id="" max_value="100" min_value="0" name="yellowbar" options="clockwise" pos_x="16" pos_y="16" start_angle="24" target_line_colour="red" target_value="667" value="100" width="48"/>
+    <archedbargraph bar_graph_width="4" block_col="0" block_font="" block_row="0" colour="green" end_angle="24" height="48" id="" max_value="100" min_value="0" name="greenbar" options="clockwise" pos_x="16" pos_y="16" start_angle="350" target_line_colour="red" target_value="667" value="100" width="48"/>
+    <archedbargraph bar_graph_width="4" block_col="0" block_font="" block_row="0" colour="red" end_angle="350" height="48" id="" max_value="100" min_value="0" name="redbar" options="clockwise" pos_x="16" pos_y="16" start_angle="320" target_line_colour="red" target_value="667" value="100" width="48"/>
+    <meter arc_and_tick_colour="grey" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="220" id="" max_value="16000" min_value="0" name="metercomp" needle_colour="red" number_of_ticks="17" options="arc+clockwise+ticks" pos_x="16" pos_y="16" start_angle="320" value="5" width="48">
+      <include_object block_col="0" block_font="" block_row="0" name="voltage" role="variable_reference"/>
+    </meter>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label0" options="transparent" pos_x="13" pos_y="56" value="0" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label1" options="transparent" pos_x="6" pos_y="40" value="2" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label2" options="transparent" pos_x="7" pos_y="23" value="4" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label3" options="transparent" pos_x="19" pos_y="10" value="6" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label4" options="transparent" pos_x="37" pos_y="5" value="8" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label5" options="transparent" pos_x="49" pos_y="9" value="10" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="silver" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="number" number_of_decimals="1" offset="0" options="" pos_x="27" pos_y="53" scale="0.001" value="5" width="26">
+      <include_object name="black6x8" role="font_attributes"/>
+      <include_object name="voltage" role="variable_reference"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="title" options="transparent" pos_x="37" pos_y="28" value="V" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label6" options="transparent" pos_x="62" pos_y="23" value="12" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label7" options="transparent" pos_x="64" pos_y="39" value="14" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label8" options="transparent" pos_x="58" pos_y="56" value="16" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+  </container>
+  <numbervariable id="" name="voltage" role="" value="13500"/>
+  <container height="61" hidden="no" id="" name="calibtable2" width="129">
+    <rectangle block_col="0" block_font="" block_row="0" height="61" id="" line_suppression="" name="rectangle" pos_x="0" pos_y="0" width="129">
+      <include_object name="black1" role="line_attributes"/>
+      <include_object name="lime" role="fill_attributes"/>
+    </rectangle>
+    <rectangle block_col="0" block_font="" block_row="0" height="13" id="" line_suppression="" name="rowrectangle" pos_x="0" pos_y="0" width="129">
+      <include_object name="black1" role="line_attributes"/>
+      <include_object name="green" role="fill_attributes"/>
+    </rectangle>
+    <rectangle block_col="0" block_font="" block_row="0" height="61" id="" line_suppression="" name="colrectangle" pos_x="0" pos_y="0" width="33">
+      <include_object name="black1" role="line_attributes"/>
+      <include_object name="green" role="fill_attributes"/>
+    </rectangle>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="lineh0" pos_x="0" pos_y="12" width="129">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="lineh1" pos_x="0" pos_y="24" width="129">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="lineh2" pos_x="0" pos_y="36" width="129">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="61" id="" line_direction="toplefttobottomright" name="linev0" pos_x="32" pos_y="0" width="1">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="61" id="" line_direction="toplefttobottomright" name="linev1" pos_x="64" pos_y="0" width="1">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell1_1" number_of_decimals="2" offset="0" options="transparent" pos_x="33" pos_y="14" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell1_2" number_of_decimals="0" offset="0" options="transparent" pos_x="65" pos_y="14" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell2_1" number_of_decimals="2" offset="0" options="transparent" pos_x="33" pos_y="26" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell2_2" number_of_decimals="0" offset="0" options="transparent" pos_x="65" pos_y="26" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell3_1" number_of_decimals="2" offset="0" options="transparent" pos_x="33" pos_y="38" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell3_2" number_of_decimals="0" offset="0" options="transparent" pos_x="65" pos_y="38" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <line block_col="0" block_font="" block_row="0" height="1" id="" line_direction="toplefttobottomright" name="lineh3" pos_x="0" pos_y="48" width="129">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <line block_col="0" block_font="" block_row="0" height="61" id="" line_direction="toplefttobottomright" name="linev2" pos_x="96" pos_y="0" width="1">
+      <include_object name="black1" role="line_attributes"/>
+    </line>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell0_0" options="transparent" pos_x="1" pos_y="2" value="cal" width="31">
+      <include_object name="lime6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell0_1" options="transparent" pos_x="33" pos_y="2" value="g" width="31">
+      <include_object name="lime6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell0_2" options="transparent" pos_x="65" pos_y="2" value="kg/ha" width="31">
+      <include_object name="lime6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell0_3" options="transparent" pos_x="97" pos_y="2" value="%" width="31">
+      <include_object name="lime6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell1_0" options="transparent" pos_x="1" pos_y="14" value="P1" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell1_3" number_of_decimals="1" offset="0" options="transparent" pos_x="97" pos_y="14" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell2_0" options="transparent" pos_x="1" pos_y="26" value="P2" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell2_3" number_of_decimals="1" offset="0" options="transparent" pos_x="97" pos_y="26" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell3_0" options="transparent" pos_x="1" pos_y="38" value="P3" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell3_3" number_of_decimals="1" offset="0" options="transparent" pos_x="97" pos_y="38" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="10" horizontal_justification="middle" id="" language="" length="0" name="cell4_0" options="transparent" pos_x="1" pos_y="50" value="P4" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell4_1" number_of_decimals="2" offset="0" options="transparent" pos_x="33" pos_y="50" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell4_2" number_of_decimals="0" offset="0" options="transparent" pos_x="65" pos_y="50" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputnumber background_colour="white" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="cell4_3" number_of_decimals="1" offset="0" options="transparent" pos_x="97" pos_y="50" scale="1.0" value="0" width="31">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+  </container>
+  <container height="82" hidden="no" id="" name="speedmeter2" width="100">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closedsection" end_angle="220" height="100" id="" name="background" pos_x="0" pos_y="0" start_angle="320" width="100">
+      <include_object name="black" role="fill_attributes"/>
+      <include_object name="grey1" role="line_attributes"/>
+    </ellipse>
+    <meter arc_and_tick_colour="grey" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="200" id="" max_value="80000" min_value="0" name="metercomp" needle_colour="red" number_of_ticks="9" options="ticks+arc+clockwise" pos_x="17" pos_y="17" start_angle="340" value="35500" width="65"/>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label0" options="transparent" pos_x="9" pos_y="60" value="0" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label1" options="transparent" pos_x="2" pos_y="42" value="10" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label2" options="transparent" pos_x="10" pos_y="23" value="20" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label3" options="transparent" pos_x="25" pos_y="10" value="30" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="silver" block_col="0" block_font="" block_row="0" format="fixed" height="9" horizontal_justification="middle" id="" max_value="1000" min_value="0" name="number" number_of_decimals="2" offset="0" options="" pos_x="34" pos_y="66" scale="0.0010" value="35500" width="32">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="title" options="transparent" pos_x="38" pos_y="34" value="km/h" width="24">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label4" options="transparent" pos_x="44" pos_y="5" value="40" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label5" options="transparent" pos_x="62" pos_y="10" value="50" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label6" options="transparent" pos_x="77" pos_y="23" value="60" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label7" options="transparent" pos_x="84" pos_y="41" value="70" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label8" options="transparent" pos_x="82" pos_y="60" value="80" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+  </container>
+  <container height="32" hidden="false" id="" name="menucontainer" width="32">
+    <rectangle block_col="0" block_font="" block_row="0" height="24" id="10" line_suppression="" name="background" pos_x="0" pos_y="4" width="32">
+      <include_object block_col="0" block_font="" block_row="0" name="olive" pos_x="0" pos_y="0" role=""/>
+      <include_object block_col="0" block_font="" block_row="0" name="yellow1" pos_x="0" pos_y="0" role=""/>
+    </rectangle>
+    <outputstring background_colour="black" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label0" options="transparent" pos_x="4" pos_y="13" value="MENU" width="24">
+      <include_object block_col="0" block_font="" block_row="0" name="white6x8" pos_x="0" pos_y="0" role=""/>
+    </outputstring>
+  </container>
+  <container height="102" hidden="no" id="" name="feedtrend" width="96">
+    <rectangle block_col="0" block_font="" block_row="0" height="102" id="" line_suppression="" name="background" pos_x="0" pos_y="0" width="96">
+      <include_object name="grey1" role="line_attributes"/>
+      <include_object name="silver" role="fill_attributes"/>
+    </rectangle>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label0" options="transparent" pos_x="2" pos_y="1" value="400" width="18">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label1" options="transparent" pos_x="2" pos_y="17" value="320" width="18">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label2" options="transparent" pos_x="2" pos_y="33" value="240" width="18">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label3" options="transparent" pos_x="2" pos_y="49" value="160" width="18">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label4" options="transparent" pos_x="2" pos_y="65" value="80" width="18">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label5" options="transparent" pos_x="2" pos_y="81" value="0" width="18">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="title0" options="transparent" pos_x="12" pos_y="92" value="Feed [kg/ha]" width="72">
+      <include_object name="black6x8" role="font_attributes"/>
+    </outputstring>
+    <rectangle block_col="0" block_font="" block_row="0" height="86" id="" line_suppression="" name="panel" pos_x="21" pos_y="4" width="72">
+      <include_object name="grey" role="fill_attributes"/>
+      <include_object name="grey1" role="line_attributes"/>
+    </rectangle>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar0" number_of_ticks="11" options="growpositive" pos_x="22" pos_y="5" target_line_colour="black" target_value="0" value="0" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar1" number_of_ticks="11" options="growpositive" pos_x="29" pos_y="5" target_line_colour="black" target_value="0" value="44" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar2" number_of_ticks="11" options="growpositive" pos_x="36" pos_y="5" target_line_colour="black" target_value="0" value="88" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar3" number_of_ticks="11" options="growpositive" pos_x="43" pos_y="5" target_line_colour="black" target_value="0" value="132" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar4" number_of_ticks="11" options="growpositive" pos_x="50" pos_y="5" target_line_colour="black" target_value="0" value="176" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar5" number_of_ticks="11" options="growpositive" pos_x="57" pos_y="5" target_line_colour="black" target_value="0" value="220" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar6" number_of_ticks="11" options="growpositive" pos_x="64" pos_y="5" target_line_colour="black" target_value="0" value="264" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar7" number_of_ticks="11" options="growpositive" pos_x="71" pos_y="5" target_line_colour="black" target_value="0" value="308" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar8" number_of_ticks="11" options="growpositive" pos_x="78" pos_y="5" target_line_colour="black" target_value="0" value="352" width="7"/>
+    <linearbargraph block_col="0" block_font="" block_row="0" colour="black" height="84" id="" max_value="400" min_value="0" name="bar9" number_of_ticks="11" options="growpositive" pos_x="85" pos_y="5" target_line_colour="black" target_value="0" value="396" width="7"/>
+  </container>
+  <numbervariable id="" name="nv0" role="" value="10000"/>
+  <numbervariable id="" name="nv1" role="" value="10000"/>
+  <datamask background_colour="grey" id="" name="datamask4" role="">
+    <include_object block_col="0" block_font="" block_row="0" name="softkeymask" pos_x="0" pos_y="0" role=""/>
+    <include_object block_col="0" block_font="" block_row="0" name="feedtrend" pos_x="5" pos_y="5" role=""/>
+  </datamask>
+  <container height="100" hidden="no" id="" name="directionmeter" width="100">
+    <ellipse block_col="0" block_font="" block_row="0" ellipse_type="closed" end_angle="89" height="100" id="" name="background" pos_x="0" pos_y="0" start_angle="91" width="100">
+      <include_object name="black" role="fill_attributes"/>
+      <include_object name="grey1" role="line_attributes"/>
+    </ellipse>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label0" options="transparent" pos_x="47" pos_y="7" value="0" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label1" options="transparent" pos_x="67" pos_y="12" value="3" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label2" options="transparent" pos_x="81" pos_y="27" value="6" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label3" options="transparent" pos_x="86" pos_y="46" value="9" width="6">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label4" options="transparent" pos_x="78" pos_y="65" value="12" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label5" options="transparent" pos_x="64" pos_y="80" value="15" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputnumber background_colour="silver" block_col="0" block_font="" block_row="0" format="fixed" height="10" horizontal_justification="middle" id="" max_value="360000" min_value="0" name="number" number_of_decimals="0" offset="0" options="" pos_x="40" pos_y="56" scale="0.001" value="5" width="20">
+      <include_object name="black6x8" role="font_attributes"/>
+      <include_object block_col="0" block_font="" block_row="0" name="direction" role="variable_reference"/>
+    </outputnumber>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="title" options="transparent" pos_x="40" pos_y="36" value="dir" width="18">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label6" options="transparent" pos_x="44" pos_y="86" value="18" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label7" options="transparent" pos_x="25" pos_y="80" value="21" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label8" options="transparent" pos_x="9" pos_y="66" value="24" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label9" options="transparent" pos_x="4" pos_y="46" value="27" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label10" options="transparent" pos_x="9" pos_y="26" value="30" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="middle" id="" language="" length="0" name="label11" options="transparent" pos_x="24" pos_y="11" value="33" width="12">
+      <include_object name="white6x8" role="font_attributes"/>
+    </outputstring>
+    <meter arc_and_tick_colour="grey" block_col="0" block_font="" block_row="0" border_colour="black" end_angle="90" id="" max_value="360000" min_value="0" name="metercomp" needle_colour="red" number_of_ticks="37" options="ticks+arc+clockwise" pos_x="19" pos_y="19" start_angle="90" value="5" width="62">
+      <include_object block_col="0" block_font="" block_row="0" name="direction" role="variable_reference"/>
+    </meter>
+  </container>
+  <datamask background_colour="grey" id="" name="datamask5" role="">
+    <outputstring background_colour="yellow" block_col="0" block_font="" block_row="0" height="192" horizontal_justification="left" id="" language="" length="0" name="label11" options="" pos_x="0" pos_y="0" value="A" width="128">
+      <fontattributes font_colour="black" font_size="128x192" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="magenta" block_col="0" block_font="" block_row="0" height="128" horizontal_justification="left" id="" language="" length="0" name="label12" options="" pos_x="72" pos_y="0" value="B" width="128">
+      <fontattributes font_colour="black" font_size="128x128" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="cyan" block_col="0" block_font="" block_row="0" height="128" horizontal_justification="left" id="" language="" length="0" name="label13" options="" pos_x="104" pos_y="72" value="C" width="96">
+      <fontattributes font_colour="black" font_size="96x128" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="lime" block_col="0" block_font="" block_row="0" height="96" horizontal_justification="left" id="" language="" length="0" name="label14" options="" pos_x="0" pos_y="104" value="D" width="64">
+      <fontattributes font_colour="black" font_size="64x96" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="silver" block_col="0" block_font="" block_row="0" height="64" horizontal_justification="left" id="" language="" length="0" name="label15" options="" pos_x="0" pos_y="0" value="E" width="64">
+      <fontattributes font_colour="black" font_size="64x64" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="64" horizontal_justification="left" id="" language="" length="0" name="label17" options="" pos_x="152" pos_y="0" value="F" width="48">
+      <fontattributes font_colour="black" font_size="48x64" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="yellow" block_col="0" block_font="" block_row="0" height="48" horizontal_justification="left" id="" language="" length="0" name="label18" options="" pos_x="168" pos_y="152" value="G" width="32">
+      <fontattributes font_colour="black" font_size="32x48" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="magenta" block_col="0" block_font="" block_row="0" height="32" horizontal_justification="left" id="" language="" length="0" name="label19" options="" pos_x="0" pos_y="168" value="H" width="32">
+      <fontattributes font_colour="black" font_size="32x32" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="cyan" block_col="0" block_font="" block_row="0" height="32" horizontal_justification="left" id="" language="" length="0" name="label21" options="" pos_x="0" pos_y="0" value="I" width="24">
+      <fontattributes font_colour="black" font_size="24x32" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="lime" block_col="0" block_font="" block_row="0" height="24" horizontal_justification="left" id="" language="" length="0" name="label22" options="" pos_x="184" pos_y="0" value="J" width="16">
+      <fontattributes font_colour="black" font_size="16x24" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="silver" block_col="0" block_font="" block_row="0" height="16" horizontal_justification="left" id="" language="" length="0" name="label23" options="" pos_x="184" pos_y="184" value="K" width="16">
+      <fontattributes font_colour="black" font_size="16x16" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="white" block_col="0" block_font="" block_row="0" height="16" horizontal_justification="left" id="" language="" length="0" name="label24" options="" pos_x="0" pos_y="184" value="L" width="12">
+      <fontattributes font_colour="black" font_size="12x16" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="yellow" block_col="0" block_font="" block_row="0" height="12" horizontal_justification="left" id="" language="" length="0" name="label25" options="" pos_x="0" pos_y="0" value="M" width="8">
+      <fontattributes font_colour="black" font_size="8x12" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="magenta" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label26" options="" pos_x="192" pos_y="0" value="N" width="8">
+      <fontattributes font_colour="black" font_size="8x8" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+    <outputstring background_colour="cyan" block_col="0" block_font="" block_row="0" height="8" horizontal_justification="left" id="" language="" length="0" name="label27" options="" pos_x="194" pos_y="192" value="O" width="6">
+      <fontattributes font_colour="black" font_size="6x8" font_style="" font_type="latin1" id="" language="" name="custom" role="font_attributes"/>
+    </outputstring>
+  </datamask>
+</objectpool>
