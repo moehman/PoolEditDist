@@ -19,7 +19,7 @@ The editor uses XML format internally as an editable data structure
 and externally as a file format. The PoolEdit XML format is based on
 the IsoAgLib format with some minor changes.
 
-![Drive screen](drivescreen.png)
+![Screenshot](screenshot.png)
 
 Please read the manual for more information!
 
