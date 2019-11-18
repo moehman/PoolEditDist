@@ -5,11 +5,11 @@
 
 ---
 
-PoolEdit XML Graphical User Interface Editor for creating ISOBUS
-object pools. In the ISO 11783 standard, the term _object pool_ refers
-to a collection of graphical user interface objects which make up the
-GUI. So to create ISOBUS user interfaces a tool is needed to edit the
-object pool, hence the name PoolEdit.
+PoolEdit is a graphical user interface (GUI) editor for creating
+ISOBUS object pools in XML format. In the ISO 11783 standard, the term
+_object pool_ refers to the collection of graphical user interface
+objects that makes up the GUI. This is a tool for editing ISOBUS user
+interfaces i.e. object pools, hence the name PoolEdit.
 
 As the standard defines only a binary format, a second tool called
 [PoolEditParser](https://github.com/moehman/PoolEditParser) is used to
